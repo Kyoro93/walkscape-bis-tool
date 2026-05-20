@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walkscape BiS Viewer</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background-color: #060c0f; color: #aba090; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        .card { background-color: #0f1d24; border: 1px solid #1f343f; }
+        .item-slot { background-color: #191f22; border: 1px solid #2f3a3f; }
+        .item-icon { filter: drop-shadow(0px 2px 4px rgba(0,0,0,0.5)); }
+        [v-cloak] { display: none; }
+    </style>
+</head>
+<body class="antialiased min-h-screen">
+    <div id="app" v-cloak class="container mx-auto p-4 lg:p-8 max-w-7xl">
+        <div class="flex flex-col items-center mb-8 gap-2">
+            <h1 class="text-4xl font-bold text-white tracking-wide">Walkscape BiS Viewer</h1>
+            <p class="text-gray-400">Discover the best items for each in-game activity</p>
+        </div>
+
+        <!-- Barra de Filtros -->
+        <div class="flex flex-col md:flex-row gap-4 mb-8 bg-[#0f1d24] p-4 rounded-xl border border-[#1f343f] shadow-lg">
+            <input v-model="searchQuery" type="text" placeholder="Search activity (e.g. Alligator hunting)..." 
+                class="flex-1 p-3 rounded-lg bg-[#060c0f] border border-[#2f3a3f] text-white focus:outline-none focus:border-[#8ee47b] transition-colors">
+            
+            <select v-model="selectedSkill" class="p-3 rounded-lg bg-[#060c0f] border border-[#2f3a3f] text-white focus:outline-none focus:border-[#8ee47b] transition-colors cursor-pointer">
+                <option value="">All Skills</option>
+                <option value="agility">Agility</option>
+                <option value="carpentry">Carpentry</option>
+                <option value="cooking">Cooking</option>
+                <option value="crafting">Crafting</option>
+                <option value="fishing">Fishing</option>
+                <option value="foraging">Foraging</option>
+                <option value="hunting">Hunting</option>
+                <option value="mining">Mining</option>
+                <option value="smithing">Smithing</option>
+                <option value="tailoring">Tailoring</option>
+                <option value="woodcutting">Woodcutting</option>
+            </select>
+
+            <select v-model="selectedObjective" class="p-3 rounded-lg bg-[#060c0f] border border-[#2f3a3f] text-white focus:outline-none focus:border-[#8ee47b] transition-colors cursor-pointer">
+                <option value="xp_per_step">XP BiS (XP/Step)</option>
+                <option value="average_steps_per_action">Speed BiS (Steps/Action)</option>
+                <option value="yield_per_step">Yield BiS (Items/Step)</option>
+            </select>
+        </div>
+
+        <div v-if="loading" class="text-center py-20 text-xl animate-pulse">Loading database...</div>
+        
+        <!-- Grade de Atividades -->
+        <div v-else class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+            <div v-for="activity in filteredActivities" :key="activity.name" class="card rounded-2xl p-5 shadow-xl flex flex-col hover:border-[#2f3a3f] transition-colors">
+                <div class="flex items-center justify-between mb-4 border-b border-[#1f343f] pb-3">
+                    <h2 class="text-xl font-bold text-white truncate pr-2" :title="activity.name">{{ activity.name }}</h2>
+                    <span v-if="activity.skill" class="text-xs px-2 py-1 bg-[#191f22] rounded text-gray-300 uppercase tracking-wider border border-[#2f3a3f]">{{ activity.skill }}</span>
+                </div>
+                
+                <div v-if="activity.objectives[selectedObjective]" class="flex flex-col flex-1">
+                    <!-- Métricas -->
+                    <div class="flex justify-between items-center text-sm mb-5 bg-[#060c0f] p-3 rounded-xl border border-[#1f343f]">
+                        <div class="text-center flex-1">
+                            <div class="text-gray-500 text-xs uppercase mb-1">XP / Step</div>
+                            <div class="font-bold text-[#8ee47b] text-base">{{ formatNumber(activity.objectives[selectedObjective].metrics.xp_per_step) }}</div>
+                        </div>
+                        <div class="w-px h-8 bg-[#1f343f]"></div>
+                        <div class="text-center flex-1">
+                            <div class="text-gray-500 text-xs uppercase mb-1">Steps / Action</div>
+                            <div class="font-bold text-[#5fdbf1] text-base">{{ formatNumber(activity.objectives[selectedObjective].metrics.average_steps_per_action) }}</div>
+                        </div>
+                    </div>
+
+                    <!-- Equipamentos -->
+                    <div class="grid grid-cols-1 gap-2.5 mt-auto">
+                        <div v-for="item in activity.objectives[selectedObjective].equipment" :key="item.slot + item.id" 
+                             class="item-slot flex items-center p-2 rounded-xl gap-3 hover:bg-[#20272b] transition-colors">
+                            
+                            <div class="w-12 h-12 bg-[#060c0f] border border-[#2f3a3f] rounded-lg flex items-center justify-center shrink-0 p-1">
+                                <img v-if="item.icon" :src="'https://gear.walkscape.app/api/icons/' + item.icon" :alt="item.name" class="item-icon w-full h-full object-contain">
+                                <span v-else class="text-xs text-gray-600 font-bold">{{ item.slot.substring(0, 2).toUpperCase() }}</span>
+                            </div>
+                            
+                            <div class="flex flex-col min-w-0">
+                                <span class="text-[10px] text-gray-500 uppercase tracking-widest font-semibold">{{ item.slot }}</span>
+                                <span class="text-sm font-medium text-gray-200 truncate" :title="item.name">{{ item.name }}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div v-else class="text-gray-500 italic text-center py-10 flex-1 flex items-center justify-center bg-[#060c0f] rounded-xl border border-[#1f343f]">
+                    No viable build for this objective.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const { createApp, ref, computed, onMounted } = Vue;
+
+        createApp({
+            setup() {
+                const activitiesData = ref({});
+                const searchQuery = ref('');
+                const selectedSkill = ref('');
+                const selectedObjective = ref('xp_per_step');
+                const loading = ref(true);
+
+                onMounted(async () => {
+                    try {
+                        const response = await fetch('bis_export.json');
+                        activitiesData.value = await response.json();
+                    } catch (e) {
+                        alert("To load the JSON locally, you must open it via a local server. Example: 'python -m http.server'");
+                    } finally {
+                        loading.value = false;
+                    }
+                });
+
+                const filteredActivities = computed(() => {
+                    let data = Object.values(activitiesData.value);
+                    if (selectedSkill.value) {
+                        data = data.filter(act => act.skill === selectedSkill.value);
+                    }
+                    if (searchQuery.value) {
+                        data = data.filter(act => act.name.toLowerCase().includes(searchQuery.value.toLowerCase()));
+                    }
+                    return data;
+                });
+
+                const formatNumber = (num) => num ? Number(num).toFixed(2) : '-';
+
+                return { searchQuery, selectedSkill, selectedObjective, filteredActivities, loading, formatNumber };
+            }
+        }).mount('#app');
+    </script>
+</body>
+</html>
