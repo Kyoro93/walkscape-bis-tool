@@ -80,7 +80,7 @@
                              class="item-slot flex items-center p-2 rounded-xl gap-3 hover:bg-[#20272b] transition-colors">
                             
                             <div class="w-12 h-12 bg-[#060c0f] border border-[#2f3a3f] rounded-lg flex items-center justify-center shrink-0 p-1">
-                                <img v-if="item.icon" :src="'https://gear.walkscape.app/api/icons/' + item.icon" :alt="item.name" class="item-icon w-full h-full object-contain">
+                                <img v-if="getIcon(item)" :src="'https://gear.walkscape.app/api/icons/' + getIcon(item)" :alt="item.name" class="item-icon w-full h-full object-contain">
                                 <span v-else class="text-xs text-gray-600 font-bold">{{ item.slot.substring(0, 2).toUpperCase() }}</span>
                             </div>
                             
@@ -123,6 +123,11 @@
                 const selectedObjective = ref('xp_per_step');
                 const loading = ref(true);
                 const toastMessage = ref('');
+                const iconMap = ref({});
+
+                const getIcon = (item) => {
+                    return item.icon || iconMap.value[item.id];
+                };
 
                 const showToast = (msg) => {
                     toastMessage.value = msg;
@@ -130,6 +135,22 @@
                 };
 
                 onMounted(async () => {
+                    // Busca o mapeamento de ícones diretamente da API
+                    // Garante que os ícones funcionem mesmo se o python não exportar a key "icon"
+                    fetch('https://gear.walkscape.app/api/items/categorized_items')
+                        .then(res => res.json())
+                        .then(data => {
+                            const map = {};
+                            data.forEach(group => {
+                                group.categories?.forEach(cat => {
+                                    cat.items?.forEach(i => {
+                                        if (i.id && i.icon) map[i.id] = i.icon;
+                                    });
+                                });
+                            });
+                            iconMap.value = map;
+                        }).catch(e => console.warn("Failed to load icon map:", e));
+
                     try {
                         const response = await fetch('bis_export.json');
                         activitiesData.value = await response.json();
@@ -210,7 +231,7 @@
                     }
                 };
 
-                return { searchQuery, selectedSkill, selectedObjective, filteredActivities, loading, formatNumber, exportGearSet, toastMessage };
+                return { searchQuery, selectedSkill, selectedObjective, filteredActivities, loading, formatNumber, exportGearSet, toastMessage, getIcon };
             }
         }).mount('#app');
     </script>
