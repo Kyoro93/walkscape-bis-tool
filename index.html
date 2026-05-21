@@ -44,9 +44,9 @@
             </select>
 
             <select v-model="selectedObjective" class="p-3 rounded-lg bg-[#060c0f] border border-[#2f3a3f] text-white focus:outline-none focus:border-[#8ee47b] transition-colors cursor-pointer">
-                <option value="xp_per_step">XP BiS (XP/Step)</option>
-                <option value="average_steps_per_action">Speed BiS (Steps/Action)</option>
-                <option value="yield_per_step">Yield BiS (Items/Step)</option>
+                <option value="highest_loot_per_step">Loot BiS (Items/Step)</option>
+                <option value="lowest_steps_per_action">Speed BiS (Min Steps)</option>
+                <option value="highest_fine_items_per_step">Fine BiS (Fine/Step)</option>
             </select>
         </div>
 
@@ -64,13 +64,17 @@
                     <!-- Métricas -->
                     <div class="flex justify-between items-center text-sm mb-5 bg-[#060c0f] p-3 rounded-xl border border-[#1f343f]">
                         <div class="text-center flex-1">
-                            <div class="text-gray-500 text-xs uppercase mb-1">XP / Step</div>
-                            <div class="font-bold text-[#8ee47b] text-base">{{ formatNumber(activity.objectives[selectedObjective].metrics.xp_per_step) }}</div>
+                            <div class="text-gray-500 text-xs uppercase mb-1">
+                                {{ selectedObjective === 'lowest_steps_per_action' ? 'DA Chance' : selectedObjective === 'highest_loot_per_step' ? 'Loot / Step' : 'Fine / Step' }}
+                            </div>
+                            <div class="font-bold text-[#8ee47b] text-base">
+                                {{ selectedObjective === 'lowest_steps_per_action' ? formatNumber((activity.objectives[selectedObjective].metrics.da || 0) * 100) + '%' : formatNumber(activity.objectives[selectedObjective].metrics[selectedObjective]) }}
+                            </div>
                         </div>
                         <div class="w-px h-8 bg-[#1f343f]"></div>
                         <div class="text-center flex-1">
                             <div class="text-gray-500 text-xs uppercase mb-1">Steps / Action</div>
-                            <div class="font-bold text-[#5fdbf1] text-base">{{ formatNumber(activity.objectives[selectedObjective].metrics.average_steps_per_action) }}</div>
+                            <div class="font-bold text-[#5fdbf1] text-base">{{ formatNumber(activity.objectives[selectedObjective].metrics.lowest_steps_per_action) }}</div>
                         </div>
                     </div>
 
@@ -120,7 +124,7 @@
                 const activitiesData = ref({});
                 const searchQuery = ref('');
                 const selectedSkill = ref('');
-                const selectedObjective = ref('xp_per_step');
+                const selectedObjective = ref('lowest_steps_per_action');
                 const loading = ref(true);
                 const toastMessage = ref('');
                 const iconMap = ref({});
@@ -172,7 +176,7 @@
                     return data;
                 });
 
-                const formatNumber = (num) => num ? Number(num).toFixed(2) : '-';
+                const formatNumber = (num) => (num !== undefined && num !== null && num !== '') ? Number(num).toFixed(2) : '-';
 
                 const exportGearSet = async (build) => {
                     try {
