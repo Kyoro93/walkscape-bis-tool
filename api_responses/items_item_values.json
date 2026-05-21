@@ -1,0 +1,3249 @@
+{
+    "adamant_hatchet": {
+        "common": 25,
+        "uncommon": 44,
+        "rare": 68,
+        "epic": 94,
+        "legendary": 142,
+        "ethereal": 352
+    },
+    "adamant_pickaxe": {
+        "common": 22,
+        "uncommon": 50,
+        "rare": 82,
+        "epic": 117,
+        "legendary": 178,
+        "ethereal": 398
+    },
+    "aerofibril_bracers": {
+        "common": 25,
+        "uncommon": 53,
+        "rare": 85,
+        "epic": 120,
+        "legendary": 181,
+        "ethereal": 404
+    },
+    "aerofibril_plastron": {
+        "common": 27,
+        "uncommon": 55,
+        "rare": 88,
+        "epic": 122,
+        "legendary": 184,
+        "ethereal": 409
+    },
+    "aerofibril_shorts": {
+        "common": 25,
+        "uncommon": 53,
+        "rare": 85,
+        "epic": 120,
+        "legendary": 181,
+        "ethereal": 404
+    },
+    "amulet_of_bat": {
+        "common": 150,
+        "uncommon": 303,
+        "rare": 460,
+        "epic": 620,
+        "legendary": 869,
+        "ethereal": 1404
+    },
+    "amulet_of_beaver": {
+        "common": 150,
+        "uncommon": 303,
+        "rare": 460,
+        "epic": 620,
+        "legendary": 869,
+        "ethereal": 1404
+    },
+    "amulet_of_circular_root": {
+        "common": 150,
+        "uncommon": 303,
+        "rare": 460,
+        "epic": 620,
+        "legendary": 869,
+        "ethereal": 1404
+    },
+    "amulet_of_cooling_ice": {
+        "common": 150,
+        "uncommon": 303,
+        "rare": 460,
+        "epic": 620,
+        "legendary": 869,
+        "ethereal": 1404
+    },
+    "amulet_of_eel": {
+        "common": 150,
+        "uncommon": 303,
+        "rare": 460,
+        "epic": 620,
+        "legendary": 869,
+        "ethereal": 1404
+    },
+    "amulet_of_finding": {
+        "common": 150,
+        "uncommon": 303,
+        "rare": 460,
+        "epic": 620,
+        "legendary": 869,
+        "ethereal": 1404
+    },
+    "amulet_of_heron": {
+        "common": 150,
+        "uncommon": 303,
+        "rare": 460,
+        "epic": 620,
+        "legendary": 869,
+        "ethereal": 1404
+    },
+    "amulet_of_lucky_rabbits_foot": {
+        "common": 150,
+        "uncommon": 303,
+        "rare": 460,
+        "epic": 620,
+        "legendary": 869,
+        "ethereal": 1404
+    },
+    "amulet_of_measuring_spoon": {
+        "common": 150,
+        "uncommon": 303,
+        "rare": 460,
+        "epic": 620,
+        "legendary": 869,
+        "ethereal": 1404
+    },
+    "amulet_of_pink_pearl": {
+        "common": 150,
+        "uncommon": 303,
+        "rare": 460,
+        "epic": 620,
+        "legendary": 869,
+        "ethereal": 1404
+    },
+    "amulet_of_shark_tooth": {
+        "common": 150,
+        "uncommon": 303,
+        "rare": 460,
+        "epic": 620,
+        "legendary": 869,
+        "ethereal": 1404
+    },
+    "amulet_of_shrimp": {
+        "common": 150,
+        "uncommon": 303,
+        "rare": 460,
+        "epic": 620,
+        "legendary": 869,
+        "ethereal": 1404
+    },
+    "amulet_of_spider": {
+        "common": 150,
+        "uncommon": 303,
+        "rare": 460,
+        "epic": 620,
+        "legendary": 869,
+        "ethereal": 1404
+    },
+    "amulet_of_the_animal_kingdom": {
+        "common": 150,
+        "uncommon": 303,
+        "rare": 460,
+        "epic": 620,
+        "legendary": 869,
+        "ethereal": 1404
+    },
+    "apprentice_breeches": {
+        "common": 7,
+        "uncommon": 17,
+        "rare": 31,
+        "epic": 48,
+        "legendary": 82,
+        "ethereal": 260
+    },
+    "apprentice_handwear": {
+        "common": 5,
+        "uncommon": 15,
+        "rare": 29,
+        "epic": 45,
+        "legendary": 79,
+        "ethereal": 253
+    },
+    "apprentice_vest": {
+        "common": 8,
+        "uncommon": 18,
+        "rare": 33,
+        "epic": 50,
+        "legendary": 85,
+        "ethereal": 266
+    },
+    "bag_of_rocks": {
+        "common": 10,
+        "uncommon": 23,
+        "rare": 40,
+        "epic": 60,
+        "legendary": 99,
+        "ethereal": 284
+    },
+    "bamboo_hunting_bow": {
+        "common": 14,
+        "uncommon": 32,
+        "rare": 54,
+        "epic": 79,
+        "legendary": 125,
+        "ethereal": 321
+    },
+    "bamboo_toolbox": {
+        "common": 7,
+        "uncommon": 24,
+        "rare": 46,
+        "epic": 70,
+        "legendary": 115,
+        "ethereal": 303
+    },
+    "basic_fishing_net": {
+        "common": 1,
+        "uncommon": 6,
+        "rare": 15,
+        "epic": 27,
+        "legendary": 54,
+        "ethereal": 225
+    },
+    "basic_hatchet": {
+        "common": 1,
+        "uncommon": 5,
+        "rare": 13,
+        "epic": 24,
+        "legendary": 49,
+        "ethereal": 212
+    },
+    "basic_pickaxe": {
+        "common": 1,
+        "uncommon": 5,
+        "rare": 13,
+        "epic": 24,
+        "legendary": 49,
+        "ethereal": 212
+    },
+    "basic_sickle": {
+        "common": 1,
+        "uncommon": 5,
+        "rare": 13,
+        "epic": 24,
+        "legendary": 49,
+        "ethereal": 212
+    },
+    "birch_hunting_bow": {
+        "common": 2,
+        "uncommon": 7,
+        "rare": 16,
+        "epic": 28,
+        "legendary": 55,
+        "ethereal": 220
+    },
+    "bright_camo_face_paint": {
+        "common": 15,
+        "uncommon": 28,
+        "rare": 47,
+        "epic": 67,
+        "legendary": 108,
+        "ethereal": 301
+    },
+    "bronze_chisel": {
+        "common": 3,
+        "uncommon": 10,
+        "rare": 21,
+        "epic": 35,
+        "legendary": 64,
+        "ethereal": 233
+    },
+    "bronze_hammer": {
+        "common": 4,
+        "uncommon": 11,
+        "rare": 22,
+        "epic": 36,
+        "legendary": 66,
+        "ethereal": 236
+    },
+    "bronze_hatchet": {
+        "common": 8,
+        "uncommon": 18,
+        "rare": 33,
+        "epic": 50,
+        "legendary": 85,
+        "ethereal": 266
+    },
+    "bronze_pan": {
+        "common": 1,
+        "uncommon": 10,
+        "rare": 23,
+        "epic": 38,
+        "legendary": 70,
+        "ethereal": 234
+    },
+    "bronze_pickaxe": {
+        "common": 4,
+        "uncommon": 11,
+        "rare": 22,
+        "epic": 36,
+        "legendary": 66,
+        "ethereal": 236
+    },
+    "bronze_saw": {
+        "common": 3,
+        "uncommon": 12,
+        "rare": 26,
+        "epic": 42,
+        "legendary": 75,
+        "ethereal": 243
+    },
+    "bronze_shield": {
+        "common": 3,
+        "uncommon": 8,
+        "rare": 19,
+        "epic": 31,
+        "legendary": 60,
+        "ethereal": 233
+    },
+    "bronze_sword": {
+        "common": 3,
+        "uncommon": 8,
+        "rare": 19,
+        "epic": 31,
+        "legendary": 60,
+        "ethereal": 233
+    },
+    "bronze_wrench": {
+        "common": 6,
+        "uncommon": 13,
+        "rare": 26,
+        "epic": 40,
+        "legendary": 72,
+        "ethereal": 250
+    },
+    "comfy_fishing_chair": {
+        "common": 16,
+        "uncommon": 28,
+        "rare": 45,
+        "epic": 63,
+        "legendary": 102,
+        "ethereal": 302
+    },
+    "copper_hatchet": {
+        "common": 5,
+        "uncommon": 13,
+        "rare": 25,
+        "epic": 39,
+        "legendary": 70,
+        "ethereal": 247
+    },
+    "copper_pickaxe": {
+        "common": 2,
+        "uncommon": 7,
+        "rare": 16,
+        "epic": 28,
+        "legendary": 55,
+        "ethereal": 220
+    },
+    "copper_shield": {
+        "common": 2,
+        "uncommon": 7,
+        "rare": 16,
+        "epic": 28,
+        "legendary": 55,
+        "ethereal": 220
+    },
+    "copper_sickle": {
+        "common": 5,
+        "uncommon": 13,
+        "rare": 25,
+        "epic": 39,
+        "legendary": 70,
+        "ethereal": 247
+    },
+    "copper_sword": {
+        "common": 2,
+        "uncommon": 7,
+        "rare": 16,
+        "epic": 28,
+        "legendary": 55,
+        "ethereal": 220
+    },
+    "coral_fishing_spear": {
+        "common": 15,
+        "uncommon": 33,
+        "rare": 55,
+        "epic": 80,
+        "legendary": 126,
+        "ethereal": 324
+    },
+    "elderhide_chaps": {
+        "common": 25,
+        "uncommon": 53,
+        "rare": 85,
+        "epic": 120,
+        "legendary": 181,
+        "ethereal": 404
+    },
+    "elderhide_mitts": {
+        "common": 20,
+        "uncommon": 47,
+        "rare": 79,
+        "epic": 114,
+        "legendary": 174,
+        "ethereal": 393
+    },
+    "elderhide_tunic": {
+        "common": 30,
+        "uncommon": 58,
+        "rare": 91,
+        "epic": 126,
+        "legendary": 188,
+        "ethereal": 414
+    },
+    "extra_crafty_pants": {
+        "common": 42,
+        "uncommon": 71,
+        "rare": 105,
+        "epic": 141,
+        "legendary": 204,
+        "ethereal": 439
+    },
+    "farganite_hatchet": {
+        "common": 21,
+        "uncommon": 39,
+        "rare": 62,
+        "epic": 88,
+        "legendary": 135,
+        "ethereal": 340
+    },
+    "farganite_pickaxe": {
+        "common": 17,
+        "uncommon": 45,
+        "rare": 76,
+        "epic": 111,
+        "legendary": 171,
+        "ethereal": 388
+    },
+    "farganite_shield": {
+        "common": 25,
+        "uncommon": 53,
+        "rare": 85,
+        "epic": 120,
+        "legendary": 181,
+        "ethereal": 404
+    },
+    "farganite_sword": {
+        "common": 25,
+        "uncommon": 53,
+        "rare": 85,
+        "epic": 120,
+        "legendary": 181,
+        "ethereal": 404
+    },
+    "fishing_spear": {
+        "common": 7,
+        "uncommon": 17,
+        "rare": 31,
+        "epic": 48,
+        "legendary": 82,
+        "ethereal": 260
+    },
+    "gem_shield": {
+        "common": 300,
+        "uncommon": 454,
+        "rare": 614,
+        "epic": 775,
+        "legendary": 1027,
+        "ethereal": 1579
+    },
+    "gem_tipped_pliers": {
+        "common": 50,
+        "uncommon": 79,
+        "rare": 114,
+        "epic": 150,
+        "legendary": 214,
+        "ethereal": 454
+    },
+    "gold_ethernite_ring": {
+        "common": 62,
+        "uncommon": 92,
+        "rare": 128,
+        "epic": 165,
+        "legendary": 231,
+        "ethereal": 479
+    },
+    "gold_jade_ring": {
+        "common": 47,
+        "uncommon": 76,
+        "rare": 111,
+        "epic": 147,
+        "legendary": 211,
+        "ethereal": 449
+    },
+    "gold_opal_ring": {
+        "common": 27,
+        "uncommon": 55,
+        "rare": 88,
+        "epic": 122,
+        "legendary": 184,
+        "ethereal": 409
+    },
+    "gold_ring": {
+        "common": 7,
+        "uncommon": 17,
+        "rare": 31,
+        "epic": 48,
+        "legendary": 82,
+        "ethereal": 260
+    },
+    "gold_ruby_ring": {
+        "common": 52,
+        "uncommon": 82,
+        "rare": 116,
+        "epic": 153,
+        "legendary": 217,
+        "ethereal": 459
+    },
+    "gold_star_pearl_ring": {
+        "common": 32,
+        "uncommon": 60,
+        "rare": 94,
+        "epic": 129,
+        "legendary": 191,
+        "ethereal": 419
+    },
+    "gold_sun_stone_ring": {
+        "common": 23,
+        "uncommon": 37,
+        "rare": 58,
+        "epic": 79,
+        "legendary": 122,
+        "ethereal": 330
+    },
+    "gold_topaz_ring": {
+        "common": 42,
+        "uncommon": 71,
+        "rare": 105,
+        "epic": 141,
+        "legendary": 204,
+        "ethereal": 439
+    },
+    "gold_wrentmarine_ring": {
+        "common": 37,
+        "uncommon": 66,
+        "rare": 99,
+        "epic": 135,
+        "legendary": 198,
+        "ethereal": 429
+    },
+    "golden_cutting_mat": {
+        "common": 37,
+        "uncommon": 66,
+        "rare": 99,
+        "epic": 135,
+        "legendary": 198,
+        "ethereal": 429
+    },
+    "golden_sewing_needle": {
+        "common": 31,
+        "uncommon": 59,
+        "rare": 92,
+        "epic": 127,
+        "legendary": 189,
+        "ethereal": 416
+    },
+    "grassknot_chaps": {
+        "common": 7,
+        "uncommon": 17,
+        "rare": 32,
+        "epic": 49,
+        "legendary": 84,
+        "ethereal": 263
+    },
+    "grassknot_mitts": {
+        "common": 7,
+        "uncommon": 17,
+        "rare": 32,
+        "epic": 49,
+        "legendary": 84,
+        "ethereal": 263
+    },
+    "grassknot_tunic": {
+        "common": 8,
+        "uncommon": 18,
+        "rare": 33,
+        "epic": 50,
+        "legendary": 85,
+        "ethereal": 266
+    },
+    "hydrilium_diving_helm": {
+        "common": 25,
+        "uncommon": 53,
+        "rare": 85,
+        "epic": 120,
+        "legendary": 181,
+        "ethereal": 404
+    },
+    "hydrilium_diving_leggings": {
+        "common": 25,
+        "uncommon": 53,
+        "rare": 85,
+        "epic": 120,
+        "legendary": 181,
+        "ethereal": 404
+    },
+    "hydrilium_diving_torso": {
+        "common": 25,
+        "uncommon": 53,
+        "rare": 85,
+        "epic": 120,
+        "legendary": 181,
+        "ethereal": 404
+    },
+    "hydrilium_hatchet": {
+        "common": 15,
+        "uncommon": 33,
+        "rare": 55,
+        "epic": 80,
+        "legendary": 126,
+        "ethereal": 324
+    },
+    "hydrilium_log_splitter": {
+        "common": 40,
+        "uncommon": 83,
+        "rare": 130,
+        "epic": 180,
+        "legendary": 264,
+        "ethereal": 524
+    },
+    "hydrilium_magnet": {
+        "common": 40,
+        "uncommon": 83,
+        "rare": 130,
+        "epic": 180,
+        "legendary": 264,
+        "ethereal": 524
+    },
+    "hydrilium_pickaxe": {
+        "common": 15,
+        "uncommon": 33,
+        "rare": 55,
+        "epic": 80,
+        "legendary": 126,
+        "ethereal": 324
+    },
+    "hydrilium_sickle": {
+        "common": 15,
+        "uncommon": 33,
+        "rare": 55,
+        "epic": 80,
+        "legendary": 126,
+        "ethereal": 324
+    },
+    "hydrilium_wrench": {
+        "common": 15,
+        "uncommon": 33,
+        "rare": 55,
+        "epic": 80,
+        "legendary": 126,
+        "ethereal": 324
+    },
+    "iron_chefs_hat": {
+        "common": 40,
+        "uncommon": 83,
+        "rare": 130,
+        "epic": 180,
+        "legendary": 264,
+        "ethereal": 524
+    },
+    "iron_hatchet": {
+        "common": 11,
+        "uncommon": 22,
+        "rare": 38,
+        "epic": 56,
+        "legendary": 93,
+        "ethereal": 282
+    },
+    "iron_pickaxe": {
+        "common": 5,
+        "uncommon": 15,
+        "rare": 29,
+        "epic": 45,
+        "legendary": 79,
+        "ethereal": 253
+    },
+    "iron_shield": {
+        "common": 4,
+        "uncommon": 11,
+        "rare": 22,
+        "epic": 36,
+        "legendary": 66,
+        "ethereal": 236
+    },
+    "iron_sickle": {
+        "common": 11,
+        "uncommon": 22,
+        "rare": 38,
+        "epic": 56,
+        "legendary": 93,
+        "ethereal": 282
+    },
+    "iron_sword": {
+        "common": 4,
+        "uncommon": 11,
+        "rare": 22,
+        "epic": 36,
+        "legendary": 66,
+        "ethereal": 236
+    },
+    "jade_tipped_steel_pan": {
+        "common": 44,
+        "uncommon": 87,
+        "rare": 134,
+        "epic": 184,
+        "legendary": 268,
+        "ethereal": 530
+    },
+    "jarvonian_flower_necklace": {
+        "common": 2,
+        "uncommon": 7,
+        "rare": 16,
+        "epic": 28,
+        "legendary": 55,
+        "ethereal": 220
+    },
+    "jellyfishing_net": {
+        "common": 10,
+        "uncommon": 23,
+        "rare": 40,
+        "epic": 60,
+        "legendary": 99,
+        "ethereal": 284
+    },
+    "journeyman_breeches": {
+        "common": 27,
+        "uncommon": 55,
+        "rare": 88,
+        "epic": 122,
+        "legendary": 184,
+        "ethereal": 409
+    },
+    "journeyman_handwear": {
+        "common": 13,
+        "uncommon": 31,
+        "rare": 53,
+        "epic": 78,
+        "legendary": 124,
+        "ethereal": 319
+    },
+    "journeyman_vest": {
+        "common": 30,
+        "uncommon": 58,
+        "rare": 91,
+        "epic": 126,
+        "legendary": 188,
+        "ethereal": 414
+    },
+    "kelp_diving_mask": {
+        "common": 10,
+        "uncommon": 23,
+        "rare": 40,
+        "epic": 60,
+        "legendary": 99,
+        "ethereal": 284
+    },
+    "kelp_diving_pants": {
+        "common": 10,
+        "uncommon": 23,
+        "rare": 40,
+        "epic": 60,
+        "legendary": 99,
+        "ethereal": 284
+    },
+    "kelp_diving_shirt": {
+        "common": 10,
+        "uncommon": 23,
+        "rare": 40,
+        "epic": 60,
+        "legendary": 99,
+        "ethereal": 284
+    },
+    "large_fishing_net": {
+        "common": 3,
+        "uncommon": 8,
+        "rare": 19,
+        "epic": 31,
+        "legendary": 60,
+        "ethereal": 233
+    },
+    "lobster_pot": {
+        "common": 6,
+        "uncommon": 16,
+        "rare": 30,
+        "epic": 46,
+        "legendary": 81,
+        "ethereal": 256
+    },
+    "mangrove_basket": {
+        "common": 8,
+        "uncommon": 18,
+        "rare": 33,
+        "epic": 50,
+        "legendary": 85,
+        "ethereal": 266
+    },
+    "oak_fishing_rod": {
+        "common": 6,
+        "uncommon": 16,
+        "rare": 30,
+        "epic": 46,
+        "legendary": 81,
+        "ethereal": 256
+    },
+    "oak_hunting_bow": {
+        "common": 6,
+        "uncommon": 13,
+        "rare": 26,
+        "epic": 40,
+        "legendary": 72,
+        "ethereal": 250
+    },
+    "pine_fishing_rod": {
+        "common": 3,
+        "uncommon": 8,
+        "rare": 19,
+        "epic": 31,
+        "legendary": 60,
+        "ethereal": 233
+    },
+    "pine_toolbox": {
+        "common": 2,
+        "uncommon": 8,
+        "rare": 18,
+        "epic": 31,
+        "legendary": 60,
+        "ethereal": 221
+    },
+    "reinforced_bellows": {
+        "common": 11,
+        "uncommon": 22,
+        "rare": 37,
+        "epic": 55,
+        "legendary": 91,
+        "ethereal": 279
+    },
+    "rootweave_chaps": {
+        "common": 15,
+        "uncommon": 33,
+        "rare": 55,
+        "epic": 80,
+        "legendary": 126,
+        "ethereal": 324
+    },
+    "rootweave_mitts": {
+        "common": 12,
+        "uncommon": 29,
+        "rare": 51,
+        "epic": 76,
+        "legendary": 121,
+        "ethereal": 315
+    },
+    "rootweave_tunic": {
+        "common": 16,
+        "uncommon": 34,
+        "rare": 57,
+        "epic": 82,
+        "legendary": 128,
+        "ethereal": 328
+    },
+    "shadowquill_bracers": {
+        "common": 13,
+        "uncommon": 31,
+        "rare": 53,
+        "epic": 78,
+        "legendary": 124,
+        "ethereal": 319
+    },
+    "shadowquill_plastron": {
+        "common": 16,
+        "uncommon": 34,
+        "rare": 57,
+        "epic": 82,
+        "legendary": 128,
+        "ethereal": 328
+    },
+    "shadowquill_shorts": {
+        "common": 15,
+        "uncommon": 33,
+        "rare": 55,
+        "epic": 80,
+        "legendary": 126,
+        "ethereal": 324
+    },
+    "silver_ethernite_ring": {
+        "common": 25,
+        "uncommon": 40,
+        "rare": 60,
+        "epic": 82,
+        "legendary": 126,
+        "ethereal": 337
+    },
+    "silver_jade_ring": {
+        "common": 19,
+        "uncommon": 33,
+        "rare": 52,
+        "epic": 73,
+        "legendary": 115,
+        "ethereal": 315
+    },
+    "silver_opal_ring": {
+        "common": 11,
+        "uncommon": 24,
+        "rare": 41,
+        "epic": 61,
+        "legendary": 100,
+        "ethereal": 287
+    },
+    "silver_ring": {
+        "common": 4,
+        "uncommon": 11,
+        "rare": 22,
+        "epic": 36,
+        "legendary": 66,
+        "ethereal": 236
+    },
+    "silver_ruby_ring": {
+        "common": 21,
+        "uncommon": 35,
+        "rare": 55,
+        "epic": 76,
+        "legendary": 118,
+        "ethereal": 323
+    },
+    "silver_sewing_needle": {
+        "common": 12,
+        "uncommon": 25,
+        "rare": 43,
+        "epic": 63,
+        "legendary": 103,
+        "ethereal": 292
+    },
+    "silver_star_pearl_ring": {
+        "common": 13,
+        "uncommon": 26,
+        "rare": 44,
+        "epic": 64,
+        "legendary": 104,
+        "ethereal": 294
+    },
+    "silver_sun_stone_ring": {
+        "common": 23,
+        "uncommon": 37,
+        "rare": 58,
+        "epic": 79,
+        "legendary": 122,
+        "ethereal": 330
+    },
+    "silver_topaz_ring": {
+        "common": 17,
+        "uncommon": 31,
+        "rare": 49,
+        "epic": 70,
+        "legendary": 111,
+        "ethereal": 308
+    },
+    "silver_wrentmarine_ring": {
+        "common": 15,
+        "uncommon": 28,
+        "rare": 47,
+        "epic": 67,
+        "legendary": 108,
+        "ethereal": 301
+    },
+    "spectral_breeches": {
+        "common": 36,
+        "uncommon": 78,
+        "rare": 126,
+        "epic": 175,
+        "legendary": 259,
+        "ethereal": 517
+    },
+    "spectral_chisel": {
+        "common": 22,
+        "uncommon": 41,
+        "rare": 64,
+        "epic": 90,
+        "legendary": 138,
+        "ethereal": 344
+    },
+    "spectral_fishing_cagespear": {
+        "common": 22,
+        "uncommon": 41,
+        "rare": 64,
+        "epic": 90,
+        "legendary": 138,
+        "ethereal": 344
+    },
+    "spectral_fishing_rod": {
+        "common": 22,
+        "uncommon": 41,
+        "rare": 64,
+        "epic": 90,
+        "legendary": 138,
+        "ethereal": 344
+    },
+    "spectral_hammer": {
+        "common": 24,
+        "uncommon": 42,
+        "rare": 66,
+        "epic": 92,
+        "legendary": 140,
+        "ethereal": 348
+    },
+    "spectral_handwear": {
+        "common": 30,
+        "uncommon": 72,
+        "rare": 119,
+        "epic": 168,
+        "legendary": 252,
+        "ethereal": 507
+    },
+    "spectral_hatchet": {
+        "common": 22,
+        "uncommon": 41,
+        "rare": 64,
+        "epic": 90,
+        "legendary": 138,
+        "ethereal": 344
+    },
+    "spectral_hunting_bow": {
+        "common": 23,
+        "uncommon": 51,
+        "rare": 84,
+        "epic": 118,
+        "legendary": 179,
+        "ethereal": 401
+    },
+    "spectral_pan": {
+        "common": 21,
+        "uncommon": 39,
+        "rare": 62,
+        "epic": 88,
+        "legendary": 135,
+        "ethereal": 340
+    },
+    "spectral_pickaxe": {
+        "common": 22,
+        "uncommon": 41,
+        "rare": 64,
+        "epic": 90,
+        "legendary": 138,
+        "ethereal": 344
+    },
+    "spectral_saw": {
+        "common": 22,
+        "uncommon": 41,
+        "rare": 64,
+        "epic": 90,
+        "legendary": 138,
+        "ethereal": 344
+    },
+    "spectral_sewing_needle": {
+        "common": 24,
+        "uncommon": 42,
+        "rare": 66,
+        "epic": 92,
+        "legendary": 140,
+        "ethereal": 348
+    },
+    "spectral_sickle": {
+        "common": 22,
+        "uncommon": 41,
+        "rare": 64,
+        "epic": 90,
+        "legendary": 138,
+        "ethereal": 344
+    },
+    "spectral_vest": {
+        "common": 40,
+        "uncommon": 83,
+        "rare": 130,
+        "epic": 180,
+        "legendary": 264,
+        "ethereal": 524
+    },
+    "spectral_wrench": {
+        "common": 25,
+        "uncommon": 44,
+        "rare": 68,
+        "epic": 94,
+        "legendary": 142,
+        "ethereal": 352
+    },
+    "spikescale_chaps": {
+        "common": 10,
+        "uncommon": 23,
+        "rare": 40,
+        "epic": 60,
+        "legendary": 99,
+        "ethereal": 284
+    },
+    "spikescale_mitts": {
+        "common": 9,
+        "uncommon": 21,
+        "rare": 39,
+        "epic": 58,
+        "legendary": 97,
+        "ethereal": 280
+    },
+    "spikescale_tunic": {
+        "common": 11,
+        "uncommon": 24,
+        "rare": 41,
+        "epic": 61,
+        "legendary": 100,
+        "ethereal": 287
+    },
+    "steel_hatchet": {
+        "common": 13,
+        "uncommon": 26,
+        "rare": 44,
+        "epic": 64,
+        "legendary": 104,
+        "ethereal": 294
+    },
+    "steel_pickaxe": {
+        "common": 8,
+        "uncommon": 20,
+        "rare": 37,
+        "epic": 57,
+        "legendary": 95,
+        "ethereal": 276
+    },
+    "steel_shield": {
+        "common": 5,
+        "uncommon": 12,
+        "rare": 24,
+        "epic": 38,
+        "legendary": 69,
+        "ethereal": 244
+    },
+    "steel_sickle": {
+        "common": 13,
+        "uncommon": 26,
+        "rare": 44,
+        "epic": 64,
+        "legendary": 104,
+        "ethereal": 294
+    },
+    "steel_sword": {
+        "common": 5,
+        "uncommon": 12,
+        "rare": 24,
+        "epic": 38,
+        "legendary": 69,
+        "ethereal": 244
+    },
+    "tarsilium_hammer": {
+        "common": 20,
+        "uncommon": 47,
+        "rare": 79,
+        "epic": 114,
+        "legendary": 174,
+        "ethereal": 393
+    },
+    "tarsilium_hatchet": {
+        "common": 16,
+        "uncommon": 34,
+        "rare": 57,
+        "epic": 82,
+        "legendary": 128,
+        "ethereal": 328
+    },
+    "tarsilium_pickaxe": {
+        "common": 12,
+        "uncommon": 29,
+        "rare": 51,
+        "epic": 76,
+        "legendary": 121,
+        "ethereal": 315
+    },
+    "tarsilium_saw": {
+        "common": 9,
+        "uncommon": 20,
+        "rare": 35,
+        "epic": 52,
+        "legendary": 88,
+        "ethereal": 273
+    },
+    "tarsilium_shield": {
+        "common": 7,
+        "uncommon": 17,
+        "rare": 31,
+        "epic": 48,
+        "legendary": 82,
+        "ethereal": 260
+    },
+    "tarsilium_sword": {
+        "common": 15,
+        "uncommon": 33,
+        "rare": 55,
+        "epic": 80,
+        "legendary": 126,
+        "ethereal": 324
+    },
+    "tarsilium_toed_boots": {
+        "common": 20,
+        "uncommon": 34,
+        "rare": 54,
+        "epic": 75,
+        "legendary": 117,
+        "ethereal": 319
+    },
+    "tatty_garb": {
+        "common": 1,
+        "uncommon": 5,
+        "rare": 14,
+        "epic": 25,
+        "legendary": 51,
+        "ethereal": 217
+    },
+    "tatty_handwraps": {
+        "common": 1,
+        "uncommon": 5,
+        "rare": 13,
+        "epic": 24,
+        "legendary": 49,
+        "ethereal": 212
+    },
+    "tatty_skirt": {
+        "common": 1,
+        "uncommon": 5,
+        "rare": 13,
+        "epic": 24,
+        "legendary": 50,
+        "ethereal": 214
+    },
+    "tinted_woodworking_glasses": {
+        "common": 37,
+        "uncommon": 66,
+        "rare": 99,
+        "epic": 135,
+        "legendary": 198,
+        "ethereal": 429
+    },
+    "topaz_tipped_chisel": {
+        "common": 36,
+        "uncommon": 78,
+        "rare": 126,
+        "epic": 175,
+        "legendary": 259,
+        "ethereal": 517
+    },
+    "triple_rod_rest": {
+        "common": 25,
+        "uncommon": 53,
+        "rare": 85,
+        "epic": 120,
+        "legendary": 181,
+        "ethereal": 404
+    },
+    "violite_hatchet": {
+        "common": 30,
+        "uncommon": 49,
+        "rare": 74,
+        "epic": 100,
+        "legendary": 149,
+        "ethereal": 364
+    },
+    "violite_pickaxe": {
+        "common": 30,
+        "uncommon": 58,
+        "rare": 91,
+        "epic": 126,
+        "legendary": 188,
+        "ethereal": 414
+    },
+    "violite_sickle": {
+        "common": 22,
+        "uncommon": 50,
+        "rare": 82,
+        "epic": 117,
+        "legendary": 178,
+        "ethereal": 398
+    },
+    "wanderlust_walking_stick": {
+        "common": 20,
+        "uncommon": 34,
+        "rare": 54,
+        "epic": 75,
+        "legendary": 117,
+        "ethereal": 319
+    },
+    "willow_fishing_rod": {
+        "common": 9,
+        "uncommon": 21,
+        "rare": 39,
+        "epic": 58,
+        "legendary": 97,
+        "ethereal": 280
+    },
+    "wooden_fishing_pole": {
+        "common": 4,
+        "uncommon": 11,
+        "rare": 22,
+        "epic": 36,
+        "legendary": 66,
+        "ethereal": 236
+    },
+    "wooden_shield": {
+        "common": 0,
+        "uncommon": 3,
+        "rare": 10,
+        "epic": 20,
+        "legendary": 44,
+        "ethereal": 204
+    },
+    "wooden_sword": {
+        "common": 1,
+        "uncommon": 5,
+        "rare": 13,
+        "epic": 24,
+        "legendary": 49,
+        "ethereal": 212
+    },
+    "wraithwater_flower_necklace": {
+        "common": 8,
+        "uncommon": 18,
+        "rare": 33,
+        "epic": 50,
+        "legendary": 85,
+        "ethereal": 266
+    },
+    "adjustable_wrench": {
+        "rare": 15
+    },
+    "adventuring_amulet": {
+        "epic": 52
+    },
+    "adventuring_fishing_pole": {
+        "uncommon": 10
+    },
+    "adventuring_frying_pan": {
+        "rare": 18
+    },
+    "adventuring_hammer": {
+        "rare": 18
+    },
+    "adventuring_hatchet": {
+        "uncommon": 10
+    },
+    "adventuring_hunting_bow": {
+        "uncommon": 10
+    },
+    "adventuring_pickaxe": {
+        "uncommon": 10
+    },
+    "adventuring_ring": {
+        "epic": 52
+    },
+    "adventuring_sander": {
+        "rare": 18
+    },
+    "adventuring_saw": {
+        "rare": 18
+    },
+    "adventuring_sewing_needle": {
+        "rare": 18
+    },
+    "adventuring_sickle": {
+        "uncommon": 10
+    },
+    "adventuring_wrench": {
+        "rare": 18
+    },
+    "algae_ring": {
+        "ethereal": 7
+    },
+    "alien_squeaky_toy": {
+        "rare": 44
+    },
+    "angler_gloves": {
+        "legendary": 100
+    },
+    "auto_adjusting_mandrel": {
+        "rare": 25
+    },
+    "axe_of_destruction": {
+        "legendary": 112
+    },
+    "baby_penguin_ice_lure": {
+        "rare": 240
+    },
+    "backpack": {
+        "legendary": 270
+    },
+    "big_basket": {
+        "rare": 22
+    },
+    "birch_skis": {
+        "common": 9
+    },
+    "blacksmithing_guidebook": {
+        "rare": 48
+    },
+    "blue_ice_sickle": {
+        "legendary": 120
+    },
+    "bogwood_bandana": {
+        "legendary": 120
+    },
+    "bogwood_boots": {
+        "uncommon": 25
+    },
+    "bogwood_gloves": {
+        "rare": 28
+    },
+    "bogwood_shorts": {
+        "rare": 28
+    },
+    "bogwood_vest": {
+        "epic": 84
+    },
+    "bolstered_quiver": {
+        "rare": 24
+    },
+    "breezy_shirt": {
+        "rare": 30
+    },
+    "bubble_bauble": {
+        "common": 2
+    },
+    "bug_attracting_incense": {
+        "common": 2
+    },
+    "bug_repelling_incense": {
+        "common": 2
+    },
+    "camo_boots": {
+        "uncommon": 8
+    },
+    "camo_face_paint": {
+        "common": 4
+    },
+    "camo_pants": {
+        "rare": 25
+    },
+    "camo_shirt": {
+        "epic": 66
+    },
+    "candlehat": {
+        "legendary": 100
+    },
+    "carpenters_clogs": {
+        "epic": 44
+    },
+    "carving_knife": {
+        "uncommon": 7
+    },
+    "catch_bucket": {
+        "common": 4
+    },
+    "chefs_apron": {
+        "rare": 25
+    },
+    "chefs_hat": {
+        "rare": 25
+    },
+    "chefs_leg_apron": {
+        "epic": 25
+    },
+    "chrome_wool": {
+        "epic": 84
+    },
+    "clay_skydisc": {
+        "common": 4
+    },
+    "clingy_measuring_tape": {
+        "uncommon": 7
+    },
+    "compressed_charcoal": {
+        "common": 4
+    },
+    "cool_sunglasses": {
+        "uncommon": 7
+    },
+    "coral_cape": {
+        "uncommon": 7
+    },
+    "crafting_boots": {
+        "common": 4
+    },
+    "crafting_guidebook": {
+        "epic": 78
+    },
+    "crafting_pants": {
+        "common": 4
+    },
+    "crafting_shirt": {
+        "uncommon": 9
+    },
+    "crustacean_call": {
+        "rare": 30
+    },
+    "cutting_board": {
+        "uncommon": 4
+    },
+    "dar_witts_monocle": {
+        "legendary": 100
+    },
+    "dragonfly_catching_net": {
+        "epic": 72
+    },
+    "duck_decoy": {
+        "epic": 67
+    },
+    "dull_chisel": {
+        "common": 4
+    },
+    "dull_knife": {
+        "common": 4
+    },
+    "dull_machete": {
+        "uncommon": 8
+    },
+    "durable_fabric_cutting_mat": {
+        "uncommon": 7
+    },
+    "eberhart_corkscrew": {
+        "epic": 46
+    },
+    "exercise_headband": {
+        "legendary": 110
+    },
+    "eye_patch": {
+        "rare": 15
+    },
+    "feather_boots": {
+        "rare": 78
+    },
+    "feather_cape": {
+        "epic": 66
+    },
+    "fingerpick": {
+        "common": 2
+    },
+    "fingersaw": {
+        "common": 2
+    },
+    "fire_resistant_cloak": {
+        "epic": 66
+    },
+    "fireflies_in_a_jar": {
+        "rare": 21
+    },
+    "firestarter": {
+        "common": 2
+    },
+    "fishermans_hat": {
+        "rare": 44
+    },
+    "fishermans_trousers": {
+        "epic": 66
+    },
+    "fishing_guidebook": {
+        "epic": 72
+    },
+    "fishing_lure": {
+        "uncommon": 16
+    },
+    "fishing_stringer": {
+        "uncommon": 40
+    },
+    "fishnet_shirt": {
+        "rare": 72
+    },
+    "flashy_field_knife": {
+        "rare": 25
+    },
+    "flatpack_shark": {
+        "rare": 30
+    },
+    "flimsy_ruler": {
+        "common": 5
+    },
+    "flippers": {
+        "rare": 15
+    },
+    "flippy_spatula": {
+        "rare": 16
+    },
+    "floras_silver_spoon": {
+        "common": 4
+    },
+    "flowing_pocketwatch": {
+        "ethereal": 7
+    },
+    "flowy_trousers": {
+        "rare": 22
+    },
+    "foraging_shirt": {
+        "common": 4
+    },
+    "foraging_shorts": {
+        "common": 4
+    },
+    "foresters_boots": {
+        "legendary": 84
+    },
+    "foresters_flannel_shirt": {
+        "epic": 78
+    },
+    "foresters_hat": {
+        "epic": 56
+    },
+    "foresters_pants": {
+        "rare": 32
+    },
+    "forge_bellows": {
+        "uncommon": 11
+    },
+    "frost_touched_boots": {
+        "uncommon": 25
+    },
+    "frost_touched_gauntlets": {
+        "rare": 28
+    },
+    "frost_touched_helm": {
+        "legendary": 120
+    },
+    "frost_touched_leggings": {
+        "rare": 28
+    },
+    "frost_touched_torso": {
+        "epic": 84
+    },
+    "fungal_backpack": {
+        "epic": 84
+    },
+    "gardening_gloves": {
+        "uncommon": 8
+    },
+    "gem_tipped_tweezers": {
+        "uncommon": 10
+    },
+    "gemistry_guidebook": {
+        "epic": 40
+    },
+    "glowstick": {
+        "uncommon": 4
+    },
+    "gold_pan": {
+        "uncommon": 13
+    },
+    "golden_chisel": {
+        "epic": 250
+    },
+    "golden_skydisc": {
+        "uncommon": 35
+    },
+    "grappling_hook": {
+        "rare": 32
+    },
+    "grippy_gloves": {
+        "rare": 48
+    },
+    "halflings_feet_slippers": {
+        "epic": 48
+    },
+    "hand_lantern": {
+        "uncommon": 11
+    },
+    "hand_warming_pack": {
+        "common": 2
+    },
+    "handsaw": {
+        "epic": 66
+    },
+    "handy_hand_file": {
+        "rare": 25
+    },
+    "hat_with_a_feather": {
+        "legendary": 78
+    },
+    "heavy_axe_handle": {
+        "epic": 78
+    },
+    "heavy_pick_handle": {
+        "epic": 78
+    },
+    "herberts_boots": {
+        "common": 2
+    },
+    "herberts_cape": {
+        "common": 2
+    },
+    "herberts_hat": {
+        "common": 2
+    },
+    "herberts_pants": {
+        "common": 2
+    },
+    "herberts_shirt": {
+        "common": 2
+    },
+    "hookhat": {
+        "legendary": 100
+    },
+    "hunting_bestiary": {
+        "rare": 30
+    },
+    "hunting_trip_pack": {
+        "legendary": 100
+    },
+    "ice_cutter": {
+        "uncommon": 9
+    },
+    "ice_netrod": {
+        "rare": 240
+    },
+    "ink_pen": {
+        "common": 2
+    },
+    "iron_thermos": {
+        "uncommon": 8
+    },
+    "jarvonian_poker": {
+        "common": 6
+    },
+    "jarvonian_smiths_hammer": {
+        "epic": 56
+    },
+    "keen_eye_lenses": {
+        "uncommon": 18
+    },
+    "knitted_mittens": {
+        "common": 2
+    },
+    "large_pot": {
+        "rare": 15
+    },
+    "lava_cooking_pan": {
+        "legendary": 7
+    },
+    "leaf_cape": {
+        "uncommon": 7
+    },
+    "life_vest": {
+        "uncommon": 14
+    },
+    "light_mining_shovel": {
+        "common": 4
+    },
+    "lil_stool": {
+        "common": 2
+    },
+    "lily_pad_rope": {
+        "epic": 84
+    },
+    "linden_leaf_boots": {
+        "uncommon": 25
+    },
+    "linden_leaf_gloves": {
+        "rare": 28
+    },
+    "linden_leaf_hat": {
+        "legendary": 120
+    },
+    "linden_leaf_shorts": {
+        "rare": 28
+    },
+    "linden_leaf_vest": {
+        "epic": 84
+    },
+    "log_basket": {
+        "uncommon": 8
+    },
+    "log_splitter": {
+        "rare": 52
+    },
+    "long_spade": {
+        "rare": 18
+    },
+    "loose_change_pouch": {
+        "common": 2
+    },
+    "lumberjack_boots": {
+        "uncommon": 19
+    },
+    "lumberjack_hat": {
+        "uncommon": 9
+    },
+    "lumberjack_pants": {
+        "common": 4
+    },
+    "lumberjack_sandals": {
+        "common": 4
+    },
+    "lumberjack_shirt": {
+        "uncommon": 40
+    },
+    "magnifying_lens": {
+        "epic": 48
+    },
+    "makeup_set": {
+        "common": 2
+    },
+    "map_of_arenum": {
+        "epic": 11
+    },
+    "map_of_erdwise": {
+        "uncommon": 11
+    },
+    "map_of_halfling_rebels": {
+        "uncommon": 11
+    },
+    "map_of_jarvonia": {
+        "uncommon": 11
+    },
+    "map_of_syrenthia": {
+        "uncommon": 11
+    },
+    "map_of_trellin": {
+        "uncommon": 11
+    },
+    "marking_chalk": {
+        "common": 4
+    },
+    "meat_cleaver": {
+        "epic": 18
+    },
+    "medieval_sneakers": {
+        "epic": 44
+    },
+    "meltdown_mask": {
+        "legendary": 100
+    },
+    "merfolk_dance_bracers": {
+        "rare": 28
+    },
+    "merfolk_dance_circlet": {
+        "legendary": 120
+    },
+    "merfolk_dance_corslet": {
+        "epic": 84
+    },
+    "merfolk_dance_leglets": {
+        "uncommon": 25
+    },
+    "merfolk_dance_skirt": {
+        "rare": 28
+    },
+    "merfolk_dress": {
+        "rare": 7
+    },
+    "merfolk_shell_coverings": {
+        "common": 2
+    },
+    "metalworking_gloves": {
+        "rare": 30
+    },
+    "miners_beard": {
+        "rare": 32
+    },
+    "miners_magnet": {
+        "rare": 32
+    },
+    "miners_pants": {
+        "epic": 60
+    },
+    "miners_shirt": {
+        "epic": 66
+    },
+    "mining_cartpack": {
+        "uncommon": 14
+    },
+    "mining_helmet": {
+        "rare": 36
+    },
+    "modified_platform_shoes": {
+        "epic": 48
+    },
+    "moss_chewie": {
+        "common": 2
+    },
+    "mountaineering_guidebook": {
+        "epic": 36
+    },
+    "never_ending_needlecase": {
+        "uncommon": 8
+    },
+    "non_slip_shoes": {
+        "uncommon": 7
+    },
+    "non_waterproof_boots": {
+        "common": 5
+    },
+    "northern_spices": {
+        "rare": 27
+    },
+    "oak_skis": {
+        "rare": 21
+    },
+    "old_copper_ring": {
+        "uncommon": 11
+    },
+    "old_gold_ring": {
+        "rare": 27
+    },
+    "old_silver_ring": {
+        "uncommon": 11
+    },
+    "oven_mittens": {
+        "uncommon": 7
+    },
+    "parkour_gloves": {
+        "uncommon": 9
+    },
+    "pearl_bracelet": {
+        "uncommon": 2
+    },
+    "perfect_snowballs": {
+        "common": 2
+    },
+    "pickers_gloves": {
+        "common": 5
+    },
+    "pincushion_beret": {
+        "legendary": 100
+    },
+    "pine_skis": {
+        "uncommon": 21
+    },
+    "pirate_hat": {
+        "epic": 25
+    },
+    "pointy_shears": {
+        "common": 7
+    },
+    "practice_pins": {
+        "common": 4
+    },
+    "precise_ruler": {
+        "rare": 8
+    },
+    "precision_pins": {
+        "rare": 25
+    },
+    "pretty_pliers": {
+        "uncommon": 10
+    },
+    "protective_glasses": {
+        "rare": 40
+    },
+    "protective_gloves": {
+        "uncommon": 30
+    },
+    "protective_pants": {
+        "uncommon": 10
+    },
+    "protective_shirt": {
+        "rare": 30
+    },
+    "protractor": {
+        "uncommon": 11
+    },
+    "quaint_quiver": {
+        "common": 7
+    },
+    "rabbit_ears": {
+        "uncommon": 4
+    },
+    "recipe_book": {
+        "legendary": 40
+    },
+    "red_skydisc": {
+        "rare": 56
+    },
+    "ring_of_ash": {
+        "ethereal": 7
+    },
+    "ring_of_pandemonium": {
+        "epic": 66
+    },
+    "rough_sandpaper": {
+        "common": 4
+    },
+    "royal_troubadour_boots": {
+        "uncommon": 25
+    },
+    "royal_troubadour_capesuit": {
+        "epic": 84
+    },
+    "royal_troubadour_gloves": {
+        "rare": 28
+    },
+    "royal_troubadour_hat": {
+        "legendary": 120
+    },
+    "royal_troubadour_pantaloons": {
+        "rare": 28
+    },
+    "running_shirt": {
+        "uncommon": 9
+    },
+    "running_shorts": {
+        "uncommon": 9
+    },
+    "rusty_diving_helmet": {
+        "common": 7
+    },
+    "rusty_diving_leggings": {
+        "common": 7
+    },
+    "rusty_diving_torso": {
+        "common": 7
+    },
+    "rusty_fishing_net": {
+        "common": 8
+    },
+    "rusty_fishing_rod": {
+        "common": 8
+    },
+    "rusty_hatchet": {
+        "common": 8
+    },
+    "rusty_hunting_bow": {
+        "common": 6
+    },
+    "rusty_pickaxe": {
+        "common": 8
+    },
+    "rusty_sickle": {
+        "common": 8
+    },
+    "safety_scissors": {
+        "common": 4
+    },
+    "sailors_hat": {
+        "rare": 21
+    },
+    "scent_masking_spray": {
+        "uncommon": 7
+    },
+    "screwdriver": {
+        "uncommon": 16
+    },
+    "sewing_guidebook": {
+        "epic": 48
+    },
+    "sharp_chisel": {
+        "rare": 44
+    },
+    "sharp_knife": {
+        "rare": 15
+    },
+    "sharp_machete": {
+        "rare": 18
+    },
+    "shell_snatcher": {
+        "legendary": 7
+    },
+    "shiny_spinner": {
+        "rare": 48
+    },
+    "shoes_of_escape": {
+        "legendary": 72
+    },
+    "shovel_axe": {
+        "legendary": 160
+    },
+    "silver_scissors": {
+        "rare": 27
+    },
+    "simple_amulet": {
+        "common": 2
+    },
+    "simple_bug_catching_net": {
+        "common": 4
+    },
+    "simple_chisel": {
+        "common": 5
+    },
+    "simple_gold_pan": {
+        "common": 4
+    },
+    "simple_hammer": {
+        "common": 6
+    },
+    "simple_life_vest": {
+        "common": 5
+    },
+    "simple_magnet": {
+        "common": 3
+    },
+    "simple_pan": {
+        "common": 4
+    },
+    "simple_ring": {
+        "common": 2
+    },
+    "simple_rope": {
+        "common": 5
+    },
+    "simple_saw": {
+        "common": 5
+    },
+    "simple_sewing_needle": {
+        "common": 5
+    },
+    "simple_torch": {
+        "uncommon": 6
+    },
+    "simple_wrench": {
+        "common": 5
+    },
+    "skinny_field_knife": {
+        "common": 4
+    },
+    "slipstick": {
+        "uncommon": 7
+    },
+    "small_sack": {
+        "common": 6
+    },
+    "smelly_socks": {
+        "uncommon": 1
+    },
+    "smelting_goggles": {
+        "rare": 66
+    },
+    "smiths_apron": {
+        "rare": 30
+    },
+    "smiths_pants": {
+        "uncommon": 13
+    },
+    "spice_rackpack": {
+        "epic": 84
+    },
+    "squishy_flip_flops": {
+        "common": 3
+    },
+    "steel_toe_boots": {
+        "common": 4
+    },
+    "stepring": {
+        "epic": 52
+    },
+    "sticky_finger_shorts": {
+        "uncommon": 9
+    },
+    "sturdy_fishing_rod_rest": {
+        "uncommon": 10
+    },
+    "sturdy_whisk": {
+        "common": 9
+    },
+    "swashbuckler_sword": {
+        "epic": 15
+    },
+    "swift_sight_goggles": {
+        "epic": 84
+    },
+    "tailors_moccasins": {
+        "epic": 44
+    },
+    "tentacle_crown": {
+        "legendary": 7
+    },
+    "tidal_lure": {
+        "epic": 7
+    },
+    "toe_shoes": {
+        "rare": 32
+    },
+    "tough_rope": {
+        "uncommon": 11
+    },
+    "trappers_cape": {
+        "common": 4
+    },
+    "tree_scaling_claws": {
+        "uncommon": 12
+    },
+    "trellin_beaver": {
+        "ethereal": 666
+    },
+    "wading_shoes": {
+        "rare": 44
+    },
+    "walking_stick": {
+        "common": 4
+    },
+    "water_bottle": {
+        "common": 5
+    },
+    "waterproof_boots": {
+        "uncommon": 22
+    },
+    "weighted_vest": {
+        "epic": 66
+    },
+    "wholly_ring": {
+        "ethereal": 7
+    },
+    "wilderness_guidebook": {
+        "epic": 48
+    },
+    "wilderness_pants": {
+        "rare": 19
+    },
+    "wilderness_shirt": {
+        "rare": 21
+    },
+    "wintry_pan": {
+        "epic": 66
+    },
+    "wire_saw": {
+        "rare": 30
+    },
+    "wolf_jaw_tongs": {
+        "uncommon": 11
+    },
+    "woodcutting_guidebook": {
+        "epic": 64
+    },
+    "woodpucker": {
+        "epic": 64
+    },
+    "woodworking_glasses": {
+        "uncommon": 32
+    },
+    "zip_pouch": {
+        "uncommon": 10
+    },
+    "bacon_weave": {
+        "common": 10,
+        "fine": 51
+    },
+    "bagel": {
+        "common": 4,
+        "fine": 24
+    },
+    "beef_stew": {
+        "common": 7,
+        "fine": 38
+    },
+    "beer": {
+        "common": 1,
+        "fine": 11
+    },
+    "bread": {
+        "common": 4,
+        "fine": 24
+    },
+    "bug_bait": {
+        "common": 4,
+        "fine": 24
+    },
+    "chocolate_milk": {
+        "common": 7,
+        "fine": 38
+    },
+    "cooked_anglerfish": {
+        "common": 32,
+        "fine": 127
+    },
+    "cooked_carp": {
+        "common": 1,
+        "fine": 11
+    },
+    "cooked_jellyfish": {
+        "common": 4,
+        "fine": 24
+    },
+    "cooked_largemouth_bass": {
+        "common": 15,
+        "fine": 74
+    },
+    "cooked_lobster": {
+        "common": 6,
+        "fine": 37
+    },
+    "cooked_meat": {
+        "common": 2,
+        "fine": 15
+    },
+    "cooked_perch": {
+        "common": 1,
+        "fine": 11
+    },
+    "cooked_pike": {
+        "common": 2,
+        "fine": 15
+    },
+    "cooked_salmon": {
+        "common": 3,
+        "fine": 23
+    },
+    "cooked_shark": {
+        "common": 15,
+        "fine": 74
+    },
+    "cooked_shrimp": {
+        "common": 1,
+        "fine": 11
+    },
+    "cooked_squid": {
+        "common": 4,
+        "fine": 24
+    },
+    "cooked_stingray": {
+        "common": 10,
+        "fine": 51
+    },
+    "cooked_swordfish": {
+        "common": 10,
+        "fine": 51
+    },
+    "cooked_trout": {
+        "common": 2,
+        "fine": 15
+    },
+    "crab_rolls": {
+        "common": 4,
+        "fine": 24
+    },
+    "creme_brulee": {
+        "common": 60,
+        "fine": 276
+    },
+    "dried_fruit": {
+        "common": 25,
+        "fine": 119
+    },
+    "dynamite": {
+        "common": 10,
+        "fine": 51
+    },
+    "fireball_wine": {
+        "common": 11,
+        "fine": 52
+    },
+    "fortified_wine": {
+        "common": 8,
+        "fine": 49
+    },
+    "fried_fish_sandwich": {
+        "common": 10,
+        "fine": 51
+    },
+    "fried_noodles": {
+        "common": 7,
+        "fine": 38
+    },
+    "frozen_bait": {
+        "common": 4,
+        "fine": 24
+    },
+    "fruit_cake": {
+        "common": 10,
+        "fine": 51
+    },
+    "jarvonian_pastry": {
+        "common": 10,
+        "fine": 51
+    },
+    "jellied_stream_eel": {
+        "common": 15,
+        "fine": 74
+    },
+    "jelly_sandwich": {
+        "common": 7,
+        "fine": 38
+    },
+    "jerky": {
+        "common": 12,
+        "fine": 54
+    },
+    "kelp_rolls": {
+        "common": 7,
+        "fine": 38
+    },
+    "moonshine": {
+        "common": 8,
+        "fine": 49
+    },
+    "mud_pie": {
+        "common": 4,
+        "fine": 24
+    },
+    "mushroom_curry": {
+        "common": 10,
+        "fine": 51
+    },
+    "nettle_tea": {
+        "common": 4,
+        "fine": 24
+    },
+    "nut_mix": {
+        "common": 25,
+        "fine": 119
+    },
+    "pancake": {
+        "common": 4,
+        "fine": 24
+    },
+    "pickles": {
+        "common": 4,
+        "fine": 24
+    },
+    "porridge": {
+        "common": 7,
+        "fine": 38
+    },
+    "roasted_bell_pepper": {
+        "common": 10,
+        "fine": 51
+    },
+    "salmon_pie": {
+        "common": 7,
+        "fine": 38
+    },
+    "saltrum": {
+        "common": 7,
+        "fine": 38
+    },
+    "schnitzel": {
+        "common": 10,
+        "fine": 51
+    },
+    "spicy_moray": {
+        "common": 12,
+        "fine": 54
+    },
+    "spicy_pumpkin_juice": {
+        "common": 10,
+        "fine": 51
+    },
+    "sweet_carrot_pie": {
+        "common": 10,
+        "fine": 51
+    },
+    "tasty_breakfast": {
+        "common": 10,
+        "fine": 51
+    },
+    "trout_soup": {
+        "common": 7,
+        "fine": 38
+    },
+    "underwater_salad": {
+        "common": 10,
+        "fine": 51
+    },
+    "veggie_soup": {
+        "common": 7,
+        "fine": 38
+    },
+    "wine": {
+        "common": 4,
+        "fine": 24
+    },
+    "adamant_bar": {
+        "common": 11,
+        "fine": 43
+    },
+    "adamant_ore": {
+        "common": 8,
+        "fine": 39
+    },
+    "aerodynamic_thread": {
+        "common": 6,
+        "fine": 27
+    },
+    "animal_fur": {
+        "common": 5,
+        "fine": 26
+    },
+    "animal_meat": {
+        "common": 1,
+        "fine": 11
+    },
+    "bamboo_logs": {
+        "common": 4,
+        "fine": 24
+    },
+    "bamboo_plank": {
+        "common": 4,
+        "fine": 35
+    },
+    "basic_hide": {
+        "common": 1,
+        "fine": 11
+    },
+    "basic_leather": {
+        "common": 2,
+        "fine": 15
+    },
+    "bat_trinket": {
+        "common": 84,
+        "fine": 301
+    },
+    "beaver_trinket": {
+        "common": 200,
+        "fine": 558
+    },
+    "bell_pepper": {
+        "common": 4,
+        "fine": 24
+    },
+    "berries": {
+        "common": 2,
+        "fine": 15
+    },
+    "birch_logs": {
+        "common": 0,
+        "fine": 6
+    },
+    "birch_plank": {
+        "common": 1,
+        "fine": 11
+    },
+    "bones": {
+        "common": 1,
+        "fine": 11
+    },
+    "boxtrap": {
+        "common": 1,
+        "fine": 11
+    },
+    "bronze_arrows": {
+        "common": 0,
+        "fine": 6
+    },
+    "bronze_bar": {
+        "common": 1,
+        "fine": 11
+    },
+    "carrot": {
+        "common": 2,
+        "fine": 15
+    },
+    "cattail": {
+        "common": 4,
+        "fine": 19
+    },
+    "chocolate": {
+        "common": 2,
+        "fine": 15
+    },
+    "circular_root_trinket": {
+        "common": 140,
+        "fine": 497
+    },
+    "clam_shell": {
+        "common": 8,
+        "fine": 30
+    },
+    "coal": {
+        "common": 2,
+        "fine": 15
+    },
+    "compass_trinket": {
+        "common": 108,
+        "fine": 325
+    },
+    "cooling_icicle_trinket": {
+        "common": 120,
+        "fine": 477
+    },
+    "copper_arrows": {
+        "common": 0,
+        "fine": 6
+    },
+    "copper_bar": {
+        "common": 1,
+        "fine": 11
+    },
+    "copper_ore": {
+        "common": 0,
+        "fine": 6
+    },
+    "coral": {
+        "common": 4,
+        "fine": 24
+    },
+    "coral_plank": {
+        "common": 7,
+        "fine": 38
+    },
+    "crystal_coal": {
+        "common": 9,
+        "fine": 50
+    },
+    "crystallized_flame": {
+        "common": 5,
+        "fine": 26
+    },
+    "cucumber": {
+        "common": 4,
+        "fine": 24
+    },
+    "dark_feather": {
+        "common": 4,
+        "fine": 24
+    },
+    "ectoplasm": {
+        "common": 0,
+        "fine": 6
+    },
+    "ectoplasm_fish": {
+        "common": 0,
+        "fine": 6
+    },
+    "ectoplasm_logs": {
+        "common": 0,
+        "fine": 6
+    },
+    "ectoplasm_rock": {
+        "common": 0,
+        "fine": 6
+    },
+    "ectoplasm_scraps": {
+        "common": 0,
+        "fine": 6
+    },
+    "eel_trinket": {
+        "common": 60,
+        "fine": 276
+    },
+    "egg": {
+        "common": 2,
+        "fine": 15
+    },
+    "elderhide_hide": {
+        "common": 3,
+        "fine": 23
+    },
+    "elderhide_leather": {
+        "common": 4,
+        "fine": 24
+    },
+    "elderhide_scraps": {
+        "common": 1,
+        "fine": 11
+    },
+    "ethernite": {
+        "common": 108,
+        "fine": 257
+    },
+    "farganite_arrows": {
+        "common": 3,
+        "fine": 17
+    },
+    "farganite_bar": {
+        "common": 8,
+        "fine": 39
+    },
+    "farganite_ore": {
+        "common": 5,
+        "fine": 36
+    },
+    "feather": {
+        "common": 0,
+        "fine": 6
+    },
+    "fishbone": {
+        "common": 0,
+        "fine": 6
+    },
+    "fishing_line": {
+        "common": 1,
+        "fine": 11
+    },
+    "flax": {
+        "common": 1,
+        "fine": 11
+    },
+    "gold_bar": {
+        "common": 10,
+        "fine": 51
+    },
+    "gold_nugget": {
+        "common": 8,
+        "fine": 39
+    },
+    "gold_ore": {
+        "common": 10,
+        "fine": 51
+    },
+    "grass": {
+        "common": 2,
+        "fine": 15
+    },
+    "hardened_kelp": {
+        "common": 7,
+        "fine": 38
+    },
+    "hemp": {
+        "common": 0,
+        "fine": 6
+    },
+    "heron_trinket": {
+        "common": 72,
+        "fine": 289
+    },
+    "hide_scraps": {
+        "common": 0,
+        "fine": 6
+    },
+    "highwater_lotus": {
+        "common": 6,
+        "fine": 28
+    },
+    "honeycomb": {
+        "common": 2,
+        "fine": 15
+    },
+    "hydrilium": {
+        "common": 10,
+        "fine": 51
+    },
+    "hydrilium_bar": {
+        "common": 10,
+        "fine": 51
+    },
+    "iron_arrows": {
+        "common": 1,
+        "fine": 11
+    },
+    "iron_bar": {
+        "common": 2,
+        "fine": 15
+    },
+    "iron_ore": {
+        "common": 1,
+        "fine": 11
+    },
+    "ironweed": {
+        "common": 5,
+        "fine": 26
+    },
+    "ironweed_twine": {
+        "common": 8,
+        "fine": 30
+    },
+    "jade": {
+        "common": 76,
+        "fine": 224
+    },
+    "kelp": {
+        "common": 4,
+        "fine": 24
+    },
+    "kelp_drift_net": {
+        "common": 2,
+        "fine": 13
+    },
+    "kelp_twine": {
+        "common": 4,
+        "fine": 24
+    },
+    "large_stone": {
+        "common": 1,
+        "fine": 11
+    },
+    "linen_cloth": {
+        "common": 1,
+        "fine": 11
+    },
+    "lizard_tail": {
+        "common": 2,
+        "fine": 15
+    },
+    "loverose": {
+        "common": 6,
+        "fine": 27
+    },
+    "lucky_rabbit_foot_trinket": {
+        "common": 180,
+        "fine": 537
+    },
+    "mahogany_plank": {
+        "common": 10,
+        "fine": 51
+    },
+    "mangrove_logs": {
+        "common": 5,
+        "fine": 26
+    },
+    "mangrove_plank": {
+        "common": 7,
+        "fine": 38
+    },
+    "maple_logs": {
+        "common": 2,
+        "fine": 15
+    },
+    "maple_plank": {
+        "common": 3,
+        "fine": 17
+    },
+    "measuring_spoons_trinket": {
+        "common": 108,
+        "fine": 325
+    },
+    "metal_scrap": {
+        "common": 0,
+        "fine": 6
+    },
+    "milk": {
+        "common": 2,
+        "fine": 15
+    },
+    "milkweed": {
+        "common": 4,
+        "fine": 24
+    },
+    "moondaisy": {
+        "common": 1,
+        "fine": 11
+    },
+    "mud": {
+        "common": 0,
+        "fine": 6
+    },
+    "mushroom": {
+        "common": 2,
+        "fine": 15
+    },
+    "nettle": {
+        "common": 0,
+        "fine": 6
+    },
+    "oak_logs": {
+        "common": 2,
+        "fine": 15
+    },
+    "oak_plank": {
+        "common": 4,
+        "fine": 24
+    },
+    "opal": {
+        "common": 40,
+        "fine": 186
+    },
+    "pearls": {
+        "common": 22,
+        "fine": 65
+    },
+    "pepper": {
+        "common": 1,
+        "fine": 11
+    },
+    "pine_logs": {
+        "common": 1,
+        "fine": 11
+    },
+    "pine_plank": {
+        "common": 1,
+        "fine": 11
+    },
+    "pink_pearl_trinket": {
+        "common": 120,
+        "fine": 477
+    },
+    "potato": {
+        "common": 2,
+        "fine": 15
+    },
+    "raw_anglerfish": {
+        "common": 25,
+        "fine": 119
+    },
+    "raw_carp": {
+        "common": 0,
+        "fine": 6
+    },
+    "raw_crab": {
+        "common": 1,
+        "fine": 11
+    },
+    "raw_jellyfish": {
+        "common": 3,
+        "fine": 23
+    },
+    "raw_largemouth_bass": {
+        "common": 10,
+        "fine": 51
+    },
+    "raw_lobster": {
+        "common": 4,
+        "fine": 24
+    },
+    "raw_moray": {
+        "common": 13,
+        "fine": 55
+    },
+    "raw_perch": {
+        "common": 0,
+        "fine": 6
+    },
+    "raw_pike": {
+        "common": 1,
+        "fine": 11
+    },
+    "raw_salmon": {
+        "common": 2,
+        "fine": 15
+    },
+    "raw_shark": {
+        "common": 10,
+        "fine": 51
+    },
+    "raw_shrimp": {
+        "common": 0,
+        "fine": 6
+    },
+    "raw_squid": {
+        "common": 2,
+        "fine": 15
+    },
+    "raw_stingray": {
+        "common": 7,
+        "fine": 38
+    },
+    "raw_stream_eel": {
+        "common": 12,
+        "fine": 54
+    },
+    "raw_swordfish": {
+        "common": 7,
+        "fine": 38
+    },
+    "raw_trout": {
+        "common": 1,
+        "fine": 11
+    },
+    "root": {
+        "common": 4,
+        "fine": 24
+    },
+    "rotbud": {
+        "common": 7,
+        "fine": 38
+    },
+    "rough_ethernite": {
+        "common": 67,
+        "fine": 164
+    },
+    "rough_jade": {
+        "common": 47,
+        "fine": 143
+    },
+    "rough_opal": {
+        "common": 25,
+        "fine": 119
+    },
+    "rough_ruby": {
+        "common": 52,
+        "fine": 148
+    },
+    "rough_star_pearl": {
+        "common": 32,
+        "fine": 127
+    },
+    "rough_sun_stone": {
+        "common": 57,
+        "fine": 153
+    },
+    "rough_topaz": {
+        "common": 42,
+        "fine": 137
+    },
+    "rough_wrentmarine": {
+        "common": 37,
+        "fine": 132
+    },
+    "ruby": {
+        "common": 84,
+        "fine": 232
+    },
+    "salt_crystal": {
+        "common": 1,
+        "fine": 11
+    },
+    "salty_hops": {
+        "common": 2,
+        "fine": 15
+    },
+    "sea_cabbage": {
+        "common": 2,
+        "fine": 15
+    },
+    "sea_shell": {
+        "common": 5,
+        "fine": 26
+    },
+    "sea_spinach": {
+        "common": 2,
+        "fine": 15
+    },
+    "shark_tooth_trinket": {
+        "common": 96,
+        "fine": 313
+    },
+    "shrimp_trinket": {
+        "common": 150,
+        "fine": 507
+    },
+    "silver_bar": {
+        "common": 7,
+        "fine": 38
+    },
+    "silver_nugget": {
+        "common": 4,
+        "fine": 25
+    },
+    "silver_ore": {
+        "common": 7,
+        "fine": 38
+    },
+    "simple_bowstring": {
+        "common": 1,
+        "fine": 11
+    },
+    "snowdrop": {
+        "common": 2,
+        "fine": 15
+    },
+    "spider_trinket": {
+        "common": 150,
+        "fine": 507
+    },
+    "spruce_logs": {
+        "common": 1,
+        "fine": 11
+    },
+    "spruce_plank": {
+        "common": 2,
+        "fine": 15
+    },
+    "star_pearl": {
+        "common": 52,
+        "fine": 199
+    },
+    "steel_arrows": {
+        "common": 1,
+        "fine": 11
+    },
+    "steel_bar": {
+        "common": 4,
+        "fine": 24
+    },
+    "stone": {
+        "common": 0,
+        "fine": 6
+    },
+    "strong_bowstring": {
+        "common": 6,
+        "fine": 27
+    },
+    "sturdy_branch": {
+        "common": 1,
+        "fine": 11
+    },
+    "sun_stone": {
+        "common": 92,
+        "fine": 240
+    },
+    "sunblossom": {
+        "common": 1,
+        "fine": 11
+    },
+    "sweet_kelp": {
+        "common": 6,
+        "fine": 37
+    },
+    "tarsilium_arrows": {
+        "common": 2,
+        "fine": 13
+    },
+    "tarsilium_bar": {
+        "common": 4,
+        "fine": 24
+    },
+    "tarsilium_ore": {
+        "common": 3,
+        "fine": 24
+    },
+    "teak_logs": {
+        "common": 3,
+        "fine": 24
+    },
+    "teak_plank": {
+        "common": 5,
+        "fine": 36
+    },
+    "thistle": {
+        "common": 0,
+        "fine": 6
+    },
+    "tin_ore": {
+        "common": 0,
+        "fine": 6
+    },
+    "tomato": {
+        "common": 2,
+        "fine": 15
+    },
+    "topaz": {
+        "common": 68,
+        "fine": 215
+    },
+    "tough_linen_cloth": {
+        "common": 5,
+        "fine": 36
+    },
+    "trash": {
+        "common": 0,
+        "fine": 6
+    },
+    "twine": {
+        "common": 0,
+        "fine": 6
+    },
+    "underwater_lotus": {
+        "common": 4,
+        "fine": 24
+    },
+    "unicorn_horn": {
+        "common": 12,
+        "fine": 70
+    },
+    "violite_bar": {
+        "common": 14,
+        "fine": 46
+    },
+    "violite_ore": {
+        "common": 10,
+        "fine": 51
+    },
+    "volcanic_ash": {
+        "common": 7,
+        "fine": 38
+    },
+    "volcanic_rock": {
+        "common": 4,
+        "fine": 24
+    },
+    "wheat": {
+        "common": 2,
+        "fine": 15
+    },
+    "widows_kiss": {
+        "common": 5,
+        "fine": 26
+    },
+    "willow_logs": {
+        "common": 4,
+        "fine": 24
+    },
+    "willow_plank": {
+        "common": 6,
+        "fine": 37
+    },
+    "wood_scrap": {
+        "common": 0,
+        "fine": 6
+    },
+    "wooden_stick": {
+        "common": 0,
+        "fine": 6
+    },
+    "wrentmarine": {
+        "common": 60,
+        "fine": 207
+    },
+    "yew_logs": {
+        "common": 6,
+        "fine": 27
+    },
+    "yew_plank": {
+        "common": 8,
+        "fine": 49
+    },
+    "adventuring_guild_chest": {
+        "common": 48.695079999999976
+    },
+    "agility_chest": {
+        "common": 65.5977783218595
+    },
+    "carpentry_chest": {
+        "common": 102.69136812270227
+    },
+    "chest_of_erdwise": {
+        "common": 106.81260924590163
+    },
+    "chest_of_jarvonia": {
+        "common": 71.72514218181817
+    },
+    "chest_of_syrenthia": {
+        "common": 120.43184223655916
+    },
+    "chest_of_the_halfling_rebels": {
+        "common": 61.89227399999999
+    },
+    "chest_of_trellin": {
+        "common": 38.50262545454545
+    },
+    "coin_pouch": {
+        "common": 101.52000000000001
+    },
+    "cooking_chest": {
+        "common": 70.54255605587528
+    },
+    "coral_chest": {
+        "common": 96.63614285714286
+    },
+    "crafting_chest": {
+        "common": 102.06137093835616
+    },
+    "fishing_chest": {
+        "common": 72.36344982861887
+    },
+    "foraging_chest": {
+        "common": 78.29055994182924
+    },
+    "gem_pouch": {
+        "common": 140.44915422885572
+    },
+    "hunting_chest": {
+        "common": 63.99583166874221
+    },
+    "mining_chest": {
+        "common": 88.66811495171794
+    },
+    "rusty_chest": {
+        "common": 11.025641025641026
+    },
+    "smithing_chest": {
+        "common": 96.39734858280062
+    },
+    "sunken_chest": {
+        "common": 72.3481856
+    },
+    "tailoring_chest": {
+        "common": 74.50333199155097
+    },
+    "trinketry_chest": {
+        "common": 333.71721936058265
+    },
+    "woodcutting_chest": {
+        "common": 82.67200503562674
+    },
+    "bird_nest": {
+        "common": 61.9801992
+    }
+}

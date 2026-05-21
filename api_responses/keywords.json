@@ -1,0 +1,1034 @@
+[
+    {
+        "id": "achievement_percentage",
+        "name": "Achievement percentage",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/achievement_percentages.png"
+    },
+    {
+        "id": "achievement_reward",
+        "name": "Achievement reward",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/achievement_reward.png"
+    },
+    {
+        "id": "advanced_diving_gear",
+        "name": "Advanced diving gear",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/itemset_diving_gear_advanced.png"
+    },
+    {
+        "id": "adventuring_tool_set",
+        "name": "Adventuring tool set",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/itemset_adventuring_tools.png"
+    },
+    {
+        "id": "agility",
+        "name": "Agility",
+        "bannedKeywords": []
+    },
+    {
+        "id": "agility_tool",
+        "name": "Agility tool",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/agilityTool.png"
+    },
+    {
+        "id": "alcohol",
+        "name": "Alcohol",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/alcohol.png"
+    },
+    {
+        "id": "amulet",
+        "name": "Amulet",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/amulet.png"
+    },
+    {
+        "id": "aquatic",
+        "name": "Aquatic",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/location_underwater.png"
+    },
+    {
+        "id": "arrows",
+        "name": "Arrows",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/arrows.png"
+    },
+    {
+        "id": "artisan",
+        "name": "Artisan",
+        "bannedKeywords": []
+    },
+    {
+        "id": "bar",
+        "name": "Bar",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/bar.png"
+    },
+    {
+        "id": "basket",
+        "name": "Basket",
+        "bannedKeywords": [
+            "basket"
+        ],
+        "icon": "assets/icons/keywords/basket.png"
+    },
+    {
+        "id": "bellows",
+        "name": "Bellows",
+        "bannedKeywords": [
+            "bellows"
+        ],
+        "icon": "assets/icons/keywords/bellows.png"
+    },
+    {
+        "id": "beverage",
+        "name": "Beverage",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/beverage.png"
+    },
+    {
+        "id": "beverage",
+        "name": "Beverage",
+        "bannedKeywords": []
+    },
+    {
+        "id": "birdhouse",
+        "name": "Birdhouse",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/birdhouse.png"
+    },
+    {
+        "id": "bug_catching_net",
+        "name": "Bug catching net",
+        "bannedKeywords": [
+            "bug_catching_net"
+        ],
+        "icon": "assets/icons/keywords/bug_catching_net.png"
+    },
+    {
+        "id": "carpentry",
+        "name": "Carpentry",
+        "bannedKeywords": []
+    },
+    {
+        "id": "carpentry_tool",
+        "name": "Carpentry tool",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/carpentry_tool.png"
+    },
+    {
+        "id": "chest",
+        "name": "Chest",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/chest.png"
+    },
+    {
+        "id": "chisel",
+        "name": "Chisel",
+        "bannedKeywords": [
+            "chisel"
+        ],
+        "icon": "assets/icons/keywords/chisel.png"
+    },
+    {
+        "id": "climbing_gear",
+        "name": "Climbing gear",
+        "bannedKeywords": [
+            "climbing_gear"
+        ],
+        "icon": "assets/icons/keywords/climbing.png"
+    },
+    {
+        "id": "cooked_fish",
+        "name": "Cooked fish",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/cookedFish.png"
+    },
+    {
+        "id": "cooking",
+        "name": "Cooking",
+        "bannedKeywords": []
+    },
+    {
+        "id": "cooking_knife",
+        "name": "Cooking knife",
+        "bannedKeywords": [
+            "cooking_knife"
+        ],
+        "icon": "assets/icons/keywords/cooking_knife.png"
+    },
+    {
+        "id": "cooking_pan",
+        "name": "Cooking pan",
+        "bannedKeywords": [
+            "cooking_pan"
+        ],
+        "icon": "assets/icons/keywords/cooking_pan.png"
+    },
+    {
+        "id": "cooking_pot",
+        "name": "Cooking pot",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/cooking_pot.png"
+    },
+    {
+        "id": "cooking_recipe",
+        "name": "Cooking recipe",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/cooking_recipe.png"
+    },
+    {
+        "id": "cooking_tool",
+        "name": "Cooking tool",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/cooking_tool.png"
+    },
+    {
+        "id": "crafting",
+        "name": "Crafting",
+        "bannedKeywords": []
+    },
+    {
+        "id": "crafting_tool",
+        "name": "Crafting tool",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/crafting_tool.png"
+    },
+    {
+        "id": "crustacean",
+        "name": "Crustacean",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/crustacean.png"
+    },
+    {
+        "id": "currency",
+        "name": "Currency",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/currency.png"
+    },
+    {
+        "id": "cursed",
+        "name": "Cursed",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/cursed.png"
+    },
+    {
+        "id": "cut_gem",
+        "name": "Cut gem",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/cut_gem.png"
+    },
+    {
+        "id": "cutting_board",
+        "name": "Cutting board",
+        "bannedKeywords": [
+            "cutting_board"
+        ],
+        "icon": "assets/icons/keywords/cooking_board.png"
+    },
+    {
+        "id": "cutting_mat",
+        "name": "Cutting mat",
+        "bannedKeywords": [
+            "cutting_mat"
+        ],
+        "icon": "assets/icons/keywords/cutting_mat.png"
+    },
+    {
+        "id": "desert",
+        "name": "Desert",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/location_desert.png"
+    },
+    {
+        "id": "diving_gear",
+        "name": "Diving gear",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/itemset_diving_gear.png"
+    },
+    {
+        "id": "egg",
+        "name": "Egg",
+        "bannedKeywords": []
+    },
+    {
+        "id": "erdwise",
+        "name": "Erdwise",
+        "bannedKeywords": []
+    },
+    {
+        "id": "expert_diving_gear",
+        "name": "Expert diving gear",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/itemset_diving_gear_expert.png"
+    },
+    {
+        "id": "fabric",
+        "name": "Fabric",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/linen.png"
+    },
+    {
+        "id": "faction_reward",
+        "name": "Faction reward",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/faction_reward.png"
+    },
+    {
+        "id": "fibrous_plant",
+        "name": "Fibrous plant",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/fibrous_plants.png"
+    },
+    {
+        "id": "fish",
+        "name": "Fish",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/fish.png"
+    },
+    {
+        "id": "fishing",
+        "name": "Fishing",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/fishing.png"
+    },
+    {
+        "id": "fishing",
+        "name": "Fishing",
+        "bannedKeywords": []
+    },
+    {
+        "id": "fishing_cage",
+        "name": "Fishing cage",
+        "bannedKeywords": [
+            "fishing_net",
+            "fishing_rod",
+            "fishing_spear",
+            "fishing_cage"
+        ],
+        "icon": "assets/icons/keywords/fishing_cage.png"
+    },
+    {
+        "id": "fishing_lure",
+        "name": "Fishing lure",
+        "bannedKeywords": [
+            "fishing_lure"
+        ],
+        "icon": "assets/icons/keywords/fishing_lure.png"
+    },
+    {
+        "id": "fishing_net",
+        "name": "Fishing net",
+        "bannedKeywords": [
+            "fishing_net",
+            "fishing_rod",
+            "fishing_spear",
+            "fishing_cage"
+        ],
+        "icon": "assets/icons/keywords/fishing_net.png"
+    },
+    {
+        "id": "fishing_rod",
+        "name": "Fishing rod",
+        "bannedKeywords": [
+            "fishing_net",
+            "fishing_rod",
+            "fishing_spear",
+            "fishing_cage"
+        ],
+        "icon": "assets/icons/keywords/fishing_rod.png"
+    },
+    {
+        "id": "fishing_rod_rest",
+        "name": "Fishing rod rest",
+        "bannedKeywords": [
+            "fishing_rod_rest"
+        ],
+        "icon": "assets/icons/keywords/rod_rest.png"
+    },
+    {
+        "id": "fishing_spear",
+        "name": "Fishing spear",
+        "bannedKeywords": [
+            "fishing_net",
+            "fishing_rod",
+            "fishing_spear",
+            "fishing_cage"
+        ],
+        "icon": "assets/icons/keywords/fishing_spear.png"
+    },
+    {
+        "id": "fishing_tool",
+        "name": "Fishing tool",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/fishingTool.png"
+    },
+    {
+        "id": "food",
+        "name": "Food",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/food.png"
+    },
+    {
+        "id": "food",
+        "name": "Food",
+        "bannedKeywords": []
+    },
+    {
+        "id": "foraging",
+        "name": "Foraging",
+        "bannedKeywords": []
+    },
+    {
+        "id": "foraging_tool",
+        "name": "Foraging tool",
+        "bannedKeywords": [
+            "foraging_tool"
+        ],
+        "icon": "assets/icons/keywords/foraging_tool.png"
+    },
+    {
+        "id": "forge",
+        "name": "Forge",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/service_forge.png"
+    },
+    {
+        "id": "fruit",
+        "name": "Fruit",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/fruit.png"
+    },
+    {
+        "id": "gathering",
+        "name": "Gathering",
+        "bannedKeywords": []
+    },
+    {
+        "id": "gdte",
+        "name": "GDTE",
+        "bannedKeywords": []
+    },
+    {
+        "id": "gem",
+        "name": "Gem",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/gem.png"
+    },
+    {
+        "id": "ghostly",
+        "name": "Ghostly",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/spectral.png"
+    },
+    {
+        "id": "global",
+        "name": "Global",
+        "bannedKeywords": []
+    },
+    {
+        "id": "gold_pan",
+        "name": "Gold pan",
+        "bannedKeywords": [
+            "gold_pan"
+        ],
+        "icon": "assets/icons/keywords/goldPan.png"
+    },
+    {
+        "id": "halfling_rebels",
+        "name": "Halfling Rebels",
+        "bannedKeywords": []
+    },
+    {
+        "id": "hatchet",
+        "name": "Hatchet",
+        "bannedKeywords": [
+            "hatchet"
+        ],
+        "icon": "assets/icons/keywords/hatchet.png"
+    },
+    {
+        "id": "heat_resistant",
+        "name": "Heat resistant",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/heat_resistant.png"
+    },
+    {
+        "id": "heavy",
+        "name": "Heavy",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/weight_heavy.png"
+    },
+    {
+        "id": "hide",
+        "name": "Hide",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/animal_hide.png"
+    },
+    {
+        "id": "hunting",
+        "name": "Hunting",
+        "bannedKeywords": []
+    },
+    {
+        "id": "hunting_bow",
+        "name": "Hunting bow",
+        "bannedKeywords": [
+            "hunting_bow"
+        ],
+        "icon": "assets/icons/keywords/hunting_bow.png"
+    },
+    {
+        "id": "hunting_net",
+        "name": "Hunting net",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/huntingNet.png"
+    },
+    {
+        "id": "hunting_trap",
+        "name": "Hunting trap",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/huntingTrap.png"
+    },
+    {
+        "id": "ingredient",
+        "name": "Ingredient",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/ingredient.png"
+    },
+    {
+        "id": "jarvonia",
+        "name": "Jarvonia",
+        "bannedKeywords": []
+    },
+    {
+        "id": "kitchen",
+        "name": "Kitchen",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/service_kitchen.png"
+    },
+    {
+        "id": "knife",
+        "name": "Knife",
+        "bannedKeywords": [
+            "knife"
+        ],
+        "icon": "assets/icons/keywords/knife.png"
+    },
+    {
+        "id": "leather",
+        "name": "Leather",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/leather.png"
+    },
+    {
+        "id": "life_vest",
+        "name": "Life vest",
+        "bannedKeywords": [
+            "life_vest"
+        ],
+        "icon": "assets/icons/keywords/life_vest.png"
+    },
+    {
+        "id": "light",
+        "name": "Light",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/weight_light.png"
+    },
+    {
+        "id": "light_source",
+        "name": "Light source",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/light_source.png"
+    },
+    {
+        "id": "local_map",
+        "name": "Local map",
+        "bannedKeywords": [
+            "local_map"
+        ],
+        "icon": "assets/icons/keywords/local_map.png"
+    },
+    {
+        "id": "log",
+        "name": "Log",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/logs.png"
+    },
+    {
+        "id": "log_splitter",
+        "name": "Log splitter",
+        "bannedKeywords": [
+            "log_splitter"
+        ],
+        "icon": "assets/icons/keywords/item_log_splitter.png"
+    },
+    {
+        "id": "loom",
+        "name": "Loom",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/service_loom.png"
+    },
+    {
+        "id": "magnetic",
+        "name": "Magnetic",
+        "bannedKeywords": [
+            "magnetic"
+        ],
+        "icon": "assets/icons/keywords/magnetic.png"
+    },
+    {
+        "id": "magnifying_lens",
+        "name": "Magnifying lens",
+        "bannedKeywords": [
+            "magnifying_lens"
+        ],
+        "icon": "assets/icons/keywords/magnifying_lense.png"
+    },
+    {
+        "id": "memosphere",
+        "name": "Memosphere",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/memosphere.png"
+    },
+    {
+        "id": "memosphere",
+        "name": "Memosphere",
+        "bannedKeywords": []
+    },
+    {
+        "id": "mining",
+        "name": "Mining",
+        "bannedKeywords": []
+    },
+    {
+        "id": "mining_ores",
+        "name": "Mining ores",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/mining_ore.png"
+    },
+    {
+        "id": "mining_tool",
+        "name": "Mining tool",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/miningTool.png"
+    },
+    {
+        "id": "misc.",
+        "name": "Misc.",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/misc.png"
+    },
+    {
+        "id": "mushroom",
+        "name": "Mushroom",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/mushroom.png"
+    },
+    {
+        "id": "needle",
+        "name": "Needle",
+        "bannedKeywords": [
+            "needle"
+        ],
+        "icon": "assets/icons/keywords/needle.png"
+    },
+    {
+        "id": "nugget",
+        "name": "Nugget",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/nugget.png"
+    },
+    {
+        "id": "offcut",
+        "name": "Offcut",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/offcut.png"
+    },
+    {
+        "id": "ore",
+        "name": "Ore",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/ore.png"
+    },
+    {
+        "id": "pet_egg",
+        "name": "Pet egg",
+        "bannedKeywords": []
+    },
+    {
+        "id": "pickaxe",
+        "name": "Pickaxe",
+        "bannedKeywords": [
+            "pickaxe"
+        ],
+        "icon": "assets/icons/keywords/pickaxe.png"
+    },
+    {
+        "id": "pins",
+        "name": "Pins",
+        "bannedKeywords": [
+            "pins"
+        ],
+        "icon": "assets/icons/keywords/pins.png"
+    },
+    {
+        "id": "plank",
+        "name": "Plank",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/plank.png"
+    },
+    {
+        "id": "plant",
+        "name": "Plant",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/plant.png"
+    },
+    {
+        "id": "plant_foraging",
+        "name": "Plant foraging",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/foraging_plants.png"
+    },
+    {
+        "id": "pliers",
+        "name": "Pliers",
+        "bannedKeywords": [
+            "pliers"
+        ],
+        "icon": "assets/icons/keywords/pliers.png"
+    },
+    {
+        "id": "potion",
+        "name": "Potion",
+        "bannedKeywords": []
+    },
+    {
+        "id": "processed",
+        "name": "Processed",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/processed.png"
+    },
+    {
+        "id": "proper_gear",
+        "name": "Proper gear",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/itemset_proper_gear.png"
+    },
+    {
+        "id": "regional",
+        "name": "Regional",
+        "bannedKeywords": [],
+        "icon": "assets/icons/text/icon_picker/regional.png"
+    },
+    {
+        "id": "regional_chest",
+        "name": "Regional chest",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/chest.png"
+    },
+    {
+        "id": "ring",
+        "name": "Ring",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/ring.png"
+    },
+    {
+        "id": "rough_gem",
+        "name": "Rough gem",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/rough_gem.png"
+    },
+    {
+        "id": "ruler",
+        "name": "Ruler",
+        "bannedKeywords": [
+            "ruler"
+        ],
+        "icon": "assets/icons/keywords/ruler.png"
+    },
+    {
+        "id": "sander",
+        "name": "Sander",
+        "bannedKeywords": [
+            "sander"
+        ],
+        "icon": "assets/icons/keywords/sander.png"
+    },
+    {
+        "id": "sandwich",
+        "name": "Sandwich",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/sandwich.png"
+    },
+    {
+        "id": "sandwich_recipe",
+        "name": "Sandwich recipe",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/recipe_sandwich.png"
+    },
+    {
+        "id": "saw",
+        "name": "Saw",
+        "bannedKeywords": [
+            "saw"
+        ],
+        "icon": "assets/icons/keywords/saw.png"
+    },
+    {
+        "id": "sawmill",
+        "name": "Sawmill",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/service_sawmill.png"
+    },
+    {
+        "id": "scissors",
+        "name": "Scissors",
+        "bannedKeywords": [
+            "scissors"
+        ],
+        "icon": "assets/icons/keywords/scissors.png"
+    },
+    {
+        "id": "screwdriver",
+        "name": "Screwdriver",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/screwdriver.png"
+    },
+    {
+        "id": "shield",
+        "name": "Shield",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/shield.png"
+    },
+    {
+        "id": "sickle",
+        "name": "Sickle",
+        "bannedKeywords": [
+            "sickle"
+        ],
+        "icon": "assets/icons/keywords/sickle.png"
+    },
+    {
+        "id": "skill_book",
+        "name": "Skill book",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/skillBook.png"
+    },
+    {
+        "id": "skilling_chest",
+        "name": "Skilling chest",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/chest.png"
+    },
+    {
+        "id": "skis",
+        "name": "Skis",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/skis.png"
+    },
+    {
+        "id": "skydisc",
+        "name": "Skydisc",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/frisbee.png"
+    },
+    {
+        "id": "smelting",
+        "name": "Smelting",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/smelting.png"
+    },
+    {
+        "id": "smithing",
+        "name": "Smithing",
+        "bannedKeywords": []
+    },
+    {
+        "id": "smithing_hammer",
+        "name": "Smithing hammer",
+        "bannedKeywords": [
+            "smithing_hammer"
+        ],
+        "icon": "assets/icons/keywords/smithing_hammer.png"
+    },
+    {
+        "id": "smithing_tool",
+        "name": "Smithing tool",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/smithingTool.png"
+    },
+    {
+        "id": "socks",
+        "name": "Socks",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/sock.png"
+    },
+    {
+        "id": "spectral",
+        "name": "Spectral",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/spectral.png"
+    },
+    {
+        "id": "spices",
+        "name": "Spices",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/spices.png"
+    },
+    {
+        "id": "swamp",
+        "name": "Swamp",
+        "bannedKeywords": []
+    },
+    {
+        "id": "syrenthia",
+        "name": "Syrenthia",
+        "bannedKeywords": []
+    },
+    {
+        "id": "tailoring",
+        "name": "Tailoring",
+        "bannedKeywords": []
+    },
+    {
+        "id": "tool",
+        "name": "Tool",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/tools.png"
+    },
+    {
+        "id": "toolbox",
+        "name": "Toolbox",
+        "bannedKeywords": [
+            "toolbox"
+        ],
+        "icon": "assets/icons/keywords/toolbox.png"
+    },
+    {
+        "id": "trash",
+        "name": "Trash",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/trash.png"
+    },
+    {
+        "id": "traveling",
+        "name": "Traveling",
+        "bannedKeywords": []
+    },
+    {
+        "id": "treasure_hunter_set",
+        "name": "Treasure hunter set",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/itemset_treasure_hunter.png"
+    },
+    {
+        "id": "trellin",
+        "name": "Trellin",
+        "bannedKeywords": []
+    },
+    {
+        "id": "trinket",
+        "name": "Trinket",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/item_trinket.png"
+    },
+    {
+        "id": "trinketry",
+        "name": "Trinketry",
+        "bannedKeywords": []
+    },
+    {
+        "id": "trinketry_bench",
+        "name": "Trinketry Bench",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/service_trinketry_bench.png"
+    },
+    {
+        "id": "trinketry_tool",
+        "name": "Trinketry tool",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/trinketryTool.png"
+    },
+    {
+        "id": "ultra_light",
+        "name": "Ultra light",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/weight_ultra_light.png"
+    },
+    {
+        "id": "underwater",
+        "name": "Underwater",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/location_underwater.png"
+    },
+    {
+        "id": "upgradeable",
+        "name": "Upgradeable",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/upgradeable.png"
+    },
+    {
+        "id": "utility",
+        "name": "Utility",
+        "bannedKeywords": []
+    },
+    {
+        "id": "wallisia",
+        "name": "Wallisia",
+        "bannedKeywords": []
+    },
+    {
+        "id": "water",
+        "name": "Water",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/water.png"
+    },
+    {
+        "id": "weapon",
+        "name": "Weapon",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/weapon.png"
+    },
+    {
+        "id": "woodcutting",
+        "name": "Woodcutting",
+        "bannedKeywords": []
+    },
+    {
+        "id": "woodcutting_tool",
+        "name": "Woodcutting tool",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/woodcuttingTool.png"
+    },
+    {
+        "id": "woodcutting_trees",
+        "name": "Woodcutting trees",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/woodcutting_trees.png"
+    },
+    {
+        "id": "workshop",
+        "name": "Workshop",
+        "bannedKeywords": [],
+        "icon": "assets/icons/keywords/service_workshop.png"
+    },
+    {
+        "id": "wrench",
+        "name": "Wrench",
+        "bannedKeywords": [
+            "wrench"
+        ],
+        "icon": "assets/icons/keywords/wrench.png"
+    },
+    {
+        "id": "wrentmark",
+        "name": "Wrentmark",
+        "bannedKeywords": []
+    }
+]

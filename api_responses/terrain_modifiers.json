@@ -1,0 +1,282 @@
+[
+    {
+        "id": "2_light_sources",
+        "name": "2 Light sources",
+        "requirements": [
+            {
+                "type": "distinctKeywordItemsEquipped",
+                "name": "",
+                "opposite": false,
+                "requirement": {
+                    "keywords": [
+                        "light_source"
+                    ],
+                    "quantity": 2
+                }
+            }
+        ],
+        "keyword": []
+    },
+    {
+        "id": "3_light_sources",
+        "name": "3 Light sources",
+        "requirements": [
+            {
+                "type": "distinctKeywordItemsEquipped",
+                "name": "",
+                "opposite": false,
+                "requirement": {
+                    "keywords": [
+                        "light_source"
+                    ],
+                    "quantity": 3
+                }
+            }
+        ],
+        "keyword": []
+    },
+    {
+        "id": "advanced_diving_gear",
+        "name": "Advanced diving gear",
+        "requirements": [
+            {
+                "type": "distinctKeywordItemsEquipped",
+                "name": "",
+                "opposite": false,
+                "requirement": {
+                    "keywords": [
+                        "advanced_diving_gear"
+                    ],
+                    "quantity": 3
+                }
+            }
+        ],
+        "keyword": []
+    },
+    {
+        "id": "black_eye_peak_wilderness_permit",
+        "name": "Black eye peak wilderness permit",
+        "requirements": [
+            {
+                "type": "itemAnywhereWithYou",
+                "name": "",
+                "opposite": false,
+                "requirement": {
+                    "item": "black_eye_peak_wilderness_permit"
+                }
+            }
+        ],
+        "keyword": []
+    },
+    {
+        "id": "challenging_wilderness_terrain",
+        "name": "Challenging wilderness terrain",
+        "requirements": [
+            {
+                "type": "distinctKeywordItemsEquipped",
+                "name": "",
+                "opposite": false,
+                "requirement": {
+                    "keywords": [
+                        "skis"
+                    ],
+                    "quantity": 1
+                }
+            },
+            {
+                "type": "skillLevel",
+                "name": "",
+                "opposite": false,
+                "requirement": {
+                    "level": 25,
+                    "skill": "agility"
+                }
+            }
+        ],
+        "keyword": []
+    },
+    {
+        "id": "charter_of_the_drowned",
+        "name": "Charter of the drowned",
+        "requirements": [
+            {
+                "type": "itemAnywhereWithYou",
+                "name": "",
+                "opposite": false,
+                "requirement": {
+                    "item": "charter_of_the_drowned"
+                }
+            }
+        ],
+        "keyword": []
+    },
+    {
+        "id": "difficult_mountain_terrain",
+        "name": "Difficult mountain terrain",
+        "requirements": [
+            {
+                "type": "skillLevel",
+                "name": "",
+                "opposite": false,
+                "requirement": {
+                    "level": 35,
+                    "skill": "agility"
+                }
+            }
+        ],
+        "keyword": [
+            "mountains"
+        ]
+    },
+    {
+        "id": "diving_gear",
+        "name": "Diving gear",
+        "requirements": [
+            {
+                "type": "distinctKeywordItemsEquipped",
+                "name": "",
+                "opposite": false,
+                "requirement": {
+                    "keywords": [
+                        "diving_gear"
+                    ],
+                    "quantity": 3
+                }
+            }
+        ],
+        "keyword": []
+    },
+    {
+        "id": "expert_diving_gear",
+        "name": "Expert diving gear",
+        "requirements": [
+            {
+                "type": "distinctKeywordItemsEquipped",
+                "name": "",
+                "opposite": false,
+                "requirement": {
+                    "keywords": [
+                        "expert_diving_gear"
+                    ],
+                    "quantity": 3
+                }
+            }
+        ],
+        "keyword": []
+    },
+    {
+        "id": "jarvonian_border_check",
+        "name": "Jarvonian border check",
+        "requirements": [
+            {
+                "type": "itemAnywhereWithYou",
+                "name": "",
+                "opposite": false,
+                "requirement": {
+                    "item": "jarvonian_letter_of_passage"
+                }
+            }
+        ],
+        "keyword": [
+            "jarvonia_visa_needed"
+        ]
+    },
+    {
+        "id": "level_50_agility",
+        "name": "Level 50 Agility",
+        "requirements": [
+            {
+                "type": "skillLevel",
+                "name": "",
+                "opposite": false,
+                "requirement": {
+                    "level": 50,
+                    "skill": "agility"
+                }
+            }
+        ],
+        "keyword": []
+    },
+    {
+        "id": "level_50_fishing",
+        "name": "Level 50 Fishing",
+        "requirements": [
+            {
+                "type": "skillLevel",
+                "name": "",
+                "opposite": false,
+                "requirement": {
+                    "level": 50,
+                    "skill": "fishing"
+                }
+            }
+        ],
+        "keyword": []
+    },
+    {
+        "id": "mysterious_northern_map",
+        "name": "Mysterious northern map",
+        "requirements": [
+            {
+                "type": "itemAnywhereWithYou",
+                "name": "",
+                "opposite": false,
+                "requirement": {
+                    "item": "mysterious_northern_map"
+                }
+            }
+        ],
+        "keyword": [
+            "glacier_map_needed"
+        ]
+    },
+    {
+        "id": "spring_bat_tracking_completion",
+        "name": "Spring bat tracking completion",
+        "requirements": [
+            {
+                "type": "historyData",
+                "name": "terrainmodifiers.singulars.requiresActivity.springBats.desc",
+                "opposite": false,
+                "requirement": {
+                    "category": "actionCompleted",
+                    "data": "spring_bat_tracking",
+                    "value": 1,
+                    "distinct": false
+                }
+            }
+        ],
+        "keyword": []
+    },
+    {
+        "id": "terrainmodifiers.singulars.requiresability.navigatedesert.name",
+        "name": "terrainmodifiers.singulars.requiresAbility.navigateDesert.name",
+        "requirements": [
+            {
+                "type": "abilityAvailable",
+                "name": "",
+                "opposite": false,
+                "requirement": {
+                    "ability": "navigate_desert",
+                    "scanEquippedItems": false
+                }
+            }
+        ],
+        "keyword": []
+    },
+    {
+        "id": "underwater_map",
+        "name": "Underwater map",
+        "requirements": [
+            {
+                "type": "itemAnywhereWithYou",
+                "name": "terrainmodifiers.singulars.requiresItems.UnderwaterMap.desc",
+                "opposite": false,
+                "requirement": {
+                    "item": "underwater_map"
+                }
+            }
+        ],
+        "keyword": []
+    }
+]

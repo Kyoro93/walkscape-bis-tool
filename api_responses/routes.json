@@ -1,0 +1,958 @@
+[
+    {
+        "id": "barbantok-to-casbrant_fields",
+        "name": "Barbantok to Casbrant Fields",
+        "locations": [
+            "barbantok",
+            "casbrant_fields"
+        ],
+        "distance": 358,
+        "options": []
+    },
+    {
+        "id": "barbantok-to-nomad_woods",
+        "name": "Barbantok to Nomad Woods",
+        "locations": [
+            "barbantok",
+            "nomad_woods"
+        ],
+        "distance": 341,
+        "options": []
+    },
+    {
+        "id": "beach_of_woes-to-kallaheim",
+        "name": "Beach of Woes to Kallaheim",
+        "locations": [
+            "beach_of_woes",
+            "kallaheim"
+        ],
+        "distance": 550,
+        "options": []
+    },
+    {
+        "id": "beach_of_woes-to-pit_of_pittance",
+        "name": "Beach of Woes to Pit of Pittance",
+        "locations": [
+            "beach_of_woes",
+            "pit_of_pittance"
+        ],
+        "distance": 160,
+        "options": []
+    },
+    {
+        "id": "bilgemont_port-to-blackspell_port",
+        "name": "Bilgemont Port to Blackspell Port",
+        "locations": [
+            "bilgemont_port",
+            "blackspell_port"
+        ],
+        "distance": 1378,
+        "options": []
+    },
+    {
+        "id": "black_eye_peak-to-winters_end",
+        "name": "Black Eye Peak to Winter's End",
+        "locations": [
+            "black_eye_peak",
+            "winters_end"
+        ],
+        "distance": 565,
+        "options": []
+    },
+    {
+        "id": "blackrane-to-kildome_cross",
+        "name": "Blackrane to Kildome Cross",
+        "locations": [
+            "blackrane",
+            "kildome_cross"
+        ],
+        "distance": 880
+    },
+    {
+        "id": "blackspell_port-to-old_arena_ruins",
+        "name": "Blackspell Port to Old Arena Ruins",
+        "locations": [
+            "blackspell_port",
+            "old_arena_ruins"
+        ],
+        "distance": 650,
+        "options": []
+    },
+    {
+        "id": "blackspell_port-to-red_coast",
+        "name": "Blackspell Port to Red Coast",
+        "locations": [
+            "blackspell_port",
+            "red_coast"
+        ],
+        "distance": 550,
+        "options": []
+    },
+    {
+        "id": "blackwater_fields-to-blackrane",
+        "name": "Blackwater Fields to Blackrane",
+        "locations": [
+            "blackwater_fields",
+            "blackrane"
+        ],
+        "distance": 900
+    },
+    {
+        "id": "bog_top-to-bog_bottom",
+        "name": "Bog Top to Bog Bottom",
+        "locations": [
+            "bog_top",
+            "bog_bottom"
+        ],
+        "distance": 752,
+        "options": [
+            {
+                "options": {
+                    "bog_top": true,
+                    "bog_bottom": true
+                },
+                "terrainModifiers": [
+                    "2_light_sources",
+                    "advanced_diving_gear"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "bog_top-to-halfling_campgrounds",
+        "name": "Bog Top to Halfling Campgrounds",
+        "locations": [
+            "bog_top",
+            "halfling_campgrounds"
+        ],
+        "distance": 793,
+        "options": [
+            {
+                "options": {
+                    "bog_top": true,
+                    "halfling_campgrounds": true
+                },
+                "terrainModifiers": [
+                    "3_light_sources"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "bog_top-to-halfmaw_hideout",
+        "name": "Bog Top to Halfmaw Hideout",
+        "locations": [
+            "bog_top",
+            "halfmaw_hideout"
+        ],
+        "distance": 1200,
+        "options": [
+            {
+                "options": {
+                    "halfmaw_hideout": true,
+                    "bog_top": true
+                },
+                "terrainModifiers": [
+                    "2_light_sources"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "casbrant_fields-to-azurazera",
+        "name": "Casbrant Fields to Azurazera",
+        "locations": [
+            "casbrant_fields",
+            "azurazera"
+        ],
+        "distance": 605,
+        "options": [
+            {
+                "options": {
+                    "casbrant_fields": true,
+                    "azurazera": true
+                },
+                "terrainModifiers": [
+                    "challenging_wilderness_terrain"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "casbrant_fields-to-centaham",
+        "name": "Casbrant Fields to Centaham",
+        "locations": [
+            "casbrant_fields",
+            "centaham"
+        ],
+        "distance": 280,
+        "options": []
+    },
+    {
+        "id": "casbrants_grave-to-vastalume",
+        "name": "Casbrant's Grave to Vastalume",
+        "locations": [
+            "casbrants_grave",
+            "vastalume"
+        ],
+        "distance": 1326,
+        "options": [
+            {
+                "options": {
+                    "casbrants_grave": true,
+                    "vastalume": true
+                },
+                "terrainModifiers": [
+                    "diving_gear"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "centaham-to-azurazera",
+        "name": "Centaham to Azurazera",
+        "locations": [
+            "centaham",
+            "azurazera"
+        ],
+        "distance": 800,
+        "options": []
+    },
+    {
+        "id": "centaham-to-coldington",
+        "name": "Centaham to Coldington",
+        "locations": [
+            "centaham",
+            "coldington"
+        ],
+        "distance": 650,
+        "options": []
+    },
+    {
+        "id": "centaham-to-fort_of_permafrost",
+        "name": "Centaham to Fort of Permafrost",
+        "locations": [
+            "centaham",
+            "fort_of_permafrost"
+        ],
+        "distance": 695,
+        "options": []
+    },
+    {
+        "id": "centaham-to-port_skildar",
+        "name": "Centaham to Port Skildar",
+        "locations": [
+            "centaham",
+            "port_skildar"
+        ],
+        "distance": 550,
+        "options": []
+    },
+    {
+        "id": "coldington-to-azurazera",
+        "name": "Coldington to Azurazera",
+        "locations": [
+            "coldington",
+            "azurazera"
+        ],
+        "distance": 370,
+        "options": []
+    },
+    {
+        "id": "coldington-to-horn_of_respite",
+        "name": "Coldington to Horn of Respite",
+        "locations": [
+            "coldington",
+            "horn_of_respite"
+        ],
+        "distance": 627,
+        "options": []
+    },
+    {
+        "id": "disenchanted_forest-to-beach_of_woes",
+        "name": "Disenchanted Forest to Beach of Woes",
+        "locations": [
+            "disenchanted_forest",
+            "beach_of_woes"
+        ],
+        "distance": 160,
+        "options": []
+    },
+    {
+        "id": "disenchanted_forest-to-kallaheim",
+        "name": "Disenchanted Forest to Kallaheim",
+        "locations": [
+            "disenchanted_forest",
+            "kallaheim"
+        ],
+        "distance": 450,
+        "options": []
+    },
+    {
+        "id": "disenchanted_forest-to-pit_of_pittance",
+        "name": "Disenchanted Forest to Pit of Pittance",
+        "locations": [
+            "disenchanted_forest",
+            "pit_of_pittance"
+        ],
+        "distance": 144,
+        "options": []
+    },
+    {
+        "id": "everhaven-to-bilgemont_port",
+        "name": "Everhaven to Bilgemont Port",
+        "locations": [
+            "everhaven",
+            "bilgemont_port"
+        ],
+        "distance": 903,
+        "options": []
+    },
+    {
+        "id": "fort_of_permafrost-to-noiseless_pass",
+        "name": "Fort of Permafrost to Noiseless Pass",
+        "locations": [
+            "fort_of_permafrost",
+            "noiseless_pass"
+        ],
+        "distance": 229,
+        "options": [
+            {
+                "options": {
+                    "fort_of_permafrost": true,
+                    "noiseless_pass": false
+                },
+                "terrainModifiers": [
+                    "jarvonian_border_check"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "frusenholm-to-centaham",
+        "name": "Frusenholm to Centaham",
+        "locations": [
+            "frusenholm",
+            "centaham"
+        ],
+        "distance": 617,
+        "options": []
+    },
+    {
+        "id": "frusenholm-to-fort_of_permafrost",
+        "name": "Frusenholm to Fort of Permafrost",
+        "locations": [
+            "frusenholm",
+            "fort_of_permafrost"
+        ],
+        "distance": 650,
+        "options": [
+            {
+                "options": {
+                    "frusenholm": true,
+                    "fort_of_permafrost": true
+                },
+                "terrainModifiers": [
+                    "challenging_wilderness_terrain"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "frusenholm-to-norsack_plains",
+        "name": "Frusenholm to Norsack Plains",
+        "locations": [
+            "frusenholm",
+            "norsack_plains"
+        ],
+        "distance": 872,
+        "options": []
+    },
+    {
+        "id": "frusenholm-to-nurturing_nook_springs",
+        "name": "Frusenholm to Nurturing Nook Springs",
+        "locations": [
+            "frusenholm",
+            "nurturing_nook_springs"
+        ],
+        "distance": 550,
+        "options": []
+    },
+    {
+        "id": "granfiddich_shores-to-granfiddich",
+        "name": "Granfiddich Shores to Granfiddich",
+        "locations": [
+            "granfiddich_shores",
+            "granfiddich"
+        ],
+        "distance": 390,
+        "options": []
+    },
+    {
+        "id": "granfiddich_shores-to-tendon_wet_fields",
+        "name": "Granfiddich Shores to Tendon Wet Fields",
+        "locations": [
+            "granfiddich_shores",
+            "tendon_wet_fields"
+        ],
+        "distance": 1050
+    },
+    {
+        "id": "granfiddich-to-warrenfield",
+        "name": "Granfiddich to Warrenfield",
+        "locations": [
+            "granfiddich",
+            "warrenfield"
+        ],
+        "distance": 1180,
+        "options": []
+    },
+    {
+        "id": "halfling_campgrounds-to-halfmaw_hideout",
+        "name": "Halfling Campgrounds to Halfmaw Hideout",
+        "locations": [
+            "halfling_campgrounds",
+            "halfmaw_hideout"
+        ],
+        "distance": 1040,
+        "options": [
+            {
+                "options": {
+                    "halfmaw_hideout": true,
+                    "halfling_campgrounds": true
+                },
+                "terrainModifiers": [
+                    "3_light_sources"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "halfmaw_hideout-to-old_arena_ruins",
+        "name": "Halfmaw Hideout to Old Arena Ruins",
+        "locations": [
+            "halfmaw_hideout",
+            "old_arena_ruins"
+        ],
+        "distance": 900,
+        "options": [
+            {
+                "options": {
+                    "old_arena_ruins": true,
+                    "halfmaw_hideout": true
+                },
+                "terrainModifiers": [
+                    "2_light_sources"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "horn_of_respite-to-sanguine_hills",
+        "name": "Horn of Respite to Sanguine Hills",
+        "locations": [
+            "horn_of_respite",
+            "sanguine_hills"
+        ],
+        "distance": 950,
+        "options": []
+    },
+    {
+        "id": "kallaheim-to-frostbite_mountain",
+        "name": "Kallaheim to Frostbite Mountain",
+        "locations": [
+            "kallaheim",
+            "frostbite_mountain"
+        ],
+        "distance": 890,
+        "options": [
+            {
+                "options": {
+                    "kallaheim": true,
+                    "frostbite_mountain": true
+                },
+                "terrainModifiers": [
+                    "challenging_wilderness_terrain"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "kallaheim-to-frusenholm",
+        "name": "Kallaheim to Frusenholm",
+        "locations": [
+            "kallaheim",
+            "frusenholm"
+        ],
+        "distance": 840,
+        "options": []
+    },
+    {
+        "id": "kallaheim-to-norsack_plains",
+        "name": "Kallaheim to Norsack Plains",
+        "locations": [
+            "kallaheim",
+            "norsack_plains"
+        ],
+        "distance": 870,
+        "options": []
+    },
+    {
+        "id": "kallaheim-to-nurturing_nook_springs",
+        "name": "Kallaheim to Nurturing Nook Springs",
+        "locations": [
+            "kallaheim",
+            "nurturing_nook_springs"
+        ],
+        "distance": 390,
+        "options": [
+            {
+                "options": {
+                    "kallaheim": true,
+                    "nurturing_nook_springs": true
+                },
+                "terrainModifiers": [
+                    "challenging_wilderness_terrain"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "kelp_forest-to-granfiddich_shores",
+        "name": "Kelp Forest to Granfiddich Shores",
+        "locations": [
+            "kelp_forest",
+            "granfiddich_shores"
+        ],
+        "distance": 650,
+        "options": [
+            {
+                "options": {
+                    "kelp_forest": true,
+                    "granfiddich_shores": true
+                },
+                "terrainModifiers": [
+                    "diving_gear"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "kildome_cross-to-myriadian_arc",
+        "name": "Kildome Cross to Myriadian Arc",
+        "locations": [
+            "kildome_cross",
+            "myriadian_arc"
+        ],
+        "distance": 950,
+        "options": [
+            {
+                "options": {
+                    "kildome_cross": true,
+                    "myriadian_arc": true
+                },
+                "terrainModifiers": [
+                    "terrainmodifiers.singulars.requiresability.navigatedesert.name"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "mangrove_forest-to-granfiddich",
+        "name": "Mangrove Forest to Granfiddich",
+        "locations": [
+            "mangrove_forest",
+            "granfiddich"
+        ],
+        "distance": 1183,
+        "options": []
+    },
+    {
+        "id": "myriadian_arc-to-crown_of_cinders",
+        "name": "Myriadian Arc to Crown of Cinders",
+        "locations": [
+            "myriadian_arc",
+            "crown_of_cinders"
+        ],
+        "distance": 495,
+        "options": [
+            {
+                "options": {
+                    "crown_of_cinders": true,
+                    "myriadian_arc": true
+                },
+                "terrainModifiers": [
+                    "terrainmodifiers.singulars.requiresability.navigatedesert.name"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "noiseless_pass-to-granfiddich",
+        "name": "Noiseless Pass to Granfiddich",
+        "locations": [
+            "noiseless_pass",
+            "granfiddich"
+        ],
+        "distance": 1600,
+        "options": []
+    },
+    {
+        "id": "noiseless_pass-to-mangrove_forest",
+        "name": "Noiseless Pass to Mangrove Forest",
+        "locations": [
+            "noiseless_pass",
+            "mangrove_forest"
+        ],
+        "distance": 585,
+        "options": []
+    },
+    {
+        "id": "norsack_plains-to-frostbite_mountain",
+        "name": "Norsack Plains to Frostbite Mountain",
+        "locations": [
+            "norsack_plains",
+            "frostbite_mountain"
+        ],
+        "distance": 650,
+        "options": []
+    },
+    {
+        "id": "norsack_plains-to-winter_waves_glacier",
+        "name": "Norsack Plains to Winter Waves Glacier",
+        "locations": [
+            "norsack_plains",
+            "winter_waves_glacier"
+        ],
+        "distance": 1080,
+        "options": [
+            {
+                "options": {
+                    "norsack_plains": true,
+                    "winter_waves_glacier": false
+                },
+                "terrainModifiers": [
+                    "mysterious_northern_map"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "nurturing_nook_springs-to-casbrant_fields",
+        "name": "Nurturing Nook Springs to Casbrant Fields",
+        "locations": [
+            "nurturing_nook_springs",
+            "casbrant_fields"
+        ],
+        "distance": 280,
+        "options": [
+            {
+                "options": {
+                    "nurturing_nook_springs": true,
+                    "casbrant_fields": true
+                },
+                "terrainModifiers": [
+                    "challenging_wilderness_terrain"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "nurturing_nook_springs-to-centaham",
+        "name": "Nurturing Nook Springs to Centaham",
+        "locations": [
+            "nurturing_nook_springs",
+            "centaham"
+        ],
+        "distance": 405,
+        "options": []
+    },
+    {
+        "id": "old_arena_ruins-to-red_coast",
+        "name": "Old Arena Ruins to Red Coast",
+        "locations": [
+            "old_arena_ruins",
+            "red_coast"
+        ],
+        "distance": 450,
+        "options": []
+    },
+    {
+        "id": "pit_of_pittance-to-kallaheim",
+        "name": "Pit of Pittance to Kallaheim",
+        "locations": [
+            "pit_of_pittance",
+            "kallaheim"
+        ],
+        "distance": 450,
+        "options": []
+    },
+    {
+        "id": "port_skildar-to-casbrants_grave",
+        "name": "Port Skildar to Casbrant's Grave",
+        "locations": [
+            "port_skildar",
+            "casbrants_grave"
+        ],
+        "distance": 747,
+        "options": [
+            {
+                "options": {
+                    "port_skildar": true,
+                    "casbrants_grave": true
+                },
+                "terrainModifiers": [
+                    "diving_gear"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "port_skildar-to-coldington",
+        "name": "Port Skildar to Coldington",
+        "locations": [
+            "port_skildar",
+            "coldington"
+        ],
+        "distance": 354,
+        "options": []
+    },
+    {
+        "id": "salsfirth-to-everhaven",
+        "name": "Salsfirth to Everhaven",
+        "locations": [
+            "salsfirth",
+            "everhaven"
+        ],
+        "distance": 1160,
+        "options": []
+    },
+    {
+        "id": "salsfirth-to-farsand_coast",
+        "name": "Salsfirth to Farsand Coast",
+        "locations": [
+            "salsfirth",
+            "farsand_coast"
+        ],
+        "distance": 550,
+        "options": []
+    },
+    {
+        "id": "salsfirth-to-mangrove_forest",
+        "name": "Salsfirth to Mangrove Forest",
+        "locations": [
+            "salsfirth",
+            "mangrove_forest"
+        ],
+        "distance": 346,
+        "options": []
+    },
+    {
+        "id": "salsfirth-to-witched_woods",
+        "name": "Salsfirth to Witched Woods",
+        "locations": [
+            "salsfirth",
+            "witched_woods"
+        ],
+        "distance": 1016,
+        "options": [
+            {
+                "options": {
+                    "salsfirth": true,
+                    "witched_woods": true
+                },
+                "terrainModifiers": [
+                    "2_light_sources"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "sanguine_hills-to-black_eye_peak",
+        "name": "Sanguine Hills to Black Eye Peak",
+        "locations": [
+            "sanguine_hills",
+            "black_eye_peak"
+        ],
+        "distance": 1300,
+        "options": [
+            {
+                "options": {
+                    "sanguine_hills": true,
+                    "black_eye_peak": false
+                },
+                "terrainModifiers": [
+                    "black_eye_peak_wilderness_permit"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "stalking_yew_woods-to-blackwater_fields",
+        "name": "Stalking Yew Woods to Blackwater Fields",
+        "locations": [
+            "stalking_yew_woods",
+            "blackwater_fields"
+        ],
+        "distance": 1080
+    },
+    {
+        "id": "tendon_wet_fields-to-wraithwater",
+        "name": "Tendon Wet Fields to Wraithwater",
+        "locations": [
+            "tendon_wet_fields",
+            "wraithwater"
+        ],
+        "distance": 1313
+    },
+    {
+        "id": "vastalume-to-darktide_trench",
+        "name": "Vastalume to Darktide Trench",
+        "locations": [
+            "vastalume",
+            "darktide_trench"
+        ],
+        "distance": 2000,
+        "options": [
+            {
+                "options": {
+                    "vastalume": true,
+                    "darktide_trench": true
+                },
+                "terrainModifiers": [
+                    "expert_diving_gear"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "vastalume-to-elaras_lagoon",
+        "name": "Vastalume to Elara's Lagoon",
+        "locations": [
+            "vastalume",
+            "elaras_lagoon"
+        ],
+        "distance": 1170,
+        "options": [
+            {
+                "options": {
+                    "vastalume": true,
+                    "elaras_lagoon": true
+                },
+                "terrainModifiers": [
+                    "diving_gear"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "vastalume-to-kelp_forest",
+        "name": "Vastalume to Kelp Forest",
+        "locations": [
+            "vastalume",
+            "kelp_forest"
+        ],
+        "distance": 1140,
+        "options": [
+            {
+                "options": {
+                    "vastalume": true,
+                    "kelp_forest": true
+                },
+                "terrainModifiers": [
+                    "diving_gear"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "vastalume-to-underwater_cave",
+        "name": "Vastalume to Underwater Cave",
+        "locations": [
+            "vastalume",
+            "underwater_cave"
+        ],
+        "distance": 900,
+        "options": [
+            {
+                "options": {
+                    "vastalume": true,
+                    "underwater_cave": true
+                },
+                "terrainModifiers": [
+                    "advanced_diving_gear"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "warrenfield-to-old_arena_ruins",
+        "name": "Warrenfield to Old Arena Ruins",
+        "locations": [
+            "warrenfield",
+            "old_arena_ruins"
+        ],
+        "distance": 450,
+        "options": []
+    },
+    {
+        "id": "witched_woods-to-bog_top",
+        "name": "Witched Woods to Bog Top",
+        "locations": [
+            "witched_woods",
+            "bog_top"
+        ],
+        "distance": 1200,
+        "options": [
+            {
+                "options": {
+                    "witched_woods": true,
+                    "bog_top": true
+                },
+                "terrainModifiers": [
+                    "2_light_sources"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "witched_woods-to-halfling_campgrounds",
+        "name": "Witched Woods to Halfling Campgrounds",
+        "locations": [
+            "witched_woods",
+            "halfling_campgrounds"
+        ],
+        "distance": 1365,
+        "options": [
+            {
+                "options": {
+                    "witched_woods": true,
+                    "halfling_campgrounds": true
+                },
+                "terrainModifiers": [
+                    "3_light_sources"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "wraithwater-to-stalking_yew_woods",
+        "name": "Wraithwater to Stalking Yew Woods",
+        "locations": [
+            "wraithwater",
+            "stalking_yew_woods"
+        ],
+        "distance": 441,
+        "options": [
+            {
+                "options": {
+                    "wraithwater": true,
+                    "stalking_yew_woods": false
+                },
+                "terrainModifiers": [
+                    "charter_of_the_drowned"
+                ]
+            }
+        ]
+    }
+]

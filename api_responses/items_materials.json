@@ -1,0 +1,5109 @@
+[
+    {
+        "id": "adamant_bar",
+        "name": "Adamant bar",
+        "keywords": [
+            "bar"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 11,
+                "fine": 43
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/bars/adamant_bar.png"
+    },
+    {
+        "id": "adamant_ore",
+        "name": "Adamant ore",
+        "keywords": [
+            "ore"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 8,
+                "fine": 39
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/ores/adamant_ore.png"
+    },
+    {
+        "id": "adventurers_enamel_pin",
+        "name": "Adventurers' enamel pin",
+        "keywords": [
+            "misc.",
+            "light"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "adventurers_guild_token",
+            "value": {
+                "common": 2,
+                "fine": 10
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/adventurer_enemal_pin.png"
+    },
+    {
+        "id": "aerodynamic_thread",
+        "name": "Aerodynamic thread",
+        "type": "material",
+        "quality": "common",
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 6,
+                "fine": 27
+            }
+        },
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/aerodynamic_thread.png"
+    },
+    {
+        "id": "animal_fur",
+        "name": "Animal fur",
+        "type": "material",
+        "quality": "common",
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 5,
+                "fine": 26
+            }
+        },
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/animal_fur.png"
+    },
+    {
+        "id": "animal_meat",
+        "name": "Animal meat",
+        "keywords": [
+            "ingredient"
+        ],
+        "type": "material",
+        "quality": "common",
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 1,
+                "fine": 11
+            }
+        },
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/animal_meat.png"
+    },
+    {
+        "id": "bamboo_logs",
+        "name": "Bamboo logs",
+        "keywords": [
+            "log"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 4,
+                "fine": 24
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/logs/bamboo_log.png"
+    },
+    {
+        "id": "bamboo_plank",
+        "name": "Bamboo plank",
+        "keywords": [
+            "plank"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 4,
+                "fine": 35
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/planks/bamboo_plank.png"
+    },
+    {
+        "id": "basic_hide",
+        "name": "Basic hide",
+        "keywords": [
+            "hide"
+        ],
+        "type": "material",
+        "quality": "common",
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 1,
+                "fine": 11
+            }
+        },
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/misc/light_hide.png"
+    },
+    {
+        "id": "basic_leather",
+        "name": "Basic leather",
+        "keywords": [
+            "leather",
+            "processed"
+        ],
+        "type": "material",
+        "quality": "common",
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 2,
+                "fine": 15
+            }
+        },
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/misc/light_leather.png"
+    },
+    {
+        "id": "bat_trinket",
+        "name": "Bat trinket",
+        "keywords": [
+            "mining",
+            "trinket"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 84,
+                "fine": 301
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/misc/bat_trinket.png"
+    },
+    {
+        "id": "beaver_trinket",
+        "name": "Beaver trinket",
+        "keywords": [
+            "carpentry",
+            "trinket"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": null,
+        "itemAttrs": null,
+        "itemQualityAttrs": null,
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 200,
+                "fine": 558
+            }
+        },
+        "buffs": null,
+        "tables": null,
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/misc/beaver_trinket.png"
+    },
+    {
+        "id": "bell_pepper",
+        "name": "Bell pepper",
+        "keywords": [
+            "plant",
+            "ingredient"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 4,
+                "fine": 24
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/plants/bell_pepper.png"
+    },
+    {
+        "id": "berries",
+        "name": "Berries",
+        "keywords": [
+            "plant",
+            "ingredient"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 2,
+                "fine": 15
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/plants/berries.png"
+    },
+    {
+        "id": "birch_logs",
+        "name": "Birch logs",
+        "keywords": [
+            "log"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 0,
+                "fine": 6
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/logs/birch_log.png"
+    },
+    {
+        "id": "birch_plank",
+        "name": "Birch plank",
+        "keywords": [
+            "plank"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 1,
+                "fine": 11
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/planks/birch_plank.png"
+    },
+    {
+        "id": "bones",
+        "name": "Bones",
+        "keywords": [
+            "misc."
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 1,
+                "fine": 11
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/bones.png"
+    },
+    {
+        "id": "boxtrap",
+        "name": "Boxtrap",
+        "keywords": [
+            "hunting_trap",
+            "light",
+            "hunting"
+        ],
+        "type": "material",
+        "quality": "common",
+        "requirements": [
+            {
+                "type": "skillLevel",
+                "name": "",
+                "opposite": false,
+                "requirement": {
+                    "level": 40,
+                    "skill": "hunting"
+                }
+            }
+        ],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 1,
+                "fine": 11
+            }
+        },
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/gear/box_trap.png"
+    },
+    {
+        "id": "bronze_arrows",
+        "name": "Bronze arrows",
+        "keywords": [
+            "arrows",
+            "light",
+            "hunting"
+        ],
+        "type": "material",
+        "quality": "common",
+        "requirements": [
+            {
+                "type": "skillLevel",
+                "name": "",
+                "opposite": false,
+                "requirement": {
+                    "level": 10,
+                    "skill": "hunting"
+                }
+            }
+        ],
+        "materialAttrs": [
+            {
+                "id": "b6c98291-f04e-4077-bebc-9b5dfa91632b",
+                "customIcon": null,
+                "customTextLocalizationKey": "",
+                "customText": "",
+                "textLocalizationKey": "",
+                "text": "",
+                "statText": "Work efficiency",
+                "skillText": "Hunting",
+                "tables": null,
+                "requirements": [
+                    {
+                        "type": "mainSkill",
+                        "name": "",
+                        "opposite": false,
+                        "requirement": {
+                            "skill": "hunting"
+                        }
+                    }
+                ],
+                "stats": [
+                    {
+                        "stat": "work_efficiency",
+                        "name": "Work efficiency",
+                        "type": "workEfficiency",
+                        "isPercent": true,
+                        "value": 0.1,
+                        "isNegative": false,
+                        "isMultiplicative": true
+                    }
+                ]
+            }
+        ],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 0,
+                "fine": 6
+            }
+        },
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/gear/arrows/bronze_arrows.png"
+    },
+    {
+        "id": "bronze_bar",
+        "name": "Bronze bar",
+        "keywords": [
+            "bar"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 1,
+                "fine": 11
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/bars/bronze_bar.png"
+    },
+    {
+        "id": "carrot",
+        "name": "Carrot",
+        "keywords": [
+            "plant",
+            "ingredient"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 2,
+                "fine": 15
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/farming/yield/carrot.png"
+    },
+    {
+        "id": "cattail",
+        "name": "Cattail",
+        "keywords": [
+            "plant",
+            "fibrous_plant"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 4,
+                "fine": 19
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/plants/cattail.png"
+    },
+    {
+        "id": "chocolate",
+        "name": "Chocolate",
+        "keywords": [
+            "ingredient"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 2,
+                "fine": 15
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/food/chocolate.png"
+    },
+    {
+        "id": "circular_root_trinket",
+        "name": "Circular root trinket",
+        "keywords": [
+            "woodcutting",
+            "trinket"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 140,
+                "fine": 497
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/misc/circular_root_trinket.png"
+    },
+    {
+        "id": "clam_shell",
+        "name": "Clam shell",
+        "keywords": [
+            "misc."
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 8,
+                "fine": 30
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/misc/seashell_1.png"
+    },
+    {
+        "id": "coal",
+        "name": "Coal",
+        "keywords": [
+            "ore"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 2,
+                "fine": 15
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/ores/coal_ore.png"
+    },
+    {
+        "id": "compass_trinket",
+        "name": "Compass trinket",
+        "keywords": [
+            "foraging",
+            "agility",
+            "trinket"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 108,
+                "fine": 325
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/misc/compass_trinket.png"
+    },
+    {
+        "id": "cooling_icicle_trinket",
+        "name": "Cooling icicle trinket",
+        "keywords": [
+            "smithing",
+            "trinket"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 120,
+                "fine": 477
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/misc/cooling_ice_trinket.png"
+    },
+    {
+        "id": "copper_arrows",
+        "name": "Copper arrows",
+        "keywords": [
+            "arrows",
+            "light",
+            "hunting"
+        ],
+        "type": "material",
+        "quality": "common",
+        "requirements": [
+            {
+                "type": "skillLevel",
+                "name": "",
+                "opposite": false,
+                "requirement": {
+                    "level": 1,
+                    "skill": "hunting"
+                }
+            }
+        ],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 0,
+                "fine": 6
+            }
+        },
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/gear/arrows/copper_arrows.png"
+    },
+    {
+        "id": "copper_bar",
+        "name": "Copper bar",
+        "keywords": [
+            "bar"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 1,
+                "fine": 11
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/bars/copper_bar.png"
+    },
+    {
+        "id": "copper_ore",
+        "name": "Copper ore",
+        "keywords": [
+            "ore"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 0,
+                "fine": 6
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/ores/copper_ore.png"
+    },
+    {
+        "id": "coral",
+        "name": "Coral",
+        "keywords": [
+            "log"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 4,
+                "fine": 24
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/syrenthia/coral.png"
+    },
+    {
+        "id": "coral_plank",
+        "name": "Coral plank",
+        "keywords": [
+            "plank"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 7,
+                "fine": 38
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/syrenthia/coral_planks.png"
+    },
+    {
+        "id": "crystal_coal",
+        "name": "Crystal coal",
+        "keywords": [
+            "ore"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 9,
+                "fine": 50
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/ores/crystal_shard.png"
+    },
+    {
+        "id": "crystallized_flame",
+        "name": "Crystallized flame",
+        "keywords": [
+            "ingredient"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 5,
+                "fine": 26
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/crystalized_flame.png"
+    },
+    {
+        "id": "cucumber",
+        "name": "Cucumber",
+        "keywords": [
+            "plant",
+            "ingredient"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 4,
+                "fine": 24
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/syrenthia/sea_cucumber.png"
+    },
+    {
+        "id": "dark_feather",
+        "name": "Dark feather",
+        "keywords": [
+            "light"
+        ],
+        "type": "material",
+        "quality": "common",
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 4,
+                "fine": 24
+            }
+        },
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/dark_feather.png"
+    },
+    {
+        "id": "ectoplasm",
+        "name": "Ectoplasm",
+        "keywords": [
+            "misc.",
+            "ultra_light",
+            "processed"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 0,
+                "fine": 6
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/ectoplasm.png"
+    },
+    {
+        "id": "ectoplasm_fish",
+        "name": "Ectoplasm fish",
+        "keywords": [
+            "fish"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 0,
+                "fine": 6
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/ecto_fish.png"
+    },
+    {
+        "id": "ectoplasm_logs",
+        "name": "Ectoplasm logs",
+        "keywords": [
+            "log"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 0,
+                "fine": 6
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/ecto_log.png"
+    },
+    {
+        "id": "ectoplasm_rock",
+        "name": "Ectoplasm rock",
+        "keywords": [
+            "ore"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 0,
+                "fine": 6
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/ecto_rock.png"
+    },
+    {
+        "id": "ectoplasm_scraps",
+        "name": "Ectoplasm scraps",
+        "type": "material",
+        "quality": "common",
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 0,
+                "fine": 6
+            }
+        },
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/activities/ectoplasm_scrap.png"
+    },
+    {
+        "id": "eel_trinket",
+        "name": "Eel trinket",
+        "keywords": [
+            "agility",
+            "trinket"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 60,
+                "fine": 276
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/misc/eel_trinket.png"
+    },
+    {
+        "id": "egg",
+        "name": "Egg",
+        "keywords": [
+            "ingredient"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 2,
+                "fine": 15
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/syrenthia/egg.png"
+    },
+    {
+        "id": "elderhide_hide",
+        "name": "Elderhide hide",
+        "keywords": [
+            "hide"
+        ],
+        "type": "material",
+        "quality": "common",
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 3,
+                "fine": 23
+            }
+        },
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/misc/elder_hide.png"
+    },
+    {
+        "id": "elderhide_leather",
+        "name": "Elderhide leather",
+        "keywords": [
+            "leather",
+            "processed"
+        ],
+        "type": "material",
+        "quality": "common",
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 4,
+                "fine": 24
+            }
+        },
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/misc/elder_hide_leather.png"
+    },
+    {
+        "id": "elderhide_scraps",
+        "name": "Elderhide scraps",
+        "keywords": [
+            "hide",
+            "light"
+        ],
+        "type": "material",
+        "quality": "common",
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 1,
+                "fine": 11
+            }
+        },
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/misc/Elder_hide_scraps.png"
+    },
+    {
+        "id": "ethernite",
+        "name": "Ethernite",
+        "keywords": [
+            "gem",
+            "cut_gem"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 108,
+                "fine": 257
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/ores/ethernite.png"
+    },
+    {
+        "id": "farganite_arrows",
+        "name": "Farganite arrows",
+        "keywords": [
+            "arrows",
+            "light",
+            "hunting"
+        ],
+        "type": "material",
+        "quality": "common",
+        "requirements": [
+            {
+                "type": "skillLevel",
+                "name": "",
+                "opposite": false,
+                "requirement": {
+                    "level": 50,
+                    "skill": "hunting"
+                }
+            }
+        ],
+        "materialAttrs": [
+            {
+                "id": "4a1dcdd3-6521-48bc-91f5-73a5863737b7",
+                "customIcon": null,
+                "customTextLocalizationKey": "",
+                "customText": "",
+                "textLocalizationKey": "",
+                "text": "",
+                "statText": "Work efficiency",
+                "skillText": "Hunting",
+                "tables": null,
+                "requirements": [
+                    {
+                        "type": "mainSkill",
+                        "name": "",
+                        "opposite": false,
+                        "requirement": {
+                            "skill": "hunting"
+                        }
+                    }
+                ],
+                "stats": [
+                    {
+                        "stat": "work_efficiency",
+                        "name": "Work efficiency",
+                        "type": "workEfficiency",
+                        "isPercent": true,
+                        "value": 0.5,
+                        "isNegative": false,
+                        "isMultiplicative": true
+                    }
+                ]
+            }
+        ],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 3,
+                "fine": 17
+            }
+        },
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/gear/arrows/farganite_arrows.png"
+    },
+    {
+        "id": "farganite_bar",
+        "name": "Farganite bar",
+        "keywords": [
+            "bar"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 8,
+                "fine": 39
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/bars/farganite_bar.png"
+    },
+    {
+        "id": "farganite_ore",
+        "name": "Farganite ore",
+        "keywords": [
+            "ore"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 5,
+                "fine": 36
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/ores/farganite_ore.png"
+    },
+    {
+        "id": "feather",
+        "name": "Feather",
+        "keywords": [
+            "light"
+        ],
+        "type": "material",
+        "quality": "common",
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 0,
+                "fine": 6
+            }
+        },
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/feather.png"
+    },
+    {
+        "id": "fishbone",
+        "name": "Fishbone",
+        "keywords": [
+            "misc."
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 0,
+                "fine": 6
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/misc/fishbone.png"
+    },
+    {
+        "id": "fishing_line",
+        "name": "Fishing line",
+        "keywords": [
+            "processed"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 1,
+                "fine": 11
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/misc/fishing_line.png"
+    },
+    {
+        "id": "flax",
+        "name": "Flax",
+        "keywords": [
+            "plant",
+            "fibrous_plant"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 1,
+                "fine": 11
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/plants/flax.png"
+    },
+    {
+        "id": "gold_bar",
+        "name": "Gold bar",
+        "keywords": [
+            "bar"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 10,
+                "fine": 51
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/bars/gold_bar.png"
+    },
+    {
+        "id": "gold_nugget",
+        "name": "Gold nugget",
+        "keywords": [
+            "nugget",
+            "light"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 8,
+                "fine": 39
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/ores/gold_nugget.png"
+    },
+    {
+        "id": "gold_ore",
+        "name": "Gold ore",
+        "keywords": [
+            "ore"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 10,
+                "fine": 51
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/ores/gold_ore.png"
+    },
+    {
+        "id": "grass",
+        "name": "Grass",
+        "keywords": [
+            "plant",
+            "ingredient"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 2,
+                "fine": 15
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/plants/grass.png"
+    },
+    {
+        "id": "halfmaw_scales",
+        "name": "Halfmaw scales",
+        "keywords": [
+            "misc.",
+            "light"
+        ],
+        "type": "material",
+        "quality": "common",
+        "itemValue": {
+            "currency": "adventurers_guild_token",
+            "value": {
+                "common": 1,
+                "fine": 5
+            }
+        },
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/halfmaw_scales.png"
+    },
+    {
+        "id": "halfmaw_teeth",
+        "name": "Halfmaw teeth",
+        "keywords": [
+            "misc.",
+            "light"
+        ],
+        "type": "material",
+        "quality": "common",
+        "itemValue": {
+            "currency": "adventurers_guild_token",
+            "value": {
+                "common": 3,
+                "fine": 15
+            }
+        },
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/halfmaw_teeth.png"
+    },
+    {
+        "id": "hardened_kelp",
+        "name": "Hardened kelp",
+        "keywords": [
+            "processed"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 7,
+                "fine": 38
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/syrenthia/hardened_kelp.png"
+    },
+    {
+        "id": "hemp",
+        "name": "Hemp",
+        "keywords": [
+            "plant",
+            "fibrous_plant"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 0,
+                "fine": 6
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/plants/hemp.png"
+    },
+    {
+        "id": "heron_trinket",
+        "name": "Heron trinket",
+        "keywords": [
+            "fishing",
+            "trinket"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 72,
+                "fine": 289
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/misc/heron_trinket.png"
+    },
+    {
+        "id": "hide_scraps",
+        "name": "Hide scraps",
+        "keywords": [
+            "hide",
+            "light"
+        ],
+        "type": "material",
+        "quality": "common",
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 0,
+                "fine": 6
+            }
+        },
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/misc/leather_scraps.png"
+    },
+    {
+        "id": "highwater_lotus",
+        "name": "Highwater lotus",
+        "keywords": [
+            "plant"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 6,
+                "fine": 28
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/plants/water_lotus.png"
+    },
+    {
+        "id": "honeycomb",
+        "name": "Honeycomb",
+        "keywords": [
+            "ingredient"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 2,
+                "fine": 15
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/misc/honey.png"
+    },
+    {
+        "id": "hydrilium",
+        "name": "Hydrilium",
+        "keywords": [
+            "processed"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 10,
+                "fine": 51
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/syrenthia/hydrilium.png"
+    },
+    {
+        "id": "hydrilium_bar",
+        "name": "Hydrilium bar",
+        "keywords": [
+            "bar"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 10,
+                "fine": 51
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/syrenthia/hydrilium_bar.png"
+    },
+    {
+        "id": "iron_arrows",
+        "name": "Iron arrows",
+        "keywords": [
+            "arrows",
+            "light",
+            "hunting"
+        ],
+        "type": "material",
+        "quality": "common",
+        "requirements": [
+            {
+                "type": "skillLevel",
+                "name": "",
+                "opposite": false,
+                "requirement": {
+                    "level": 20,
+                    "skill": "hunting"
+                }
+            }
+        ],
+        "materialAttrs": [
+            {
+                "id": "ed726ab4-26fd-4fcf-b110-c58f14b4d9b1",
+                "customIcon": null,
+                "customTextLocalizationKey": "",
+                "customText": "",
+                "textLocalizationKey": "",
+                "text": "",
+                "statText": "Work efficiency",
+                "skillText": "Hunting",
+                "tables": null,
+                "requirements": [
+                    {
+                        "type": "mainSkill",
+                        "name": "",
+                        "opposite": false,
+                        "requirement": {
+                            "skill": "hunting"
+                        }
+                    }
+                ],
+                "stats": [
+                    {
+                        "stat": "work_efficiency",
+                        "name": "Work efficiency",
+                        "type": "workEfficiency",
+                        "isPercent": true,
+                        "value": 0.2,
+                        "isNegative": false,
+                        "isMultiplicative": true
+                    }
+                ]
+            }
+        ],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 1,
+                "fine": 11
+            }
+        },
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/gear/arrows/iron_arrows.png"
+    },
+    {
+        "id": "iron_bar",
+        "name": "Iron bar",
+        "keywords": [
+            "bar"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 2,
+                "fine": 15
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/bars/iron_bar.png"
+    },
+    {
+        "id": "iron_ore",
+        "name": "Iron ore",
+        "keywords": [
+            "ore"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 1,
+                "fine": 11
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/ores/iron_ore.png"
+    },
+    {
+        "id": "ironweed",
+        "name": "Ironweed",
+        "keywords": [
+            "plant",
+            "fibrous_plant"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 5,
+                "fine": 26
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/plants/ironweed.png"
+    },
+    {
+        "id": "ironweed_twine",
+        "name": "Ironweed twine",
+        "keywords": [
+            "processed"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 8,
+                "fine": 30
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/ironweed_twine.png"
+    },
+    {
+        "id": "jade",
+        "name": "Jade",
+        "keywords": [
+            "gem",
+            "cut_gem"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 76,
+                "fine": 224
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/ores/jade.png"
+    },
+    {
+        "id": "kelp",
+        "name": "Kelp",
+        "keywords": [
+            "plant"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 4,
+                "fine": 24
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/syrenthia/kelp.png"
+    },
+    {
+        "id": "kelp_drift_net",
+        "name": "Kelp drift net",
+        "keywords": [
+            "hunting_net",
+            "light",
+            "hunting"
+        ],
+        "type": "material",
+        "quality": "common",
+        "requirements": [
+            {
+                "type": "skillLevel",
+                "name": "",
+                "opposite": false,
+                "requirement": {
+                    "level": 30,
+                    "skill": "hunting"
+                }
+            }
+        ],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 2,
+                "fine": 13
+            }
+        },
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/misc/kelp_drift_net.png"
+    },
+    {
+        "id": "kelp_twine",
+        "name": "Kelp twine",
+        "keywords": [
+            "processed"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 4,
+                "fine": 24
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/syrenthia/kelp_rope.png"
+    },
+    {
+        "id": "large_stone",
+        "name": "Large stone",
+        "keywords": [
+            "misc.",
+            "heavy"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 1,
+                "fine": 11
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/ores/large_stone.png"
+    },
+    {
+        "id": "linen_cloth",
+        "name": "Linen cloth",
+        "keywords": [
+            "fabric",
+            "processed"
+        ],
+        "type": "material",
+        "quality": "common",
+        "materialAttrs": [
+            {
+                "id": "f941d6e8-ca06-4b26-a37e-910167a85d5e",
+                "customIcon": null,
+                "customTextLocalizationKey": "",
+                "customText": "",
+                "textLocalizationKey": "",
+                "text": "",
+                "statText": "Bonus experience",
+                "skillText": "Tailoring",
+                "tables": null,
+                "requirements": [
+                    {
+                        "type": "mainSkill",
+                        "name": "",
+                        "opposite": false,
+                        "requirement": {
+                            "skill": "tailoring"
+                        }
+                    }
+                ],
+                "stats": [
+                    {
+                        "stat": "bonus_experience",
+                        "name": "Bonus experience",
+                        "type": "bonusExperience",
+                        "isPercent": false,
+                        "value": 15,
+                        "isNegative": false,
+                        "isMultiplicative": true
+                    }
+                ]
+            },
+            {
+                "id": "84772324-1f45-4177-837a-dff93212c19d",
+                "customIcon": null,
+                "customTextLocalizationKey": "",
+                "customText": "",
+                "textLocalizationKey": "",
+                "text": "",
+                "statText": "Bonus experience",
+                "skillText": "Tailoring",
+                "tables": null,
+                "requirements": [
+                    {
+                        "type": "mainSkill",
+                        "name": "",
+                        "opposite": false,
+                        "requirement": {
+                            "skill": "tailoring"
+                        }
+                    }
+                ],
+                "stats": [
+                    {
+                        "stat": "bonus_experience",
+                        "name": "Bonus experience",
+                        "type": "bonusExperience",
+                        "isPercent": true,
+                        "value": 0.2,
+                        "isNegative": false,
+                        "isMultiplicative": true
+                    }
+                ]
+            }
+        ],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 1,
+                "fine": 11
+            }
+        },
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/simple_linen.png"
+    },
+    {
+        "id": "lizard_tail",
+        "name": "Lizard tail",
+        "type": "material",
+        "quality": "common",
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 2,
+                "fine": 15
+            }
+        },
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/misc/lizard_tail.png"
+    },
+    {
+        "id": "loverose",
+        "name": "Loverose",
+        "keywords": [
+            "plant"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 6,
+                "fine": 27
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/plants/loverose.png"
+    },
+    {
+        "id": "lucky_rabbit_foot_trinket",
+        "name": "Lucky rabbit foot trinket",
+        "keywords": [
+            "trinketry",
+            "trinket"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 180,
+                "fine": 537
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/misc/lucky_rabbits_foot_trinket.png"
+    },
+    {
+        "id": "mahogany_plank",
+        "name": "Mahogany plank",
+        "keywords": [
+            "plank"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 10,
+                "fine": 51
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/planks/mahogany_plank.png"
+    },
+    {
+        "id": "mangrove_logs",
+        "name": "Mangrove logs",
+        "keywords": [
+            "log"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 5,
+                "fine": 26
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/logs/mangrove_log.png"
+    },
+    {
+        "id": "mangrove_plank",
+        "name": "Mangrove plank",
+        "keywords": [
+            "plank"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 7,
+                "fine": 38
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/planks/magrove_plank.png"
+    },
+    {
+        "id": "maple_logs",
+        "name": "Maple logs",
+        "keywords": [
+            "log"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 2,
+                "fine": 15
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/logs/maple_log.png"
+    },
+    {
+        "id": "maple_plank",
+        "name": "Maple plank",
+        "keywords": [
+            "plank"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 3,
+                "fine": 17
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/planks/maple_plank.png"
+    },
+    {
+        "id": "measuring_spoons_trinket",
+        "name": "Measuring spoons trinket",
+        "keywords": [
+            "cooking",
+            "trinket"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 108,
+                "fine": 325
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/misc/measuring_spoon_trinket.png"
+    },
+    {
+        "id": "metal_scrap",
+        "name": "Metal scrap",
+        "keywords": [
+            "offcut",
+            "light"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 0,
+                "fine": 6
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/misc/metal_scrap.png"
+    },
+    {
+        "id": "milk",
+        "name": "Milk",
+        "keywords": [
+            "ingredient"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 2,
+                "fine": 15
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/food/milk.png"
+    },
+    {
+        "id": "milkweed",
+        "name": "Milkweed",
+        "keywords": [
+            "plant",
+            "ingredient"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 4,
+                "fine": 24
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/misc/milkweed.png"
+    },
+    {
+        "id": "moondaisy",
+        "name": "Moondaisy",
+        "keywords": [
+            "plant"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 1,
+                "fine": 11
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/plants/moondaisy.png"
+    },
+    {
+        "id": "mud",
+        "name": "Mud",
+        "keywords": [
+            "ingredient"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 0,
+                "fine": 6
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/misc/mud.png"
+    },
+    {
+        "id": "mushroom",
+        "name": "Mushroom",
+        "keywords": [
+            "ingredient",
+            "mushroom"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 2,
+                "fine": 15
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/farming/yield/mushroom.png"
+    },
+    {
+        "id": "name_tag",
+        "name": "Name tag",
+        "keywords": [
+            "misc.",
+            "light"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "adventurers_guild_token",
+            "value": {
+                "common": 10,
+                "fine": 50
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/adventurer_name_tag.png"
+    },
+    {
+        "id": "nettle",
+        "name": "Nettle",
+        "keywords": [
+            "plant",
+            "ingredient"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 0,
+                "fine": 6
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/plants/nettle.png"
+    },
+    {
+        "id": "oak_logs",
+        "name": "Oak logs",
+        "keywords": [
+            "log"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 2,
+                "fine": 15
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/logs/oak_log.png"
+    },
+    {
+        "id": "oak_plank",
+        "name": "Oak plank",
+        "keywords": [
+            "plank"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 4,
+                "fine": 24
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/planks/oak_plank.png"
+    },
+    {
+        "id": "opal",
+        "name": "Opal",
+        "keywords": [
+            "gem",
+            "cut_gem"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 40,
+                "fine": 186
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/ores/opal.png"
+    },
+    {
+        "id": "pearls",
+        "name": "Pearls",
+        "keywords": [
+            "gem",
+            "rough_gem"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 22,
+                "fine": 65
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/misc/pearls.png"
+    },
+    {
+        "id": "pepper",
+        "name": "Pepper",
+        "keywords": [
+            "plant",
+            "ingredient",
+            "light"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 1,
+                "fine": 11
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/misc/pepper_spice.png"
+    },
+    {
+        "id": "pine_logs",
+        "name": "Pine logs",
+        "keywords": [
+            "log"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 1,
+                "fine": 11
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/logs/pine_log.png"
+    },
+    {
+        "id": "pine_plank",
+        "name": "Pine plank",
+        "keywords": [
+            "plank"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 1,
+                "fine": 11
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/planks/pine_plank.png"
+    },
+    {
+        "id": "pink_pearl_trinket",
+        "name": "Pink pearl trinket",
+        "keywords": [
+            "crafting",
+            "trinket"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 120,
+                "fine": 477
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/misc/pink_pearl_trinket.png"
+    },
+    {
+        "id": "potato",
+        "name": "Potato",
+        "keywords": [
+            "plant",
+            "ingredient"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 2,
+                "fine": 15
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/farming/yield/potato.png"
+    },
+    {
+        "id": "raw_anglerfish",
+        "name": "Raw anglerfish",
+        "keywords": [
+            "fish"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 25,
+                "fine": 119
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/syrenthia/raw_angler_fish.png"
+    },
+    {
+        "id": "raw_carp",
+        "name": "Raw carp",
+        "keywords": [
+            "fish"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 0,
+                "fine": 6
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/fish/carp.png"
+    },
+    {
+        "id": "raw_crab",
+        "name": "Raw crab",
+        "keywords": [
+            "fish",
+            "crustacean"
+        ],
+        "type": "material",
+        "quality": "common",
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 1,
+                "fine": 11
+            }
+        },
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/fish/crab.png"
+    },
+    {
+        "id": "raw_jellyfish",
+        "name": "Raw jellyfish",
+        "keywords": [
+            "fish"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 3,
+                "fine": 23
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/fish/jellyfish.png"
+    },
+    {
+        "id": "raw_largemouth_bass",
+        "name": "Raw largemouth bass",
+        "keywords": [
+            "fish"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 10,
+                "fine": 51
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/fish/raw_largemouth_bass.png"
+    },
+    {
+        "id": "raw_lobster",
+        "name": "Raw lobster",
+        "keywords": [
+            "fish",
+            "crustacean"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 4,
+                "fine": 24
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/fish/lobster.png"
+    },
+    {
+        "id": "raw_moray",
+        "name": "Raw moray",
+        "keywords": [
+            "fish"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 13,
+                "fine": 55
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/fish/moray.png"
+    },
+    {
+        "id": "raw_perch",
+        "name": "Raw perch",
+        "keywords": [
+            "fish"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 0,
+                "fine": 6
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/fish/perch.png"
+    },
+    {
+        "id": "raw_pike",
+        "name": "Raw pike",
+        "keywords": [
+            "fish"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 1,
+                "fine": 11
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/fish/pike.png"
+    },
+    {
+        "id": "raw_salmon",
+        "name": "Raw salmon",
+        "keywords": [
+            "fish"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 2,
+                "fine": 15
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/fish/salmon.png"
+    },
+    {
+        "id": "raw_shark",
+        "name": "Raw shark",
+        "keywords": [
+            "fish"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 10,
+                "fine": 51
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/syrenthia/raw_shark.png"
+    },
+    {
+        "id": "raw_shrimp",
+        "name": "Raw shrimp",
+        "keywords": [
+            "fish",
+            "crustacean"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 0,
+                "fine": 6
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/fish/shrimp.png"
+    },
+    {
+        "id": "raw_squid",
+        "name": "Raw squid",
+        "keywords": [
+            "fish"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 2,
+                "fine": 15
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/fish/squid.png"
+    },
+    {
+        "id": "raw_stingray",
+        "name": "Raw stingray",
+        "keywords": [
+            "fish"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 7,
+                "fine": 38
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/syrenthia/raw_stingray.png"
+    },
+    {
+        "id": "raw_stream_eel",
+        "name": "Raw stream eel",
+        "keywords": [
+            "fish"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 12,
+                "fine": 54
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/fish/stream_eel.png"
+    },
+    {
+        "id": "raw_swordfish",
+        "name": "Raw swordfish",
+        "keywords": [
+            "fish"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 7,
+                "fine": 38
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/syrenthia/raw_swordfish.png"
+    },
+    {
+        "id": "raw_trout",
+        "name": "Raw trout",
+        "keywords": [
+            "fish"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 1,
+                "fine": 11
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/fish/trout.png"
+    },
+    {
+        "id": "root",
+        "name": "Root",
+        "keywords": [
+            "plant",
+            "ingredient"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 4,
+                "fine": 24
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/plants/roots.png"
+    },
+    {
+        "id": "rotbud",
+        "name": "Rotbud",
+        "keywords": [
+            "plant",
+            "ingredient"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 7,
+                "fine": 38
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/plants/rotbud.png"
+    },
+    {
+        "id": "rough_ethernite",
+        "name": "Rough ethernite",
+        "keywords": [
+            "gem",
+            "rough_gem"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 67,
+                "fine": 164
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/ores/rough_ethernite.png"
+    },
+    {
+        "id": "rough_jade",
+        "name": "Rough jade",
+        "keywords": [
+            "gem",
+            "rough_gem"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 47,
+                "fine": 143
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/ores/rough_jade.png"
+    },
+    {
+        "id": "rough_opal",
+        "name": "Rough opal",
+        "keywords": [
+            "gem",
+            "rough_gem"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 25,
+                "fine": 119
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/ores/rough_opal.png"
+    },
+    {
+        "id": "rough_ruby",
+        "name": "Rough ruby",
+        "keywords": [
+            "gem",
+            "rough_gem"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 52,
+                "fine": 148
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/ores/rough_ruby.png"
+    },
+    {
+        "id": "rough_star_pearl",
+        "name": "Rough star pearl",
+        "keywords": [
+            "gem",
+            "rough_gem"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 32,
+                "fine": 127
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/ores/rough_star_pearl.png"
+    },
+    {
+        "id": "rough_sun_stone",
+        "name": "Rough sun stone",
+        "keywords": [
+            "gem",
+            "rough_gem"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 57,
+                "fine": 153
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/ores/rough_sunstone.png"
+    },
+    {
+        "id": "rough_topaz",
+        "name": "Rough topaz",
+        "keywords": [
+            "gem",
+            "rough_gem"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 42,
+                "fine": 137
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/ores/rough_topaz.png"
+    },
+    {
+        "id": "rough_wrentmarine",
+        "name": "Rough wrentmarine",
+        "keywords": [
+            "gem",
+            "rough_gem"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 37,
+                "fine": 132
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/ores/rough_wrentmarine.png"
+    },
+    {
+        "id": "ruby",
+        "name": "Ruby",
+        "keywords": [
+            "gem",
+            "cut_gem"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 84,
+                "fine": 232
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/ores/ruby.png"
+    },
+    {
+        "id": "salt_crystal",
+        "name": "Salt crystal",
+        "keywords": [
+            "ingredient"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 1,
+                "fine": 11
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/ores/salt_crystal.png"
+    },
+    {
+        "id": "salty_hops",
+        "name": "Salty hops",
+        "keywords": [
+            "plant",
+            "ingredient"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 2,
+                "fine": 15
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/syrenthia/salty_hops.png"
+    },
+    {
+        "id": "sea_cabbage",
+        "name": "Sea cabbage",
+        "keywords": [
+            "plant",
+            "ingredient"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 2,
+                "fine": 15
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/syrenthia/sea_cabbage.png"
+    },
+    {
+        "id": "sea_shell",
+        "name": "Sea shell",
+        "keywords": [
+            "misc.",
+            "light"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 5,
+                "fine": 26
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/misc/seashell_2.png"
+    },
+    {
+        "id": "sea_spinach",
+        "name": "Sea spinach",
+        "keywords": [
+            "plant",
+            "ingredient"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 2,
+                "fine": 15
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/syrenthia/sea_spinach.png"
+    },
+    {
+        "id": "shark_tooth_trinket",
+        "name": "Shark tooth trinket",
+        "keywords": [
+            "hunting",
+            "trinket"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 96,
+                "fine": 313
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/misc/shark_tooth_trinket.png"
+    },
+    {
+        "id": "shrimp_trinket",
+        "name": "Shrimp trinket",
+        "keywords": [
+            "foraging",
+            "trinket"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 150,
+                "fine": 507
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/misc/shrimp_trinket.png"
+    },
+    {
+        "id": "silver_bar",
+        "name": "Silver bar",
+        "keywords": [
+            "bar"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 7,
+                "fine": 38
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/bars/silver_bar.png"
+    },
+    {
+        "id": "silver_nugget",
+        "name": "Silver nugget",
+        "keywords": [
+            "nugget",
+            "light"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 4,
+                "fine": 25
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/ores/silver_nugget.png"
+    },
+    {
+        "id": "silver_ore",
+        "name": "Silver ore",
+        "keywords": [
+            "ore"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 7,
+                "fine": 38
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/ores/silver_ore.png"
+    },
+    {
+        "id": "simple_bowstring",
+        "name": "Simple bowstring",
+        "keywords": [
+            "processed"
+        ],
+        "type": "material",
+        "quality": "common",
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 1,
+                "fine": 11
+            }
+        },
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/simple_bowstring.png"
+    },
+    {
+        "id": "snowdrop",
+        "name": "Snowdrop",
+        "keywords": [
+            "plant"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 2,
+                "fine": 15
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/plants/snowdrop.png"
+    },
+    {
+        "id": "spider_trinket",
+        "name": "Spider trinket",
+        "keywords": [
+            "tailoring",
+            "trinket"
+        ],
+        "type": "material",
+        "quality": "common",
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 150,
+                "fine": 507
+            }
+        },
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/misc/spider_trinket.png"
+    },
+    {
+        "id": "spruce_logs",
+        "name": "Spruce logs",
+        "keywords": [
+            "log"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 1,
+                "fine": 11
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/logs/spruce_log.png"
+    },
+    {
+        "id": "spruce_plank",
+        "name": "Spruce plank",
+        "keywords": [
+            "plank"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 2,
+                "fine": 15
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/planks/spruce_plank.png"
+    },
+    {
+        "id": "star_pearl",
+        "name": "Star pearl",
+        "keywords": [
+            "gem",
+            "cut_gem"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 52,
+                "fine": 199
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/ores/star_pearl.png"
+    },
+    {
+        "id": "steel_arrows",
+        "name": "Steel arrows",
+        "keywords": [
+            "arrows",
+            "light",
+            "hunting"
+        ],
+        "type": "material",
+        "quality": "common",
+        "requirements": [
+            {
+                "type": "skillLevel",
+                "name": "",
+                "opposite": false,
+                "requirement": {
+                    "level": 30,
+                    "skill": "hunting"
+                }
+            }
+        ],
+        "materialAttrs": [
+            {
+                "id": "f2f3a17b-4bf3-4756-b3c6-37c8e849664f",
+                "customIcon": null,
+                "customTextLocalizationKey": "",
+                "customText": "",
+                "textLocalizationKey": "",
+                "text": "",
+                "statText": "Work efficiency",
+                "skillText": "Hunting",
+                "tables": null,
+                "requirements": [
+                    {
+                        "type": "mainSkill",
+                        "name": "",
+                        "opposite": false,
+                        "requirement": {
+                            "skill": "hunting"
+                        }
+                    }
+                ],
+                "stats": [
+                    {
+                        "stat": "work_efficiency",
+                        "name": "Work efficiency",
+                        "type": "workEfficiency",
+                        "isPercent": true,
+                        "value": 0.3,
+                        "isNegative": false,
+                        "isMultiplicative": true
+                    }
+                ]
+            }
+        ],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 1,
+                "fine": 11
+            }
+        },
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/gear/arrows/steel_arrows.png"
+    },
+    {
+        "id": "steel_bar",
+        "name": "Steel bar",
+        "keywords": [
+            "bar"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 4,
+                "fine": 24
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/bars/steel_bar.png"
+    },
+    {
+        "id": "stone",
+        "name": "Stone",
+        "keywords": [
+            "misc."
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 0,
+                "fine": 6
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/plants/stone.png"
+    },
+    {
+        "id": "strong_bowstring",
+        "name": "Strong bowstring",
+        "keywords": [
+            "processed"
+        ],
+        "type": "material",
+        "quality": "common",
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 6,
+                "fine": 27
+            }
+        },
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/strong_bowstring.png"
+    },
+    {
+        "id": "sturdy_branch",
+        "name": "Sturdy branch",
+        "keywords": [
+            "misc.",
+            "heavy"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 1,
+                "fine": 11
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/misc/sturdy_stick.png"
+    },
+    {
+        "id": "sun_stone",
+        "name": "Sun stone",
+        "keywords": [
+            "gem",
+            "cut_gem"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 92,
+                "fine": 240
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/ores/sunstone.png"
+    },
+    {
+        "id": "sunblossom",
+        "name": "Sunblossom",
+        "keywords": [
+            "plant"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 1,
+                "fine": 11
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/plants/sunblossom.png"
+    },
+    {
+        "id": "sweet_kelp",
+        "name": "Sweet kelp",
+        "keywords": [
+            "plant",
+            "ingredient"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 6,
+                "fine": 37
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/syrenthia/sweet_kelp.png"
+    },
+    {
+        "id": "tarsilium_arrows",
+        "name": "Tarsilium arrows",
+        "keywords": [
+            "arrows",
+            "light",
+            "hunting"
+        ],
+        "type": "material",
+        "quality": "common",
+        "requirements": [
+            {
+                "type": "skillLevel",
+                "name": "",
+                "opposite": false,
+                "requirement": {
+                    "level": 40,
+                    "skill": "hunting"
+                }
+            }
+        ],
+        "materialAttrs": [
+            {
+                "id": "dd6ff582-55fe-43db-a03f-db46a40874cc",
+                "customIcon": null,
+                "customTextLocalizationKey": "",
+                "customText": "",
+                "textLocalizationKey": "",
+                "text": "",
+                "statText": "Work efficiency",
+                "skillText": "Hunting",
+                "tables": null,
+                "requirements": [
+                    {
+                        "type": "mainSkill",
+                        "name": "",
+                        "opposite": false,
+                        "requirement": {
+                            "skill": "hunting"
+                        }
+                    }
+                ],
+                "stats": [
+                    {
+                        "stat": "work_efficiency",
+                        "name": "Work efficiency",
+                        "type": "workEfficiency",
+                        "isPercent": true,
+                        "value": 0.4,
+                        "isNegative": false,
+                        "isMultiplicative": true
+                    }
+                ]
+            }
+        ],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 2,
+                "fine": 13
+            }
+        },
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/gear/arrows/tarsilium_arrows.png"
+    },
+    {
+        "id": "tarsilium_bar",
+        "name": "Tarsilium bar",
+        "keywords": [
+            "bar"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 4,
+                "fine": 24
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/bars/tarsilium_bar.png"
+    },
+    {
+        "id": "tarsilium_ore",
+        "name": "Tarsilium ore",
+        "keywords": [
+            "ore"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 3,
+                "fine": 24
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/ores/tarsilium_ore.png"
+    },
+    {
+        "id": "teak_logs",
+        "name": "Teak logs",
+        "keywords": [
+            "log"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 3,
+                "fine": 24
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/logs/teak_log.png"
+    },
+    {
+        "id": "teak_plank",
+        "name": "Teak plank",
+        "keywords": [
+            "plank"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 5,
+                "fine": 36
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/planks/teak_plank.png"
+    },
+    {
+        "id": "thistle",
+        "name": "Thistle",
+        "keywords": [
+            "plant"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 0,
+                "fine": 6
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/plants/thistle.png"
+    },
+    {
+        "id": "tin_ore",
+        "name": "Tin ore",
+        "keywords": [
+            "ore"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 0,
+                "fine": 6
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/ores/tin_ore.png"
+    },
+    {
+        "id": "tomato",
+        "name": "Tomato",
+        "keywords": [
+            "plant",
+            "ingredient"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 2,
+                "fine": 15
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/farming/yield/tomato.png"
+    },
+    {
+        "id": "topaz",
+        "name": "Topaz",
+        "keywords": [
+            "gem",
+            "cut_gem"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 68,
+                "fine": 215
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/ores/topaz.png"
+    },
+    {
+        "id": "tough_linen_cloth",
+        "name": "Tough linen cloth",
+        "keywords": [
+            "fabric",
+            "processed"
+        ],
+        "type": "material",
+        "quality": "common",
+        "requirements": [
+            {
+                "type": "skillLevel",
+                "name": "",
+                "opposite": false,
+                "requirement": {
+                    "level": 60,
+                    "skill": "tailoring"
+                }
+            }
+        ],
+        "materialAttrs": [
+            {
+                "id": "e1cafa5c-e2ff-4242-8a42-7482d84fbf3c",
+                "customIcon": null,
+                "customTextLocalizationKey": "",
+                "customText": "",
+                "textLocalizationKey": "",
+                "text": "",
+                "statText": "Bonus experience",
+                "skillText": "Tailoring",
+                "tables": null,
+                "requirements": [
+                    {
+                        "type": "mainSkill",
+                        "name": "",
+                        "opposite": false,
+                        "requirement": {
+                            "skill": "tailoring"
+                        }
+                    }
+                ],
+                "stats": [
+                    {
+                        "stat": "bonus_experience",
+                        "name": "Bonus experience",
+                        "type": "bonusExperience",
+                        "isPercent": false,
+                        "value": 30,
+                        "isNegative": false,
+                        "isMultiplicative": true
+                    }
+                ]
+            },
+            {
+                "id": "139c342a-1092-46ab-bb0a-bc56d4571e72",
+                "customIcon": null,
+                "customTextLocalizationKey": "",
+                "customText": "",
+                "textLocalizationKey": "",
+                "text": "",
+                "statText": "Bonus experience",
+                "skillText": "Tailoring",
+                "tables": null,
+                "requirements": [
+                    {
+                        "type": "mainSkill",
+                        "name": "",
+                        "opposite": false,
+                        "requirement": {
+                            "skill": "tailoring"
+                        }
+                    }
+                ],
+                "stats": [
+                    {
+                        "stat": "bonus_experience",
+                        "name": "Bonus experience",
+                        "type": "bonusExperience",
+                        "isPercent": true,
+                        "value": 0.3,
+                        "isNegative": false,
+                        "isMultiplicative": true
+                    }
+                ]
+            }
+        ],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 5,
+                "fine": 36
+            }
+        },
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/tough_linen.png"
+    },
+    {
+        "id": "trash",
+        "name": "Trash",
+        "keywords": [
+            "trash",
+            "misc."
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 0,
+                "fine": 6
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/misc/trash.png"
+    },
+    {
+        "id": "twine",
+        "name": "Twine",
+        "keywords": [
+            "processed"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 0,
+                "fine": 6
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/misc/rope.png"
+    },
+    {
+        "id": "underwater_lotus",
+        "name": "Underwater lotus",
+        "keywords": [
+            "plant",
+            "ingredient"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 4,
+                "fine": 24
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/syrenthia/underwater_lotus.png"
+    },
+    {
+        "id": "unicorn_horn",
+        "name": "Unicorn horn",
+        "type": "material",
+        "quality": "common",
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 12,
+                "fine": 70
+            }
+        },
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/gear/unicorn_horn.png"
+    },
+    {
+        "id": "unidentified_remains",
+        "name": "Unidentified remains",
+        "keywords": [
+            "misc.",
+            "heavy"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "adventurers_guild_token",
+            "value": {
+                "common": 20,
+                "fine": 100
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/unidentified_remains.png"
+    },
+    {
+        "id": "violite_bar",
+        "name": "Violite bar",
+        "keywords": [
+            "bar"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 14,
+                "fine": 46
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/bars/petrifium_bar.png"
+    },
+    {
+        "id": "violite_ore",
+        "name": "Violite ore",
+        "keywords": [
+            "ore"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 10,
+                "fine": 51
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/ores/petrifium_ore.png"
+    },
+    {
+        "id": "volcanic_ash",
+        "name": "Volcanic ash",
+        "keywords": [
+            "misc."
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 7,
+                "fine": 38
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/syrenthia/volcanic_ash.png"
+    },
+    {
+        "id": "volcanic_rock",
+        "name": "Volcanic rock",
+        "keywords": [
+            "ore"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 4,
+                "fine": 24
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/syrenthia/volcanic_rock.png"
+    },
+    {
+        "id": "wheat",
+        "name": "Wheat",
+        "keywords": [
+            "plant",
+            "ingredient"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 2,
+                "fine": 15
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/plants/wheat.png"
+    },
+    {
+        "id": "widows_kiss",
+        "name": "Widow's kiss",
+        "keywords": [
+            "plant"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 5,
+                "fine": 26
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/plants/widows_kiss.png"
+    },
+    {
+        "id": "willow_logs",
+        "name": "Willow logs",
+        "keywords": [
+            "log"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 4,
+                "fine": 24
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/logs/willow_log.png"
+    },
+    {
+        "id": "willow_plank",
+        "name": "Willow plank",
+        "keywords": [
+            "plank"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 6,
+                "fine": 37
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/planks/willow_plank.png"
+    },
+    {
+        "id": "wood_scrap",
+        "name": "Wood scrap",
+        "keywords": [
+            "offcut",
+            "light"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 0,
+                "fine": 6
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/misc/wood_scrap.png"
+    },
+    {
+        "id": "wooden_stick",
+        "name": "Wooden stick",
+        "keywords": [
+            "misc."
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 0,
+                "fine": 6
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/plants/stick.png"
+    },
+    {
+        "id": "wrentmarine",
+        "name": "Wrentmarine",
+        "keywords": [
+            "gem",
+            "cut_gem"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 60,
+                "fine": 207
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/ores/wrentmarine.png"
+    },
+    {
+        "id": "yew_logs",
+        "name": "Yew logs",
+        "keywords": [
+            "log"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 6,
+                "fine": 27
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/logs/yew_log.png"
+    },
+    {
+        "id": "yew_plank",
+        "name": "Yew plank",
+        "keywords": [
+            "plank"
+        ],
+        "type": "material",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "money",
+            "value": {
+                "common": 8,
+                "fine": 49
+            }
+        },
+        "buffs": [],
+        "tables": [],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/materials/planks/yew_plank.png"
+    }
+]

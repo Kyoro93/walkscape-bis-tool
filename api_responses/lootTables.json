@@ -1,0 +1,942 @@
+[
+    {
+        "id": "99_year_old_wine",
+        "name": "99 year old wine"
+    },
+    {
+        "id": "adventurers_guild_chest_table",
+        "name": "adventurers guild chest table"
+    },
+    {
+        "id": "agility_activity_chest",
+        "name": "agility activity chest"
+    },
+    {
+        "id": "agility_chest_table",
+        "name": "agility chest table"
+    },
+    {
+        "id": "alligator_hunting",
+        "name": "alligator hunting"
+    },
+    {
+        "id": "ancient_ankh",
+        "name": "ancient ankh"
+    },
+    {
+        "id": "ancient_trident_collectible",
+        "name": "ancient trident collectible"
+    },
+    {
+        "id": "anglerfish_mask_collectible",
+        "name": "anglerfish mask collectible"
+    },
+    {
+        "id": "antique_market_assessment",
+        "name": "antique market assessment"
+    },
+    {
+        "id": "bear_hunting",
+        "name": "bear hunting"
+    },
+    {
+        "id": "birch_skis",
+        "name": "birch skis"
+    },
+    {
+        "id": "bird_feeding",
+        "name": "bird feeding"
+    },
+    {
+        "id": "bird_nest_table",
+        "name": "bird nest table"
+    },
+    {
+        "id": "bird_watching",
+        "name": "bird watching"
+    },
+    {
+        "id": "blue_lotus_butterfly",
+        "name": "blue lotus butterfly"
+    },
+    {
+        "id": "bog_fishing_net",
+        "name": "bog fishing (net)"
+    },
+    {
+        "id": "bog_fishing_spear",
+        "name": "bog fishing (spear)"
+    },
+    {
+        "id": "box_trapping",
+        "name": "box trapping"
+    },
+    {
+        "id": "box_trapping_tiger_egg",
+        "name": "box trapping tiger egg"
+    },
+    {
+        "id": "branch_trimming",
+        "name": "branch trimming"
+    },
+    {
+        "id": "brilliant_emerald_dragonfly_collectible",
+        "name": "brilliant emerald dragonfly collectible"
+    },
+    {
+        "id": "butterfly_catching",
+        "name": "butterfly catching"
+    },
+    {
+        "id": "butterfly_catching_chicken_egg",
+        "name": "butterfly catching chicken egg"
+    },
+    {
+        "id": "carpentry_activity_chest",
+        "name": "carpentry activity chest"
+    },
+    {
+        "id": "carpentry_chest_table",
+        "name": "carpentry chest table"
+    },
+    {
+        "id": "cave_diving",
+        "name": "cave diving"
+    },
+    {
+        "id": "cave_foraging",
+        "name": "cave foraging"
+    },
+    {
+        "id": "cleaning_the_holy_fountain",
+        "name": "cleaning the holy fountain"
+    },
+    {
+        "id": "cliffs_foraging_jarvonia",
+        "name": "cliffs foraging jarvonia"
+    },
+    {
+        "id": "coin_pouch_activity",
+        "name": "coin pouch activity"
+    },
+    {
+        "id": "coin_pouch_table",
+        "name": "coin pouch table"
+    },
+    {
+        "id": "cold_embrace_collectible",
+        "name": "cold embrace collectible"
+    },
+    {
+        "id": "cooking_activity_chest",
+        "name": "cooking activity chest"
+    },
+    {
+        "id": "cooking_chest_table",
+        "name": "cooking chest table"
+    },
+    {
+        "id": "coral_chest_drop",
+        "name": "coral chest drop"
+    },
+    {
+        "id": "coral_chest_table",
+        "name": "coral chest table"
+    },
+    {
+        "id": "coral_cutting",
+        "name": "coral cutting"
+    },
+    {
+        "id": "crab_tracking",
+        "name": "crab tracking"
+    },
+    {
+        "id": "crafting_activity_chest",
+        "name": "crafting activity chest"
+    },
+    {
+        "id": "crafting_chest_table",
+        "name": "crafting chest table"
+    },
+    {
+        "id": "cut_bamboo_mummy_egg",
+        "name": "cut bamboo mummy egg"
+    },
+    {
+        "id": "cut_bamboo_trees",
+        "name": "cut bamboo trees"
+    },
+    {
+        "id": "cut_birch_trees",
+        "name": "cut birch trees"
+    },
+    {
+        "id": "cut_ecto_trees",
+        "name": "cut ecto trees"
+    },
+    {
+        "id": "cut_mangrove_trees",
+        "name": "cut mangrove trees"
+    },
+    {
+        "id": "cut_maple_trees",
+        "name": "cut maple trees"
+    },
+    {
+        "id": "cut_oak_trees",
+        "name": "cut oak trees"
+    },
+    {
+        "id": "cut_pine_trees",
+        "name": "cut pine trees"
+    },
+    {
+        "id": "cut_spruce_trees",
+        "name": "cut spruce trees"
+    },
+    {
+        "id": "cut_spruce_trees",
+        "name": "cut spruce trees"
+    },
+    {
+        "id": "cut_teak_trees",
+        "name": "cut teak trees"
+    },
+    {
+        "id": "cut_willow_trees",
+        "name": "cut willow trees"
+    },
+    {
+        "id": "cut_yew_trees",
+        "name": "cut yew trees"
+    },
+    {
+        "id": "deer_hunting",
+        "name": "deer hunting"
+    },
+    {
+        "id": "dinglehopper",
+        "name": "dinglehopper"
+    },
+    {
+        "id": "dragonfly_catching",
+        "name": "dragonfly catching"
+    },
+    {
+        "id": "dragonfly_catching_chicken_egg",
+        "name": "dragonfly catching chicken egg"
+    },
+    {
+        "id": "drift_net_dolphin_egg",
+        "name": "drift net dolphin egg"
+    },
+    {
+        "id": "drift_net_hunting",
+        "name": "drift net hunting"
+    },
+    {
+        "id": "dumpster_diving_blackspell",
+        "name": "dumpster diving blackspell"
+    },
+    {
+        "id": "dumpster_diving_granfiddich",
+        "name": "dumpster diving granfiddich"
+    },
+    {
+        "id": "ecto_slime_hunting",
+        "name": "ecto slime hunting"
+    },
+    {
+        "id": "ectoplasm_fishing",
+        "name": "ectoplasm fishing"
+    },
+    {
+        "id": "erdwise_chest_table",
+        "name": "erdwise chest table"
+    },
+    {
+        "id": "essence_of_the_swamp_collectible",
+        "name": "essence of the swamp collectible"
+    },
+    {
+        "id": "expedition_journal",
+        "name": "expedition journal"
+    },
+    {
+        "id": "find_basic_chests",
+        "name": "find basic chests"
+    },
+    {
+        "id": "find_ectoplasm_drop",
+        "name": "find ectoplasm drop"
+    },
+    {
+        "id": "find_linens",
+        "name": "find linens"
+    },
+    {
+        "id": "find_present_items",
+        "name": "find present items"
+    },
+    {
+        "id": "find_trash_junk_items",
+        "name": "find trash junk items"
+    },
+    {
+        "id": "firewood_making",
+        "name": "firewood making"
+    },
+    {
+        "id": "fishing_activity_chest",
+        "name": "fishing activity chest"
+    },
+    {
+        "id": "fishing_chest_table",
+        "name": "fishing chest table"
+    },
+    {
+        "id": "flame_of_azura_collectible",
+        "name": "flame of azura collectible"
+    },
+    {
+        "id": "flooded_field_scavenging",
+        "name": "flooded field scavenging"
+    },
+    {
+        "id": "flooded_field_scavenging_tiger_egg",
+        "name": "flooded field scavenging tiger egg"
+    },
+    {
+        "id": "flooded_river_fishing_rod",
+        "name": "flooded river fishing (rod)"
+    },
+    {
+        "id": "flooded_river_fishing_tortoise_egg",
+        "name": "flooded river fishing tortoise egg"
+    },
+    {
+        "id": "foraging_activity_chest",
+        "name": "foraging activity chest"
+    },
+    {
+        "id": "foraging_chest_table",
+        "name": "foraging chest table"
+    },
+    {
+        "id": "forest_foraging_jarvonia",
+        "name": "forest foraging jarvonia"
+    },
+    {
+        "id": "fossil_mining_sea_horse_collectible",
+        "name": "fossil mining sea horse collectible"
+    },
+    {
+        "id": "fossil_mining_swordfish_sword_collectible",
+        "name": "fossil mining swordfish sword collectible"
+    },
+    {
+        "id": "fossil_mining_terrifying_fossil_collectible",
+        "name": "fossil mining terrifying fossil collectible"
+    },
+    {
+        "id": "fossil_mining_walrus_teeth_collectible",
+        "name": "fossil mining walrus teeth collectible"
+    },
+    {
+        "id": "gain_bird_nest_drop",
+        "name": "gain bird nest drop"
+    },
+    {
+        "id": "gain_coin_pouch_drop",
+        "name": "gain coin pouch drop"
+    },
+    {
+        "id": "gain_crustacean_table",
+        "name": "gain crustacean table"
+    },
+    {
+        "id": "gain_fishing_bait_table",
+        "name": "gain fishing bait table"
+    },
+    {
+        "id": "gain_gold_nugget_drop",
+        "name": "gain gold nugget drop"
+    },
+    {
+        "id": "gain_one_adventurers_guild_token",
+        "name": "gain one adventurers guild token"
+    },
+    {
+        "id": "gain_one_money",
+        "name": "gain one money"
+    },
+    {
+        "id": "gain_plant_fiber_table",
+        "name": "gain plant fiber table"
+    },
+    {
+        "id": "gain_ten_money",
+        "name": "gain ten money"
+    },
+    {
+        "id": "gdte_gem_table",
+        "name": "gdte gem table"
+    },
+    {
+        "id": "gdte_skydisc_course",
+        "name": "gdte skydisc course"
+    },
+    {
+        "id": "gem_pouch_activity",
+        "name": "gem pouch activity"
+    },
+    {
+        "id": "gem_pouch_table",
+        "name": "gem pouch table"
+    },
+    {
+        "id": "glacier_foraging",
+        "name": "glacier foraging"
+    },
+    {
+        "id": "gold_panning",
+        "name": "gold panning"
+    },
+    {
+        "id": "graveyard_foraging",
+        "name": "graveyard foraging"
+    },
+    {
+        "id": "guaranteed_enamel_pin_table",
+        "name": "guaranteed enamel pin table"
+    },
+    {
+        "id": "guard_duty",
+        "name": "guard duty"
+    },
+    {
+        "id": "halfling_rebel_chest_table",
+        "name": "halfling rebel chest table"
+    },
+    {
+        "id": "halfmaw_tracking",
+        "name": "halfmaw tracking"
+    },
+    {
+        "id": "halfmaw_venom_collectible",
+        "name": "halfmaw venom collectible"
+    },
+    {
+        "id": "haunted_teddy_bear_collectible",
+        "name": "haunted teddy bear collectible"
+    },
+    {
+        "id": "horn_of_respite_treasure_hunt",
+        "name": "horn of respite treasure hunt"
+    },
+    {
+        "id": "horseshoe_making",
+        "name": "horseshoe making"
+    },
+    {
+        "id": "hunting_activity_chest",
+        "name": "hunting activity chest"
+    },
+    {
+        "id": "hunting_chest_table",
+        "name": "hunting chest table"
+    },
+    {
+        "id": "ice_sculpting",
+        "name": "ice sculpting"
+    },
+    {
+        "id": "isthmus_sea_fishing_net",
+        "name": "isthmus sea fishing (net)"
+    },
+    {
+        "id": "jar_of_dirt_collectible",
+        "name": "jar of dirt collectible"
+    },
+    {
+        "id": "jarvonia_chest_table",
+        "name": "jarvonia chest table"
+    },
+    {
+        "id": "jarvonia_crossword_puzzle",
+        "name": "jarvonia crossword puzzle"
+    },
+    {
+        "id": "jarvonia_gem_table",
+        "name": "jarvonia gem table"
+    },
+    {
+        "id": "kayaking",
+        "name": "kayaking"
+    },
+    {
+        "id": "kayaking_tortoise_egg",
+        "name": "kayaking tortoise egg"
+    },
+    {
+        "id": "kelp_foraging",
+        "name": "kelp foraging"
+    },
+    {
+        "id": "lake_fishing_jarvonia",
+        "name": "lake fishing jarvonia"
+    },
+    {
+        "id": "large_sail_repair",
+        "name": "large sail repair"
+    },
+    {
+        "id": "letter_from_a._a.",
+        "name": "letter from A. A."
+    },
+    {
+        "id": "litter_looting",
+        "name": "litter looting"
+    },
+    {
+        "id": "lizard_hunting",
+        "name": "lizard hunting"
+    },
+    {
+        "id": "lizard_hunting_gecko_egg",
+        "name": "lizard hunting gecko egg"
+    },
+    {
+        "id": "magnet_fishing",
+        "name": "magnet fishing"
+    },
+    {
+        "id": "merfolk_dancing",
+        "name": "merfolk dancing"
+    },
+    {
+        "id": "merfolk_dancing_dolphin_egg",
+        "name": "merfolk dancing dolphin egg"
+    },
+    {
+        "id": "merfolk_farm_foraging",
+        "name": "merfolk farm foraging"
+    },
+    {
+        "id": "meteorite_fragment_collectible",
+        "name": "meteorite fragment collectible"
+    },
+    {
+        "id": "mine_adamant_ore",
+        "name": "mine adamant ore"
+    },
+    {
+        "id": "mine_adamant_ore_camel_egg",
+        "name": "mine adamant ore camel egg"
+    },
+    {
+        "id": "mine_coal_gecko_egg",
+        "name": "mine coal gecko egg"
+    },
+    {
+        "id": "mine_coal_ore",
+        "name": "mine coal ore"
+    },
+    {
+        "id": "mine_copper_ore",
+        "name": "mine copper ore"
+    },
+    {
+        "id": "mine_crystal_coal",
+        "name": "mine crystal coal"
+    },
+    {
+        "id": "mine_crystal_coal_camel_egg",
+        "name": "mine crystal coal camel egg"
+    },
+    {
+        "id": "mine_ecto_rock",
+        "name": "mine ecto rock"
+    },
+    {
+        "id": "mine_farganite_ore",
+        "name": "mine farganite ore"
+    },
+    {
+        "id": "mine_gold_ore",
+        "name": "mine gold ore"
+    },
+    {
+        "id": "mine_gold_ore_camel_egg",
+        "name": "mine gold ore camel egg"
+    },
+    {
+        "id": "mine_iron_ore",
+        "name": "mine iron ore"
+    },
+    {
+        "id": "mine_silver_ore",
+        "name": "mine silver ore"
+    },
+    {
+        "id": "mine_silver_ore_camel_egg",
+        "name": "mine silver ore camel egg"
+    },
+    {
+        "id": "mine_tarsilium_ore",
+        "name": "mine tarsilium ore"
+    },
+    {
+        "id": "mine_tin_ore",
+        "name": "mine tin ore"
+    },
+    {
+        "id": "mine_violite_ore",
+        "name": "mine violite ore"
+    },
+    {
+        "id": "mine_violite_ore_camel_egg",
+        "name": "mine violite ore camel egg"
+    },
+    {
+        "id": "mining_activity_chest",
+        "name": "mining activity chest"
+    },
+    {
+        "id": "mining_chest_table",
+        "name": "mining chest table"
+    },
+    {
+        "id": "mountain_climbing_beginner",
+        "name": "mountain climbing beginner"
+    },
+    {
+        "id": "mountain_climbing_intermediate",
+        "name": "mountain climbing intermediate"
+    },
+    {
+        "id": "name_tags_table",
+        "name": "name tags table"
+    },
+    {
+        "id": "old_war_sword",
+        "name": "old war sword"
+    },
+    {
+        "id": "plains_foraging",
+        "name": "plains foraging"
+    },
+    {
+        "id": "predator_fishing",
+        "name": "predator fishing"
+    },
+    {
+        "id": "rabbit_tracking",
+        "name": "rabbit tracking"
+    },
+    {
+        "id": "rescue_team_compass_trinket",
+        "name": "rescue team compass trinket"
+    },
+    {
+        "id": "rooftop_jumping_beginner",
+        "name": "rooftop jumping beginner"
+    },
+    {
+        "id": "rooftop_jumping_intermediate",
+        "name": "rooftop jumping intermediate"
+    },
+    {
+        "id": "rose_quartz_collectible",
+        "name": "rose quartz collectible"
+    },
+    {
+        "id": "rusty_chest_drop",
+        "name": "rusty chest drop"
+    },
+    {
+        "id": "rusty_chest_table",
+        "name": "rusty chest table"
+    },
+    {
+        "id": "sandcastle_building_sand_shovel",
+        "name": "sandcastle building sand shovel"
+    },
+    {
+        "id": "sea_fishing_cage",
+        "name": "sea fishing (cage)"
+    },
+    {
+        "id": "sea_fishing_jarvonia_net",
+        "name": "sea fishing jarvonia net"
+    },
+    {
+        "id": "sea_fishing_rod",
+        "name": "sea fishing rod"
+    },
+    {
+        "id": "sea_fishing_spear",
+        "name": "sea fishing (spear)"
+    },
+    {
+        "id": "sea_shells_1_10_drop",
+        "name": "sea shells 1-10 drop"
+    },
+    {
+        "id": "search_team_alien_squeaky_toy",
+        "name": "search team alien squeaky toy"
+    },
+    {
+        "id": "seashell_searching",
+        "name": "seashell searching"
+    },
+    {
+        "id": "seashell_searching_chest",
+        "name": "seashell searching chest"
+    },
+    {
+        "id": "shells_10_percent",
+        "name": "shells 10 percent"
+    },
+    {
+        "id": "shiny_broken_skydisk_collectible",
+        "name": "shiny broken skydisk collectible"
+    },
+    {
+        "id": "ship_repair_beginner",
+        "name": "ship repair beginner"
+    },
+    {
+        "id": "ship_repair_intermediate",
+        "name": "ship repair intermediate"
+    },
+    {
+        "id": "shoreline_scramble",
+        "name": "shoreline scramble"
+    },
+    {
+        "id": "silver_ore_smithing_recipe",
+        "name": "silver ore smithing recipe"
+    },
+    {
+        "id": "silver_pocket_watch",
+        "name": "silver pocket watch"
+    },
+    {
+        "id": "skate_skiing_reindeer_egg",
+        "name": "skate skiing reindeer egg"
+    },
+    {
+        "id": "sledding",
+        "name": "sledding"
+    },
+    {
+        "id": "small_sail_repair",
+        "name": "small sail repair"
+    },
+    {
+        "id": "smithing_activity_chest",
+        "name": "smithing activity chest"
+    },
+    {
+        "id": "smithing_chest_table",
+        "name": "smithing chest table"
+    },
+    {
+        "id": "soup_kitchen_badge",
+        "name": "soup kitchen badge"
+    },
+    {
+        "id": "soup_kitchen_volunteering",
+        "name": "soup kitchen volunteering"
+    },
+    {
+        "id": "spelunking",
+        "name": "spelunking"
+    },
+    {
+        "id": "spelunking_mummy_egg",
+        "name": "spelunking mummy egg"
+    },
+    {
+        "id": "squirrel_hunting",
+        "name": "squirrel hunting"
+    },
+    {
+        "id": "stone_quarrying_",
+        "name": "stone quarrying "
+    },
+    {
+        "id": "summer_cave_foraging",
+        "name": "summer cave foraging"
+    },
+    {
+        "id": "sunken_chest_table",
+        "name": "sunken chest table"
+    },
+    {
+        "id": "surface_salt_mining",
+        "name": "surface salt mining"
+    },
+    {
+        "id": "swamp_foraging",
+        "name": "swamp foraging"
+    },
+    {
+        "id": "swampman_article_collectible",
+        "name": "swampman article collectible"
+    },
+    {
+        "id": "swimming_beginner",
+        "name": "swimming beginner"
+    },
+    {
+        "id": "swimming_expert",
+        "name": "swimming expert"
+    },
+    {
+        "id": "swimming_intermediate",
+        "name": "swimming intermediate"
+    },
+    {
+        "id": "syrenthia_chest_table",
+        "name": "syrenthia chest table"
+    },
+    {
+        "id": "tailoring_activity_chest",
+        "name": "tailoring activity chest"
+    },
+    {
+        "id": "tailoring_chest_table",
+        "name": "tailoring chest table"
+    },
+    {
+        "id": "tinkering",
+        "name": "tinkering"
+    },
+    {
+        "id": "tiny_swan_ice_sculpture",
+        "name": "tiny swan ice sculpture"
+    },
+    {
+        "id": "trash_transform",
+        "name": "trash transform"
+    },
+    {
+        "id": "treasure_hunt_artificial_snowflake",
+        "name": "treasure hunt artificial snowflake"
+    },
+    {
+        "id": "treasure_hunt_easter_egg",
+        "name": "treasure hunt easter egg"
+    },
+    {
+        "id": "treasure_hunt_enamel_pin_table",
+        "name": "treasure hunt enamel pin table"
+    },
+    {
+        "id": "treasure_hunt_floating_coral",
+        "name": "treasure hunt floating coral"
+    },
+    {
+        "id": "treasure_hunt_petrified_branch",
+        "name": "treasure hunt petrified branch"
+    },
+    {
+        "id": "treasure_hunt_reindeer_egg",
+        "name": "treasure hunt reindeer egg"
+    },
+    {
+        "id": "treasure_hunt_treasure_hunter_token",
+        "name": "treasure hunt treasure hunter token"
+    },
+    {
+        "id": "trellin_chest_table",
+        "name": "trellin chest table"
+    },
+    {
+        "id": "trinketry_activity_chest",
+        "name": "trinketry activity chest"
+    },
+    {
+        "id": "trinketry_chest_table",
+        "name": "trinketry chest table"
+    },
+    {
+        "id": "underwater_aqueduct_construction",
+        "name": "underwater aqueduct construction"
+    },
+    {
+        "id": "underwater_aqueduct_digging",
+        "name": "underwater aqueduct digging"
+    },
+    {
+        "id": "underwater_basket_weaving",
+        "name": "underwater basket weaving"
+    },
+    {
+        "id": "unicorn_hunting",
+        "name": "unicorn hunting"
+    },
+    {
+        "id": "unidentified_remains_table",
+        "name": "unidentified remains table"
+    },
+    {
+        "id": "vegetable_chopping",
+        "name": "vegetable chopping"
+    },
+    {
+        "id": "very_shiny_stone_collectible",
+        "name": "very shiny stone collectible"
+    },
+    {
+        "id": "volcanic_rock_mining",
+        "name": "volcanic rock mining"
+    },
+    {
+        "id": "wallisia_gem_table",
+        "name": "wallisia gem table"
+    },
+    {
+        "id": "weeping_willow_tear_collectible",
+        "name": "weeping willow tear collectible"
+    },
+    {
+        "id": "wine_stomping",
+        "name": "wine stomping"
+    },
+    {
+        "id": "wolf_hunting",
+        "name": "wolf hunting"
+    },
+    {
+        "id": "wood_carving",
+        "name": "wood carving"
+    },
+    {
+        "id": "woodcutting_activity_chest",
+        "name": "woodcutting activity chest"
+    },
+    {
+        "id": "woodcutting_bird_nest",
+        "name": "woodcutting bird nest"
+    },
+    {
+        "id": "woodcutting_chest_table",
+        "name": "woodcutting chest table"
+    },
+    {
+        "id": "wooden_carved_bear_figurine",
+        "name": "wooden carved bear figurine"
+    },
+    {
+        "id": "wreck_diving",
+        "name": "wreck diving"
+    },
+    {
+        "id": "wrentmark_gem_table",
+        "name": "wrentmark gem table"
+    }
+]

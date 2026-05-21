@@ -1,0 +1,65 @@
+[
+    {
+        "id": "erdwise",
+        "name": "Erdwise",
+        "color": "ffffc18d",
+        "reputation": "erdwiseReputation",
+        "icon": "assets/icons/coatofarms/erdwise.png"
+    },
+    {
+        "id": "grand_duchy_of_trellin_erdwise",
+        "name": "Grand Duchy of Trellin-Erdwise",
+        "color": "ffc5ffc5",
+        "reputation": null,
+        "icon": "assets/icons/coatofarms/gdte.png"
+    },
+    {
+        "id": "halfling_rebels",
+        "name": "Halfling Rebels",
+        "color": "ffb9c476",
+        "reputation": "halflingRebelsReputation",
+        "icon": "assets/icons/coatofarms/halfling_rebels.png"
+    },
+    {
+        "id": "herberts_guiding_grounds",
+        "name": "Herbert's Guiding Grounds",
+        "color": "ffd1957a",
+        "reputation": "tutorialAreaReputation",
+        "icon": "assets/icons/coatofarms/tutorial_area.png"
+    },
+    {
+        "id": "jarvonia",
+        "name": "Jarvonia",
+        "color": "ffbbdefb",
+        "reputation": "jarvoniaReputation",
+        "icon": "assets/icons/coatofarms/jarvonia.png"
+    },
+    {
+        "id": "syrenthia",
+        "name": "Syrenthia",
+        "color": "ffc8b5ff",
+        "reputation": "syrenthiaReputation",
+        "icon": "assets/icons/coatofarms/syrenthia.png"
+    },
+    {
+        "id": "trellin",
+        "name": "Trellin",
+        "color": "ffd5fd82",
+        "reputation": "trellinReputation",
+        "icon": "assets/icons/coatofarms/trellin.png"
+    },
+    {
+        "id": "wallisia",
+        "name": "Wallisia",
+        "color": "ffff4896",
+        "reputation": "wallisiaReputation",
+        "icon": "assets/icons/coatofarms/wallisia.png"
+    },
+    {
+        "id": "wrentmark",
+        "name": "Wrentmark",
+        "color": "ffffc825",
+        "reputation": "wrentmarkReputation",
+        "icon": "assets/icons/coatofarms/wrentmark.png"
+    }
+]

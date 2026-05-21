@@ -1,0 +1,773 @@
+[
+    {
+        "id": "adventuring_guild_chest",
+        "name": "Adventuring guild chest",
+        "keywords": [
+            "chest"
+        ],
+        "type": "container",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "none",
+            "value": null
+        },
+        "buffs": [],
+        "tables": [
+            {
+                "isPrimary": false,
+                "type": [],
+                "rollAmount": 4,
+                "tables": [
+                    "adventurers_guild_chest_table"
+                ]
+            }
+        ],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/openables/chests/adventuring_guild_chest.png"
+    },
+    {
+        "id": "agility_chest",
+        "name": "Agility chest",
+        "keywords": [
+            "chest",
+            "skilling_chest"
+        ],
+        "type": "container",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "none",
+            "value": null
+        },
+        "buffs": [],
+        "tables": [
+            {
+                "isPrimary": false,
+                "type": [],
+                "rollAmount": 4,
+                "tables": [
+                    "agility_chest_table"
+                ]
+            }
+        ],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/openables/chests/agility_chest.png"
+    },
+    {
+        "id": "bird_nest",
+        "name": "Bird nest",
+        "keywords": [],
+        "type": "container",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "none",
+            "value": null
+        },
+        "buffs": [],
+        "tables": [
+            {
+                "isPrimary": false,
+                "type": [],
+                "rollAmount": 4,
+                "tables": [
+                    "bird_nest_table"
+                ]
+            }
+        ],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/openables/chests/birds_nest.png"
+    },
+    {
+        "id": "carpentry_chest",
+        "name": "Carpentry chest",
+        "keywords": [
+            "chest",
+            "skilling_chest"
+        ],
+        "type": "container",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "none",
+            "value": null
+        },
+        "buffs": [],
+        "tables": [
+            {
+                "isPrimary": false,
+                "type": [],
+                "rollAmount": 4,
+                "tables": [
+                    "carpentry_chest_table"
+                ]
+            }
+        ],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/openables/chests/carpentry_chest.png"
+    },
+    {
+        "id": "chest_of_erdwise",
+        "name": "Chest of Erdwise",
+        "keywords": [
+            "chest",
+            "regional_chest"
+        ],
+        "type": "container",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "none",
+            "value": null
+        },
+        "buffs": [],
+        "tables": [
+            {
+                "isPrimary": false,
+                "type": [],
+                "rollAmount": 4,
+                "tables": [
+                    "erdwise_chest_table"
+                ]
+            }
+        ],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/openables/chests/erdwise_chest.png"
+    },
+    {
+        "id": "chest_of_jarvonia",
+        "name": "Chest of Jarvonia",
+        "keywords": [
+            "chest",
+            "regional_chest"
+        ],
+        "type": "container",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "none",
+            "value": null
+        },
+        "buffs": [],
+        "tables": [
+            {
+                "isPrimary": false,
+                "type": [],
+                "rollAmount": 4,
+                "tables": [
+                    "jarvonia_chest_table"
+                ]
+            }
+        ],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/openables/chests/jarvonia_chest.png"
+    },
+    {
+        "id": "chest_of_syrenthia",
+        "name": "Chest of Syrenthia",
+        "keywords": [
+            "chest",
+            "regional_chest"
+        ],
+        "type": "container",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "none",
+            "value": null
+        },
+        "buffs": [],
+        "tables": [
+            {
+                "isPrimary": false,
+                "type": [],
+                "rollAmount": 4,
+                "tables": [
+                    "syrenthia_chest_table"
+                ]
+            }
+        ],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/openables/chests/syrenthia_chest.png"
+    },
+    {
+        "id": "chest_of_the_halfling_rebels",
+        "name": "Chest of the Halfling Rebels",
+        "keywords": [
+            "chest",
+            "regional_chest"
+        ],
+        "type": "container",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "none",
+            "value": null
+        },
+        "buffs": [],
+        "tables": [
+            {
+                "isPrimary": false,
+                "type": [],
+                "rollAmount": 4,
+                "tables": [
+                    "halfling_rebel_chest_table"
+                ]
+            }
+        ],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/openables/chests/halfling_rebels_chest.png"
+    },
+    {
+        "id": "chest_of_trellin",
+        "name": "Chest of Trellin",
+        "keywords": [
+            "chest",
+            "regional_chest"
+        ],
+        "type": "container",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "none",
+            "value": null
+        },
+        "buffs": [],
+        "tables": [
+            {
+                "isPrimary": false,
+                "type": [],
+                "rollAmount": 4,
+                "tables": [
+                    "trellin_chest_table"
+                ]
+            }
+        ],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/openables/chests/trellin_chest.png"
+    },
+    {
+        "id": "coin_pouch",
+        "name": "Coin pouch",
+        "keywords": [
+            "chest"
+        ],
+        "type": "container",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "none",
+            "value": null
+        },
+        "buffs": [],
+        "tables": [
+            {
+                "isPrimary": false,
+                "type": [],
+                "rollAmount": 4,
+                "tables": [
+                    "coin_pouch_table"
+                ]
+            }
+        ],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/openables/chests/coin_pouch.png"
+    },
+    {
+        "id": "cooking_chest",
+        "name": "Cooking chest",
+        "keywords": [
+            "chest",
+            "skilling_chest"
+        ],
+        "type": "container",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "none",
+            "value": null
+        },
+        "buffs": [],
+        "tables": [
+            {
+                "isPrimary": false,
+                "type": [],
+                "rollAmount": 4,
+                "tables": [
+                    "cooking_chest_table"
+                ]
+            }
+        ],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/openables/chests/cooking_chest.png"
+    },
+    {
+        "id": "coral_chest",
+        "name": "Coral chest",
+        "keywords": [
+            "chest"
+        ],
+        "type": "container",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "none",
+            "value": null
+        },
+        "buffs": [],
+        "tables": [
+            {
+                "isPrimary": false,
+                "type": [],
+                "rollAmount": 4,
+                "tables": [
+                    "coral_chest_table"
+                ]
+            }
+        ],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/openables/chests/coral_chest.png"
+    },
+    {
+        "id": "crafting_chest",
+        "name": "Crafting chest",
+        "keywords": [
+            "chest",
+            "skilling_chest"
+        ],
+        "type": "container",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "none",
+            "value": null
+        },
+        "buffs": [],
+        "tables": [
+            {
+                "isPrimary": false,
+                "type": [],
+                "rollAmount": 4,
+                "tables": [
+                    "crafting_chest_table"
+                ]
+            }
+        ],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/openables/chests/crafting_chest.png"
+    },
+    {
+        "id": "fishing_chest",
+        "name": "Fishing chest",
+        "keywords": [
+            "chest",
+            "skilling_chest"
+        ],
+        "type": "container",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "none",
+            "value": null
+        },
+        "buffs": [],
+        "tables": [
+            {
+                "isPrimary": false,
+                "type": [],
+                "rollAmount": 4,
+                "tables": [
+                    "fishing_chest_table"
+                ]
+            }
+        ],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/openables/chests/fishing_chest.png"
+    },
+    {
+        "id": "foraging_chest",
+        "name": "Foraging chest",
+        "keywords": [
+            "chest",
+            "skilling_chest"
+        ],
+        "type": "container",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "none",
+            "value": null
+        },
+        "buffs": [],
+        "tables": [
+            {
+                "isPrimary": false,
+                "type": [],
+                "rollAmount": 4,
+                "tables": [
+                    "foraging_chest_table"
+                ]
+            }
+        ],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/openables/chests/foraging_chest.png"
+    },
+    {
+        "id": "gem_pouch",
+        "name": "Gem pouch",
+        "keywords": [
+            "chest"
+        ],
+        "type": "container",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "none",
+            "value": null
+        },
+        "buffs": [],
+        "tables": [
+            {
+                "isPrimary": false,
+                "type": [],
+                "rollAmount": 4,
+                "tables": [
+                    "gem_pouch_table"
+                ]
+            }
+        ],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/openables/chests/gem_pouch.png"
+    },
+    {
+        "id": "hunting_chest",
+        "name": "Hunting chest",
+        "keywords": [
+            "chest",
+            "skilling_chest"
+        ],
+        "type": "container",
+        "quality": "common",
+        "itemValue": {
+            "currency": "none",
+            "value": null
+        },
+        "tables": [
+            {
+                "isPrimary": false,
+                "type": [],
+                "rollAmount": 4,
+                "tables": [
+                    "hunting_chest_table"
+                ]
+            }
+        ],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/openables/chests/hunting_chest.png"
+    },
+    {
+        "id": "mining_chest",
+        "name": "Mining chest",
+        "keywords": [
+            "chest",
+            "skilling_chest"
+        ],
+        "type": "container",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "none",
+            "value": null
+        },
+        "buffs": [],
+        "tables": [
+            {
+                "isPrimary": false,
+                "type": [],
+                "rollAmount": 4,
+                "tables": [
+                    "mining_chest_table"
+                ]
+            }
+        ],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/openables/chests/mining_chest.png"
+    },
+    {
+        "id": "rusty_chest",
+        "name": "Rusty chest",
+        "keywords": [
+            "chest"
+        ],
+        "type": "container",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "none",
+            "value": null
+        },
+        "buffs": [],
+        "tables": [
+            {
+                "isPrimary": false,
+                "type": [],
+                "rollAmount": 4,
+                "tables": [
+                    "rusty_chest_table"
+                ]
+            }
+        ],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/openables/chests/rusty_chest.png"
+    },
+    {
+        "id": "smithing_chest",
+        "name": "Smithing chest",
+        "keywords": [
+            "chest",
+            "skilling_chest"
+        ],
+        "type": "container",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "none",
+            "value": null
+        },
+        "buffs": [],
+        "tables": [
+            {
+                "isPrimary": false,
+                "type": [],
+                "rollAmount": 4,
+                "tables": [
+                    "smithing_chest_table"
+                ]
+            }
+        ],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/openables/chests/smithing_chest.png"
+    },
+    {
+        "id": "sunken_chest",
+        "name": "Sunken chest",
+        "keywords": [
+            "chest"
+        ],
+        "type": "container",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "none",
+            "value": null
+        },
+        "buffs": [],
+        "tables": [
+            {
+                "isPrimary": false,
+                "type": [],
+                "rollAmount": 4,
+                "tables": [
+                    "sunken_chest_table"
+                ]
+            }
+        ],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/openables/chests/sunken_treasure_chest.png"
+    },
+    {
+        "id": "tailoring_chest",
+        "name": "Tailoring chest",
+        "keywords": [
+            "chest",
+            "skilling_chest"
+        ],
+        "type": "container",
+        "quality": "common",
+        "itemValue": {
+            "currency": "none",
+            "value": null
+        },
+        "tables": [
+            {
+                "isPrimary": false,
+                "type": [],
+                "rollAmount": 4,
+                "tables": [
+                    "tailoring_chest_table"
+                ]
+            }
+        ],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/openables/chests/tailoring_chest.png"
+    },
+    {
+        "id": "trinketry_chest",
+        "name": "Trinketry chest",
+        "keywords": [
+            "chest",
+            "skilling_chest"
+        ],
+        "type": "container",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "none",
+            "value": null
+        },
+        "buffs": [],
+        "tables": [
+            {
+                "isPrimary": false,
+                "type": [],
+                "rollAmount": 4,
+                "tables": [
+                    "trinketry_chest_table"
+                ]
+            }
+        ],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/openables/chests/trinketry_chest.png"
+    },
+    {
+        "id": "woodcutting_chest",
+        "name": "Woodcutting chest",
+        "keywords": [
+            "chest",
+            "skilling_chest"
+        ],
+        "type": "container",
+        "quality": "common",
+        "consumableType": null,
+        "gearType": null,
+        "requirements": [],
+        "itemAttrs": [],
+        "itemQualityAttrs": [],
+        "itemValue": {
+            "currency": "none",
+            "value": null
+        },
+        "buffs": [],
+        "tables": [
+            {
+                "isPrimary": false,
+                "type": [],
+                "rollAmount": 4,
+                "tables": [
+                    "woodcutting_chest_table"
+                ]
+            }
+        ],
+        "canBeFine": true,
+        "canBeSold": true,
+        "icon": "assets/icons/items/openables/chests/woodcutting_chest.png"
+    }
+]

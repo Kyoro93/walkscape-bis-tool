@@ -1,0 +1,478 @@
+[
+    {
+        "id": "azurazera",
+        "name": "Azurazera",
+        "faction": "jarvonia",
+        "subFactions": [],
+        "keywords": [],
+        "icon": "assets/icons/locations/castle_white.png"
+    },
+    {
+        "id": "barbantok",
+        "name": "Barbantok",
+        "faction": "jarvonia",
+        "subFactions": [],
+        "keywords": [],
+        "icon": "assets/icons/locations/town_white.png"
+    },
+    {
+        "id": "beach_of_woes",
+        "name": "Beach of Woes",
+        "faction": "jarvonia",
+        "subFactions": [
+            "herberts_guiding_grounds"
+        ],
+        "keywords": [],
+        "icon": "assets/icons/locations/coast_white.png"
+    },
+    {
+        "id": "bilgemont_port",
+        "name": "Bilgemont Port",
+        "faction": "grand_duchy_of_trellin_erdwise",
+        "subFactions": [
+            "erdwise"
+        ],
+        "keywords": [],
+        "icon": "assets/icons/locations/port_green.png"
+    },
+    {
+        "id": "black_eye_peak",
+        "name": "Black Eye Peak",
+        "faction": "jarvonia",
+        "subFactions": [],
+        "keywords": [],
+        "icon": "assets/icons/locations/mountains.png"
+    },
+    {
+        "id": "blackrane",
+        "name": "Blackrane",
+        "faction": "wallisia",
+        "subFactions": [],
+        "keywords": [],
+        "icon": "assets/icons/locations/town_yellow.png"
+    },
+    {
+        "id": "blackspell_port",
+        "name": "Blackspell Port",
+        "faction": "grand_duchy_of_trellin_erdwise",
+        "subFactions": [
+            "erdwise"
+        ],
+        "keywords": [],
+        "icon": "assets/icons/locations/port_green.png"
+    },
+    {
+        "id": "blackwater_fields",
+        "name": "Blackwater Fields",
+        "faction": "wallisia",
+        "subFactions": [],
+        "keywords": [],
+        "icon": "assets/icons/locations/blackwater_fields.png"
+    },
+    {
+        "id": "bog_bottom",
+        "name": "Bog Bottom",
+        "faction": "grand_duchy_of_trellin_erdwise",
+        "subFactions": [
+            "halfling_rebels"
+        ],
+        "keywords": [
+            "underwater"
+        ],
+        "icon": "assets/icons/locations/marsh_green.png"
+    },
+    {
+        "id": "bog_top",
+        "name": "Bog Top",
+        "faction": "grand_duchy_of_trellin_erdwise",
+        "subFactions": [
+            "halfling_rebels"
+        ],
+        "keywords": [],
+        "icon": "assets/icons/locations/river_green.png"
+    },
+    {
+        "id": "casbrant_fields",
+        "name": "Casbrant Fields",
+        "faction": "jarvonia",
+        "subFactions": [],
+        "keywords": [],
+        "icon": "assets/icons/locations/plains_white.png"
+    },
+    {
+        "id": "casbrants_grave",
+        "name": "Casbrant's Grave",
+        "faction": "syrenthia",
+        "subFactions": [],
+        "keywords": [
+            "underwater",
+            "ghostly"
+        ],
+        "icon": "assets/icons/locations/casbrants_grave.png"
+    },
+    {
+        "id": "centaham",
+        "name": "Centaham",
+        "faction": "jarvonia",
+        "subFactions": [],
+        "keywords": [],
+        "icon": "assets/icons/locations/city_white.png"
+    },
+    {
+        "id": "coldington",
+        "name": "Coldington",
+        "faction": "jarvonia",
+        "subFactions": [],
+        "keywords": [],
+        "icon": "assets/icons/locations/city_white.png"
+    },
+    {
+        "id": "crown_of_cinders",
+        "name": "Crown of Cinders",
+        "faction": "wrentmark",
+        "subFactions": [],
+        "keywords": [
+            "desert"
+        ],
+        "icon": "assets/icons/locations/crown_of_cinders.png"
+    },
+    {
+        "id": "darktide_trench",
+        "name": "Darktide Trench",
+        "faction": "syrenthia",
+        "subFactions": [],
+        "keywords": [
+            "underwater"
+        ],
+        "icon": "assets/icons/locations/darktide_trench.png"
+    },
+    {
+        "id": "disenchanted_forest",
+        "name": "Disenchanted Forest",
+        "faction": "jarvonia",
+        "subFactions": [
+            "herberts_guiding_grounds"
+        ],
+        "keywords": [],
+        "icon": "assets/icons/locations/forest_white.png"
+    },
+    {
+        "id": "elaras_lagoon",
+        "name": "Elara's Lagoon",
+        "faction": "syrenthia",
+        "subFactions": [],
+        "keywords": [
+            "underwater"
+        ],
+        "icon": "assets/icons/locations/elaras_lagoon.png"
+    },
+    {
+        "id": "everhaven",
+        "name": "Everhaven",
+        "faction": "grand_duchy_of_trellin_erdwise",
+        "subFactions": [
+            "erdwise",
+            "trellin"
+        ],
+        "keywords": [],
+        "icon": "assets/icons/locations/castle_green.png"
+    },
+    {
+        "id": "farsand_coast",
+        "name": "Farsand Coast",
+        "faction": "grand_duchy_of_trellin_erdwise",
+        "subFactions": [
+            "trellin"
+        ],
+        "keywords": [],
+        "icon": "assets/icons/locations/coast_green.png"
+    },
+    {
+        "id": "fort_of_permafrost",
+        "name": "Fort of Permafrost",
+        "faction": "jarvonia",
+        "subFactions": [],
+        "keywords": [],
+        "icon": "assets/icons/locations/castle_white.png"
+    },
+    {
+        "id": "frostbite_mountain",
+        "name": "Frostbite Mountain",
+        "faction": "jarvonia",
+        "subFactions": [],
+        "keywords": [],
+        "icon": "assets/icons/locations/mountains.png"
+    },
+    {
+        "id": "frusenholm",
+        "name": "Frusenholm",
+        "faction": "jarvonia",
+        "subFactions": [],
+        "keywords": [],
+        "icon": "assets/icons/locations/town_white.png"
+    },
+    {
+        "id": "granfiddich",
+        "name": "Granfiddich",
+        "faction": "grand_duchy_of_trellin_erdwise",
+        "subFactions": [
+            "trellin"
+        ],
+        "keywords": [],
+        "icon": "assets/icons/locations/city_green.png"
+    },
+    {
+        "id": "granfiddich_shores",
+        "name": "Granfiddich Shores",
+        "faction": "grand_duchy_of_trellin_erdwise",
+        "subFactions": [
+            "trellin"
+        ],
+        "keywords": [],
+        "icon": "assets/icons/locations/coast_green.png"
+    },
+    {
+        "id": "halfling_campgrounds",
+        "name": "Halfling Campgrounds",
+        "faction": "grand_duchy_of_trellin_erdwise",
+        "subFactions": [
+            "halfling_rebels"
+        ],
+        "keywords": [],
+        "icon": "assets/icons/locations/campgrounds.png"
+    },
+    {
+        "id": "halfmaw_hideout",
+        "name": "Halfmaw Hideout",
+        "faction": "grand_duchy_of_trellin_erdwise",
+        "subFactions": [
+            "halfling_rebels"
+        ],
+        "keywords": [],
+        "icon": "assets/icons/locations/halfmaw_hideout.png"
+    },
+    {
+        "id": "horn_of_respite",
+        "name": "Horn of Respite",
+        "faction": "jarvonia",
+        "subFactions": [],
+        "keywords": [],
+        "icon": "assets/icons/locations/horn_of_respite.png"
+    },
+    {
+        "id": "kallaheim",
+        "name": "Kallaheim",
+        "faction": "jarvonia",
+        "subFactions": [],
+        "keywords": [],
+        "icon": "assets/icons/locations/castle_white.png"
+    },
+    {
+        "id": "kelp_forest",
+        "name": "Kelp Forest",
+        "faction": "syrenthia",
+        "subFactions": [],
+        "keywords": [
+            "underwater"
+        ],
+        "icon": "assets/icons/locations/kelp_firest.png"
+    },
+    {
+        "id": "kildome_cross",
+        "name": "Kildome Cross",
+        "faction": "wallisia",
+        "subFactions": [],
+        "keywords": [],
+        "icon": "assets/icons/locations/kildome_cross.png"
+    },
+    {
+        "id": "mangrove_forest",
+        "name": "Mangrove Forest",
+        "faction": "grand_duchy_of_trellin_erdwise",
+        "subFactions": [
+            "trellin"
+        ],
+        "keywords": [],
+        "icon": "assets/icons/locations/forest_green.png"
+    },
+    {
+        "id": "myriadian_arc",
+        "name": "Myriadian Arc",
+        "faction": "wrentmark",
+        "subFactions": [],
+        "keywords": [
+            "desert"
+        ],
+        "icon": "assets/icons/locations/myridian_arc.png"
+    },
+    {
+        "id": "noiseless_pass",
+        "name": "Noiseless Pass",
+        "faction": "jarvonia",
+        "subFactions": [],
+        "keywords": [],
+        "icon": "assets/icons/locations/plains_white.png"
+    },
+    {
+        "id": "nomad_woods",
+        "name": "Nomad Woods",
+        "faction": "jarvonia",
+        "subFactions": [],
+        "keywords": [],
+        "icon": "assets/icons/locations/forest_white.png"
+    },
+    {
+        "id": "norsack_plains",
+        "name": "Norsack Plains",
+        "faction": "jarvonia",
+        "subFactions": [],
+        "keywords": [],
+        "icon": "assets/icons/locations/plains_white.png"
+    },
+    {
+        "id": "nurturing_nook_springs",
+        "name": "Nurturing Nook Springs",
+        "faction": "jarvonia",
+        "subFactions": [],
+        "keywords": [],
+        "icon": "assets/icons/locations/hot_springs.png"
+    },
+    {
+        "id": "old_arena_ruins",
+        "name": "Old Arena Ruins",
+        "faction": "grand_duchy_of_trellin_erdwise",
+        "subFactions": [
+            "erdwise"
+        ],
+        "keywords": [],
+        "icon": "assets/icons/locations/arena_green.png"
+    },
+    {
+        "id": "pit_of_pittance",
+        "name": "Pit of Pittance",
+        "faction": "jarvonia",
+        "subFactions": [
+            "herberts_guiding_grounds"
+        ],
+        "keywords": [],
+        "icon": "assets/icons/locations/quarry.png"
+    },
+    {
+        "id": "port_skildar",
+        "name": "Port Skildar",
+        "faction": "jarvonia",
+        "subFactions": [],
+        "keywords": [],
+        "icon": "assets/icons/locations/port_white.png"
+    },
+    {
+        "id": "red_coast",
+        "name": "Red Coast",
+        "faction": "grand_duchy_of_trellin_erdwise",
+        "subFactions": [
+            "erdwise"
+        ],
+        "keywords": [],
+        "icon": "assets/icons/locations/coast_green.png"
+    },
+    {
+        "id": "salsfirth",
+        "name": "Salsfirth",
+        "faction": "grand_duchy_of_trellin_erdwise",
+        "subFactions": [
+            "trellin"
+        ],
+        "keywords": [],
+        "icon": "assets/icons/locations/city_green.png"
+    },
+    {
+        "id": "sanguine_hills",
+        "name": "Sanguine Hills",
+        "faction": "jarvonia",
+        "subFactions": [],
+        "keywords": [],
+        "icon": "assets/icons/locations/hills_white.png"
+    },
+    {
+        "id": "stalking_yew_woods",
+        "name": "Stalking Yew Woods",
+        "faction": "wallisia",
+        "subFactions": [],
+        "keywords": [],
+        "icon": "assets/icons/locations/forest_green.png"
+    },
+    {
+        "id": "tendon_wet_fields",
+        "name": "Tendon Wet Fields",
+        "faction": "wallisia",
+        "subFactions": [],
+        "keywords": [],
+        "icon": "assets/icons/locations/marsh_green.png"
+    },
+    {
+        "id": "underwater_cave",
+        "name": "Underwater Cave",
+        "faction": "syrenthia",
+        "subFactions": [],
+        "keywords": [
+            "underwater"
+        ],
+        "icon": "assets/icons/locations/underwater_cave.png"
+    },
+    {
+        "id": "vastalume",
+        "name": "Vastalume",
+        "faction": "syrenthia",
+        "subFactions": [],
+        "keywords": [
+            "underwater"
+        ],
+        "icon": "assets/icons/locations/Vastalume.png"
+    },
+    {
+        "id": "warrenfield",
+        "name": "Warrenfield",
+        "faction": "grand_duchy_of_trellin_erdwise",
+        "subFactions": [
+            "trellin"
+        ],
+        "keywords": [],
+        "icon": "assets/icons/locations/plains_green.png"
+    },
+    {
+        "id": "winter_waves_glacier",
+        "name": "Winter Waves Glacier",
+        "faction": "jarvonia",
+        "subFactions": [],
+        "keywords": [],
+        "icon": "assets/icons/locations/glacier.png"
+    },
+    {
+        "id": "winters_end",
+        "name": "Winter's End",
+        "faction": "jarvonia",
+        "subFactions": [],
+        "keywords": [],
+        "icon": "assets/icons/locations/winters_end.png"
+    },
+    {
+        "id": "witched_woods",
+        "name": "Witched Woods",
+        "faction": "grand_duchy_of_trellin_erdwise",
+        "subFactions": [
+            "halfling_rebels"
+        ],
+        "keywords": [],
+        "icon": "assets/icons/locations/witch_forest.png"
+    },
+    {
+        "id": "wraithwater",
+        "name": "Wraithwater",
+        "faction": "wallisia",
+        "subFactions": [],
+        "keywords": [
+            "ghostly"
+        ],
+        "icon": "assets/icons/locations/wraithwater.png"
+    }
+]

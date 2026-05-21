@@ -41,7 +41,7 @@ def get_relevant_items(original_items_map, activity, objective):
                     
         return stats
 
-    act_skills = activity.get('relatedSkillsList', [])
+    act_skills = activity.get('relatedSkillsList') or activity.get('relatedSkills', [])
     act_keywords = set()
     # Coleta keywords que a atividade exige (ex: 'hunting_bow', 'fishing_net')
     for req in (activity.get('requirements') or []):
@@ -71,11 +71,11 @@ def get_relevant_items(original_items_map, activity, objective):
             
             score = 0
             if objective == "xp_per_step":
-                score = stats['xp']*1000 + stats['da']*100 + stats['steps_flat']*50 + stats['steps_pct']*50 + stats['we']*10
+                score = stats['xp_pct']*1000 + stats['xp_flat']*100 + stats['da']*100 + (-stats['steps_flat'])*50 + (-stats['steps_pct'])*50 + stats['we']*10
             elif objective == "yield_per_step":
-                score = stats['dr']*1000 + stats['nmc']*1000 + stats['da']*100 + stats['steps_flat']*50 + stats['steps_pct']*50 + stats['we']*10
+                score = stats['dr']*1000 + stats['nmc']*1000 + stats['da']*100 + (-stats['steps_flat'])*50 + (-stats['steps_pct'])*50 + stats['we']*10
             elif objective == "average_steps_per_action":
-                score = stats['da']*100 + stats['steps_flat']*50 + stats['steps_pct']*50 + stats['we']*10
+                score = stats['da']*100 + (-stats['steps_flat'])*50 + (-stats['steps_pct'])*50 + stats['we']*10
             
             if has_req_kw:
                 score += 1000000
@@ -113,20 +113,22 @@ def generate_all_bis():
     
     # Filtrando as atividades reais do jogo (ignoramos ids inválidos/vazios)
     valid_activities = [act for act in game_data.activities if act['id'] != 'none']
-    total = len(valid_activities)
+    valid_recipes = [rec for rec in getattr(game_data, 'recipes', []) if rec['id'] != 'none']
+    all_tasks = valid_activities + valid_recipes
+    total = len(all_tasks)
     
     bis_cache = {}
     global_start_time = time.time()
-    print(f"Iniciando cálculo intensivo para {total} atividades...")
+    print(f"Iniciando cálculo intensivo para {total} tarefas (atividades + receitas)...")
     
-    for index, activity in enumerate(valid_activities, 1):
+    for index, activity in enumerate(all_tasks, 1):
         act_start_time = time.time()
         act_id = activity['id']
         act_name = activity.get('name', act_id)
         print(f"[{index:03d}/{total}] Calculando BiS para: {act_name}")
 
         # Cria uma Assinatura Única para a atividade
-        act_skills = tuple(sorted(activity.get('relatedSkillsList', [])))
+        act_skills = tuple(sorted(activity.get('relatedSkillsList') or activity.get('relatedSkills', [])))
         act_kws = set()
         for req in (activity.get('requirements') or []):
             if req.get('type') == 'keywordEquipped':

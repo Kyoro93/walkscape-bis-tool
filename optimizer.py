@@ -20,10 +20,17 @@ class WalkscapeOptimizer:
         """
         activity = self.game_data.activities_map.get(activity_id)
         if not activity:
-            raise ValueError(f"Atividade '{activity_id}' não encontrada no banco de dados.")
+            if hasattr(self.game_data, 'recipes_map'):
+                activity = self.game_data.recipes_map.get(activity_id)
+            elif hasattr(self.game_data, 'recipes'):
+                activity = next((r for r in self.game_data.recipes if r['id'] == activity_id), None)
+                
+        if not activity:
+            raise ValueError(f"Tarefa/Receita '{activity_id}' não encontrada no banco de dados.")
 
         # 1. Identificar Skill relacionada e Nível do Jogador
-        related_skill = activity.get('relatedSkillsList', [None])[0]
+        related_skills = activity.get('relatedSkillsList') or activity.get('relatedSkills', [])
+        related_skill = related_skills[0] if related_skills else None
         player_level = 1
         if self.user_data and related_skill:
             player_level = self.user_data.skill_levels.get(related_skill, 1)
@@ -161,13 +168,14 @@ class WalkscapeOptimizer:
         dr = build_stats.get('dr', 0.0)
         nmc = build_stats.get('nmc', 0.0)
         steps_flat = build_stats.get('steps_flat', 0.0)
+        steps_pct = build_stats.get('steps_pct', 0.0)
         bxp_pct = build_stats.get('xp_pct', 0.0)
         bxp_flat = build_stats.get('xp_flat', 0.0)
         
-        base_steps = activity.get('workRequired', 10)
-        max_eff = activity.get('maxWorkEfficiency', 2.0)
+        base_steps = activity.get('workRequired')
+        max_eff = activity.get('maxWorkEfficiency', 1.0)
         
-        related_skills = activity.get('relatedSkillsList', [])
+        related_skills = activity.get('relatedSkillsList') or activity.get('relatedSkills', [])
         main_skill = related_skills[0] if related_skills else None
         
         base_xp = activity.get('xpRewardsMap', {}).get(main_skill, 0)
@@ -185,9 +193,16 @@ class WalkscapeOptimizer:
         level_eff = 0.0 if is_travelling else min(max(player_level - req_level, 0) * 0.0125, 0.25)
         
         total_eff = min(1.0 + level_eff + we, max_eff)
+        c = 1.0 + steps_pct
+        l = steps_flat
         
-        raw_steps = max(base_steps / total_eff, 10.0)
-        final_steps = max(math.ceil(raw_steps - steps_flat), 1)
+        if base_steps:
+            f = math.ceil((base_steps / total_eff) * c) + l
+        else:
+            f = 0
+            
+        p = max(10.0, float(f))
+        final_steps = p / (1.0 + da)
         
         safe_nmc = min(nmc, 0.99)
         yield_multiplier = ((1.0 + da) * (1.0 + dr)) / (1.0 - safe_nmc)
@@ -198,7 +213,7 @@ class WalkscapeOptimizer:
         return {
             "xp_per_step": effective_xp / final_steps if final_steps > 0 else 0,
             "yield_per_step": yield_multiplier / final_steps if final_steps > 0 else 0,
-            "average_steps_per_action": final_steps / (1.0 + da)
+            "average_steps_per_action": final_steps
         }
 
     def _extract_item_stats(self, item, current_skill):
@@ -218,9 +233,7 @@ class WalkscapeOptimizer:
                     continue
                     
                 for stat in (attr.get('stats') or []):
-                    val = stat.get('value', 0)
-                    if stat.get('isNegative'):
-                        val = -val
+                    val = float(stat.get('value', 0.0))
                     
                     s_type = stat.get('type')
                     if s_type == 'workEfficiency':

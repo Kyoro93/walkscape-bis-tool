@@ -1,0 +1,224 @@
+[
+    {
+        "id": "kallaheim",
+        "name": "Kallaheim",
+        "keywords": [],
+        "faction": "jarvonia",
+        "subFactions": [],
+        "activityList": [
+            "litter_looting",
+            "flame_stoking",
+            "vegetable_chopping"
+        ],
+        "serviceList": [
+            "basic_forge",
+            "basic_kitchen",
+            "basic_sawmill",
+            "wardrobe"
+        ],
+        "buildingList": [
+            "the_icy_goblet",
+            "kallaheims_frosty_finds",
+            "frozen_capital_bank"
+        ],
+        "jobBoards": [
+            "kallaheim_job_board"
+        ],
+        "icon": "assets/icons/locations/castle_white.png"
+    },
+    {
+        "id": "disenchanted_forest",
+        "name": "Disenchanted Forest",
+        "keywords": [],
+        "faction": "jarvonia",
+        "subFactions": [
+            "herberts_guiding_grounds"
+        ],
+        "activityList": [
+            "cut_pine_trees",
+            "cut_birch_trees",
+            "forest_foraging"
+        ],
+        "serviceList": [],
+        "buildingList": [
+            "helpful_herberts_hut"
+        ],
+        "jobBoards": [
+            "herberts_job_board"
+        ],
+        "icon": "assets/icons/locations/forest_white.png"
+    },
+    {
+        "id": "blackspell_port",
+        "name": "Blackspell Port",
+        "keywords": [],
+        "faction": "grand_duchy_of_trellin_erdwise",
+        "subFactions": [
+            "erdwise"
+        ],
+        "activityList": [
+            "erdwise_dumpster_diving",
+            "hull_repair",
+            "antique_market_assessor",
+            "guard_duty",
+            "venture_into_the_hideout",
+            "large_sail_repair"
+        ],
+        "serviceList": [
+            "basic_kitchen",
+            "wardrobe",
+            "erdwiss_trinketry_factory_advanced"
+        ],
+        "buildingList": [
+            "goldn_grail_blackspell"
+        ],
+        "jobBoards": [
+            "blackspell_port_job_board"
+        ],
+        "icon": "assets/icons/locations/port_green.png"
+    },
+    {
+        "id": "salsfirth",
+        "name": "Salsfirth",
+        "keywords": [],
+        "faction": "grand_duchy_of_trellin_erdwise",
+        "subFactions": [
+            "trellin"
+        ],
+        "activityList": [
+            "venture_into_the_woods"
+        ],
+        "serviceList": [
+            "basic_kitchen",
+            "basic_workshop",
+            "wardrobe",
+            "basic_trinketry_bench",
+            "basic_loom"
+        ],
+        "buildingList": [
+            "bogside_bank_of_prosperity",
+            "paws_are_us",
+            "bog_&_blade",
+            "quagmire_couture"
+        ],
+        "jobBoards": [],
+        "icon": "assets/icons/locations/city_green.png"
+    },
+    {
+        "id": "halfling_campgrounds",
+        "name": "Halfling Campgrounds",
+        "keywords": [],
+        "faction": "grand_duchy_of_trellin_erdwise",
+        "subFactions": [
+            "halfling_rebels"
+        ],
+        "activityList": [
+            "emergency_darkness_escape_swamp",
+            "run_for_your_life",
+            "bird_watching"
+        ],
+        "serviceList": [
+            "basic_workshop",
+            "basic_kitchen",
+            "saw_in_half_mill_advanced",
+            "wardrobe"
+        ],
+        "buildingList": [],
+        "jobBoards": [
+            "halfling_campgrounds_job_board"
+        ],
+        "icon": "assets/icons/locations/campgrounds.png"
+    },
+    {
+        "id": "vastalume",
+        "name": "Vastalume",
+        "keywords": [
+            "underwater"
+        ],
+        "faction": "syrenthia",
+        "subFactions": [],
+        "activityList": [
+            "merfolk_dancing",
+            "emergency_swim_escape"
+        ],
+        "serviceList": [
+            "tidal_workshop_advanced",
+            "underwater_kitchen_basic",
+            "underwater_forge_basic",
+            "underwater_sawmill_basic",
+            "wardrobe",
+            "underwater_loom_basic"
+        ],
+        "buildingList": [
+            "thalassa_wave_bank",
+            "pearl_of_the_sea",
+            "sunken_anchor",
+            "go_with_the_flow_barbershop",
+            "undercurrent",
+            "fin_tastic_fashion",
+            "throne_of_the_neverdrown"
+        ],
+        "jobBoards": [
+            "vastalume_job_board"
+        ],
+        "icon": "assets/icons/locations/Vastalume.png"
+    },
+    {
+        "id": "wraithwater",
+        "name": "Wraithwater",
+        "keywords": [
+            "ghostly"
+        ],
+        "faction": "wallisia",
+        "subFactions": [],
+        "activityList": [
+            "cut_ectoplasm_trees",
+            "mine_ectoplasm_rocks",
+            "ectoplasm_fishing",
+            "graveyard_foraging",
+            "ghost_tag",
+            "repair_the_bank",
+            "ectoplasm_slime_hunting"
+        ],
+        "serviceList": [
+            "cursed_sawmill_advanced",
+            "cursed_forge_advanced",
+            "cursed_kitchen_advanced",
+            "cursed_workshop_advanced",
+            "cursed_loom_advanced",
+            "wardrobe"
+        ],
+        "buildingList": [
+            "lost_soulsourcing",
+            "broken_spirit_savings",
+            "restored_spirit_savings"
+        ],
+        "jobBoards": [],
+        "icon": "assets/icons/locations/wraithwater.png"
+    },
+    {
+        "id": "myriadian_arc",
+        "name": "Myriadian Arc",
+        "keywords": [
+            "desert"
+        ],
+        "faction": "wrentmark",
+        "subFactions": [],
+        "activityList": [
+            "emergency_desert_escape"
+        ],
+        "serviceList": [
+            "heatstroke_metalworks_advanced",
+            "granular_faceting_facility_advanced",
+            "marked_textiles_advanced",
+            "wardrobe",
+            "mysterious_merchant"
+        ],
+        "buildingList": [
+            "jeweled_oasis_bank",
+            "southern_gem"
+        ],
+        "jobBoards": [],
+        "icon": "assets/icons/locations/myridian_arc.png"
+    }
+]

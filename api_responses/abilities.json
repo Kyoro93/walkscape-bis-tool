@@ -1,0 +1,261 @@
+[
+    {
+        "id": "clever_climber",
+        "name": "Clever Climber",
+        "type": "passive",
+        "desc": "Counts as a <object id=\"climbing_gear\" />.",
+        "icon": "assets/icons/abilities/clever_climber.png"
+    },
+    {
+        "id": "down_go_the_trees",
+        "name": "Down Go The Trees",
+        "type": "active",
+        "desc": "Completes {count} <skill skill=\"woodcutting\"/> actions instantly.",
+        "icon": "assets/icons/abilities/destory_wood.png"
+    },
+    {
+        "id": "emergency_desert_escape!",
+        "name": "Emergency Desert Escape!",
+        "type": "emergency",
+        "desc": "You escape to <object id=\"kildome_cross\" />.",
+        "icon": "assets/icons/activities/emergency_escape_desert.png"
+    },
+    {
+        "id": "emergency_swamp_escape!",
+        "name": "Emergency Swamp Escape!",
+        "type": "emergency",
+        "desc": "You escape to <object id=\"old_arena_ruins\" />.",
+        "icon": "assets/icons/activities/emergency_escape_global.png"
+    },
+    {
+        "id": "emergency_swim_escape!",
+        "name": "Emergency Swim Escape!",
+        "type": "emergency",
+        "desc": "You swim to <object id=\"port_skildar\" />.",
+        "icon": "assets/icons/activities/emergency_escape_global.png"
+    },
+    {
+        "id": "emergency_swim_escape!",
+        "name": "Emergency Swim Escape!",
+        "type": "emergency",
+        "desc": "You swim to <object id=\"old_arena_ruins\" />.",
+        "icon": "assets/icons/activities/emergency_escape_global.png"
+    },
+    {
+        "id": "explore_bog_bottom",
+        "name": "Explore Bog Bottom",
+        "type": "activity",
+        "desc": "You explore the bog bottom to <object id=\"underwater_cave\" />.",
+        "icon": "assets/icons/activities/explore_marsh_green.png"
+    },
+    {
+        "id": "explore_underwater_cave",
+        "name": "Explore Underwater Cave",
+        "type": "activity",
+        "desc": "You explore the underwater cave to <object id=\"bog_bottom\" />.",
+        "icon": "assets/icons/activities/explore_underwater_cave.png"
+    },
+    {
+        "id": "i_miss_the_sun",
+        "name": "I Miss The Sun",
+        "type": "active",
+        "desc": "Teleports you to <object id=\"myriadian_arc\" />.",
+        "icon": "assets/icons/abilities/i_miss_the_sun.png"
+    },
+    {
+        "id": "memosphere:_agility",
+        "name": "Memosphere: Agility",
+        "type": "consumable",
+        "desc": "Grants <skill skill=\"agility\"/> experience.",
+        "icon": "assets/icons/items/consumables/memospheres/memosphere_agility.png"
+    },
+    {
+        "id": "memosphere:_carpentry",
+        "name": "Memosphere: Carpentry",
+        "type": "consumable",
+        "desc": "Grants <skill skill=\"carpentry\"/> experience.",
+        "icon": "assets/icons/items/consumables/memospheres/memosphere_carpentry.png"
+    },
+    {
+        "id": "memosphere:_cooking",
+        "name": "Memosphere: Cooking",
+        "type": "consumable",
+        "desc": "Grants <skill skill=\"cooking\"/> experience.",
+        "icon": "assets/icons/items/consumables/memospheres/memosphere_cooking.png"
+    },
+    {
+        "id": "memosphere:_crafting",
+        "name": "Memosphere: Crafting",
+        "type": "consumable",
+        "desc": "Grants <skill skill=\"crafting\"/> experience.",
+        "icon": "assets/icons/items/consumables/memospheres/memosphere_crafting.png"
+    },
+    {
+        "id": "memosphere:_fishing",
+        "name": "Memosphere: Fishing",
+        "type": "consumable",
+        "desc": "Grants <skill skill=\"fishing\"/> experience.",
+        "icon": "assets/icons/items/consumables/memospheres/memosphere_fishing.png"
+    },
+    {
+        "id": "memosphere:_foraging",
+        "name": "Memosphere: Foraging",
+        "type": "consumable",
+        "desc": "Grants <skill skill=\"foraging\"/> experience.",
+        "icon": "assets/icons/items/consumables/memospheres/memosphere_foraging.png"
+    },
+    {
+        "id": "memosphere:_hunting",
+        "name": "Memosphere: Hunting",
+        "type": "consumable",
+        "desc": "Grants <skill skill=\"hunting\"/> experience.",
+        "icon": "assets/icons/items/consumables/memospheres/hunting_memosphere.png"
+    },
+    {
+        "id": "memosphere:_mining",
+        "name": "Memosphere: Mining",
+        "type": "consumable",
+        "desc": "Grants <skill skill=\"mining\"/> experience.",
+        "icon": "assets/icons/items/consumables/memospheres/memosphere_mining.png"
+    },
+    {
+        "id": "memosphere:_smithing",
+        "name": "Memosphere: Smithing",
+        "type": "consumable",
+        "desc": "Grants <skill skill=\"smithing\"/> experience.",
+        "icon": "assets/icons/items/consumables/memospheres/memosphere_smithing.png"
+    },
+    {
+        "id": "memosphere:_tailoring",
+        "name": "Memosphere: Tailoring",
+        "type": "consumable",
+        "desc": "Grants <skill skill=\"tailoring\"/> experience.",
+        "icon": "assets/icons/items/consumables/memospheres/tailoring_memosphere.png"
+    },
+    {
+        "id": "memosphere:_trinketry",
+        "name": "Memosphere: Trinketry",
+        "type": "consumable",
+        "desc": "Grants <skill skill=\"trinketry\"/> experience.",
+        "icon": "assets/icons/items/consumables/memospheres/trinketry_memosphere.png"
+    },
+    {
+        "id": "memosphere:_woodcutting",
+        "name": "Memosphere: Woodcutting",
+        "type": "consumable",
+        "desc": "Grants <skill skill=\"woodcutting\"/> experience.",
+        "icon": "assets/icons/items/consumables/memospheres/memosphere_woodcutting.png"
+    },
+    {
+        "id": "mermaids_need_me",
+        "name": "Mermaids Need Me",
+        "type": "active",
+        "desc": "Teleports you to <object id=\"vastalume\" />.",
+        "icon": "assets/icons/abilities/teleport.png"
+    },
+    {
+        "id": "navigate_desert",
+        "name": "Navigate Desert",
+        "type": "passive",
+        "desc": "Allows you to navigate and interact in <object id=\"desert\" /> environments.",
+        "icon": "assets/icons/abilities/navigate_desert.png"
+    },
+    {
+        "id": "need_to_go_fast",
+        "name": "Need To Go Fast",
+        "type": "active",
+        "desc": "Completes {count} <hl>Traveling</hl> actions instantly.",
+        "icon": "assets/icons/abilities/move_fast.png"
+    },
+    {
+        "id": "pecking_order",
+        "name": "Pecking Order",
+        "type": "active",
+        "desc": "Completes {count} <skill skill=\"foraging\"/> actions instantly.",
+        "icon": "assets/icons/abilities/pecking_order.png"
+    },
+    {
+        "id": "present_rain",
+        "name": "Present Rain",
+        "type": "active",
+        "desc": "Gives 5 random <hl>presents</hl> containing items.",
+        "icon": "assets/icons/abilities/present_rain.png"
+    },
+    {
+        "id": "rock_and_roll",
+        "name": "Rock And Roll",
+        "type": "active",
+        "desc": "Creates 5 random <hl>rough gems</hl>.",
+        "icon": "assets/icons/abilities/spawn_gems.png"
+    },
+    {
+        "id": "run_for_your_life!",
+        "name": "Run For Your Life!",
+        "type": "emergency",
+        "desc": "You escape to <object id=\"old_arena_ruins\" />.",
+        "icon": "assets/icons/activities/agility/darkness_escape.png"
+    },
+    {
+        "id": "shell_forge",
+        "name": "Shell Forge",
+        "type": "active",
+        "desc": "Completes {count} <object id=\"smelting\" /> actions instantly.",
+        "icon": "assets/icons/abilities/shell_forge.png"
+    },
+    {
+        "id": "spring_bat_tracking",
+        "name": "Spring Bat Tracking",
+        "type": "activity",
+        "desc": "You track the bats to <object id=\"bog_top\" />.",
+        "icon": "assets/icons/activities/agility/spring_bat_tracking.png"
+    },
+    {
+        "id": "take_me_home",
+        "name": "Take Me Home",
+        "type": "active",
+        "desc": "Teleports you to <object id=\"kallaheim\" />.",
+        "icon": "assets/icons/abilities/teleport.png"
+    },
+    {
+        "id": "thats_a_wrap",
+        "name": "That's A Wrap",
+        "type": "active",
+        "desc": "Gives some <hl>linens</hl>.",
+        "icon": "assets/icons/abilities/mummy_ability.png"
+    },
+    {
+        "id": "the_hunt_is_on",
+        "name": "The Hunt Is On",
+        "type": "active",
+        "desc": "Gives you some buffs toward <skill skill=\"hunting\"/>.",
+        "icon": "assets/icons/abilities/tiger_ability.png"
+    },
+    {
+        "id": "torpedo_away",
+        "name": "Torpedo Away",
+        "type": "active",
+        "desc": "Completes {count} <hl>Underwater Traveling</hl> actions instantly.",
+        "icon": "assets/icons/abilities/torpedo_away.png"
+    },
+    {
+        "id": "venture_into_the_bog",
+        "name": "Venture Into The Bog",
+        "type": "activity",
+        "desc": "You venture into the bog to <object id=\"bog_top\" />.",
+        "icon": "assets/icons/activities/venture_bog.png"
+    },
+    {
+        "id": "venture_into_the_hideout",
+        "name": "Venture Into The Hideout",
+        "type": "activity",
+        "desc": "You venture into the hideout to <object id=\"halfmaw_hideout\" />.",
+        "icon": "assets/icons/activities/venture_hideout.png"
+    },
+    {
+        "id": "venture_into_the_woods",
+        "name": "Venture Into The Woods",
+        "type": "activity",
+        "desc": "You venture into the woods to <object id=\"witched_woods\" />.",
+        "icon": "assets/icons/activities/venture_woods.png"
+    }
+]
