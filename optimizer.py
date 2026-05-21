@@ -69,16 +69,15 @@ class WalkscapeOptimizer:
             if sum(stats.values()) == 0 and not has_req_keyword:
                 continue
                 
-            # Calcula um "Score Heurístico" bruto para pré-ranqueamento
-            # Prioriza WE, DA, redução de passos e XP.
-            heuristic_score = (
-                stats['we'] * 10 + 
-                stats['da'] * 100 + 
-                (-stats['steps_flat']) * 100 + 
-                stats['xp_pct'] * 100 +
-                stats['dr'] * 100 +
-                stats['nmc'] * 100
-            )
+            # Foca o score heurístico na métrica alvo para não descartar itens chave
+            if objective in ["lowest_steps_per_action", "average_steps_per_action"]:
+                heuristic_score = (-stats['steps_flat']) * 1000 + (-stats['steps_pct']) * 1000 + stats['we'] * 100 + stats['da'] * 50 + stats['dr'] * 10
+            elif objective in ["highest_loot_per_step", "yield_per_step"]:
+                heuristic_score = stats['dr'] * 1000 + stats['nmc'] * 1000 + stats['da'] * 500 + (-stats['steps_flat']) * 500 + (-stats['steps_pct']) * 500 + stats['we'] * 50
+            elif objective == "highest_fine_items_per_step":
+                heuristic_score = stats['fmf'] * 1000 + stats['da'] * 100 + (-stats['steps_flat']) * 500 + (-stats['steps_pct']) * 500 + stats['we'] * 50
+            else:
+                heuristic_score = stats['xp_pct'] * 1000 + stats['da'] * 100 + (-stats['steps_flat']) * 500 + (-stats['steps_pct']) * 500 + stats['we'] * 50
             
             # Bônus massivo no score se o item fornece a ferramenta exigida
             if has_req_keyword:
@@ -107,7 +106,10 @@ class WalkscapeOptimizer:
 
         # 5. Gerar Combinações (A Mágica)
         best_build = None
-        best_metric_value = -1 if objective == 'xp_per_step' else float('inf')
+        if objective in ['lowest_steps_per_action', 'average_steps_per_action']:
+            best_metric_value = (float('inf'), float('inf'), float('inf'))
+        else:
+            best_metric_value = -1.0
         
         # Lidar com os 2 slots de anéis
         ring_combos = list(itertools.combinations_with_replacement(top_pools.get('ring', [None]), 2))
@@ -119,10 +121,6 @@ class WalkscapeOptimizer:
             top_pools['neck'], top_pools['primary'], top_pools['secondary'], 
             top_pools['pet'], top_pools['tool'], top_pools['consumable']
         ]
-
-        base_steps = activity.get('workRequired', 10)
-        max_we = activity.get('maxWorkEfficiency', 1.0)
-        base_xp = activity.get('xpRewards', {}).get(related_skill, 0) if related_skill else 0
 
         print(f"[{activity['name']}] Analisando combinações...")
 
@@ -140,7 +138,7 @@ class WalkscapeOptimizer:
                 continue # Combinação inválida, pula.
 
             # Somar os status
-            tot_stats = {'we': 0.0, 'da': 0.0, 'dr': 0.0, 'nmc': 0.0, 'steps_flat': 0.0, 'steps_pct': 0.0, 'xp_pct': 0.0, 'xp_flat': 0.0}
+            tot_stats = {'we': 0.0, 'da': 0.0, 'dr': 0.0, 'nmc': 0.0, 'steps_flat': 0.0, 'steps_pct': 0.0, 'xp_pct': 0.0, 'xp_flat': 0.0, 'fmf': 0.0}
             for item in gear_set:
                 for k, v in item['stats'].items():
                     tot_stats[k] += v
@@ -148,10 +146,13 @@ class WalkscapeOptimizer:
             # Passa pra simulação real do jogo
             sim = self._evaluate_build(tot_stats, activity, player_level)
             
-            metric = sim[objective]
-            
-            # Lógica de Min/Max baseada no objetivo
-            is_better = (metric < best_metric_value) if objective == 'average_steps_per_action' else (metric > best_metric_value)
+            if objective in ['lowest_steps_per_action', 'average_steps_per_action']:
+                # Menos passos brutos primeiro, depois MAIS double action, depois MAIS double rewards
+                metric = (sim['final_steps'], -sim['da'], -sim['dr'])
+                is_better = metric < best_metric_value
+            else:
+                metric = sim.get(objective, sim.get('xp_per_step', 0))
+                is_better = metric > best_metric_value
             
             if is_better:
                 best_metric_value = metric
@@ -171,9 +172,19 @@ class WalkscapeOptimizer:
         steps_pct = build_stats.get('steps_pct', 0.0)
         bxp_pct = build_stats.get('xp_pct', 0.0)
         bxp_flat = build_stats.get('xp_flat', 0.0)
+        fmf = build_stats.get('fmf', 0.0)
         
         base_steps = activity.get('workRequired')
-        max_eff = activity.get('maxWorkEfficiency', 1.0)
+        if base_steps is None:
+            base_steps = 10
+            
+        max_eff = activity.get('maxEfficiency') or activity.get('maxWorkEfficiency')
+        if max_eff is None:
+            max_eff = 1.8
+            
+        min_steps = activity.get('minSteps')
+        if min_steps is None:
+            min_steps = math.ceil(base_steps / max_eff)
         
         related_skills = activity.get('relatedSkillsList') or activity.get('relatedSkills', [])
         main_skill = related_skills[0] if related_skills else None
@@ -192,17 +203,18 @@ class WalkscapeOptimizer:
         is_travelling = activity.get('id') == 'travelling'
         level_eff = 0.0 if is_travelling else min(max(player_level - req_level, 0) * 0.0125, 0.25)
         
-        total_eff = min(1.0 + level_eff + we, max_eff)
-        c = 1.0 + steps_pct
-        l = steps_flat
+        calculated_efficiency = 1.0 + level_eff + we
+        effective_efficiency = min(calculated_efficiency, max_eff)
         
-        if base_steps:
-            f = math.ceil((base_steps / total_eff) * c) + l
-        else:
-            f = 0
+        c = 1.0 + steps_pct
+        
+        adjusted_steps = math.ceil((base_steps / effective_efficiency) * c)
+        final_steps = max(adjusted_steps, min_steps)
+        
+        final_steps += steps_flat
+        final_steps = max(1, int(final_steps))
             
-        p = max(10.0, float(f))
-        final_steps = p / (1.0 + da)
+        average_steps_per_action = final_steps / (1.0 + da)
         
         safe_nmc = min(nmc, 0.99)
         yield_multiplier = ((1.0 + da) * (1.0 + dr)) / (1.0 - safe_nmc)
@@ -211,29 +223,50 @@ class WalkscapeOptimizer:
         effective_xp = calc_xp * (1.0 + da)
         
         return {
-            "xp_per_step": effective_xp / final_steps if final_steps > 0 else 0,
-            "yield_per_step": yield_multiplier / final_steps if final_steps > 0 else 0,
-            "average_steps_per_action": final_steps
+            "final_steps": final_steps,
+            "da": da,
+            "dr": dr,
+            "lowest_steps_per_action": average_steps_per_action,
+            "highest_loot_per_step": yield_multiplier / average_steps_per_action if average_steps_per_action > 0 else 0,
+            "highest_fine_items_per_step": fmf / average_steps_per_action if average_steps_per_action > 0 else 0,
+            "xp_per_step": effective_xp / average_steps_per_action if average_steps_per_action > 0 else 0,
+            "yield_per_step": yield_multiplier / average_steps_per_action if average_steps_per_action > 0 else 0,
+            "average_steps_per_action": average_steps_per_action
         }
 
     def _extract_item_stats(self, item, current_skill):
         """Varre os itemAttrs JSON e extrai apenas os status que afetam nossa skill atual."""
-        extracted = {'we': 0.0, 'da': 0.0, 'dr': 0.0, 'nmc': 0.0, 'steps_flat': 0.0, 'steps_pct': 0.0, 'xp_pct': 0.0, 'xp_flat': 0.0}
+        extracted = {'we': 0.0, 'da': 0.0, 'dr': 0.0, 'nmc': 0.0, 'steps_flat': 0.0, 'steps_pct': 0.0, 'xp_pct': 0.0, 'xp_flat': 0.0, 'fmf': 0.0}
         
+        skill_types = {
+            'gathering': ['foraging', 'fishing', 'mining', 'woodcutting', 'hunting'],
+            'artisan': ['carpentry', 'cooking', 'crafting', 'smithing', 'tailoring', 'trinketry'],
+            'utility': ['agility', 'traveling']
+        }
+
         def parse_attrs(attrs_list):
             for attr in attrs_list:
                 reqs = attr.get('requirements') or []
                 valid_req = True
                 for req in reqs:
-                    if req.get('type') == 'mainSkill' and req['requirement']['skill'] != current_skill:
+                    req_type = req.get('type')
+                    if req_type == 'mainSkill' and req['requirement'].get('skill') != current_skill:
                         valid_req = False
                         break
+                    elif req_type == 'mainSkillType':
+                        req_skill_type = req['requirement'].get('type')
+                        if current_skill not in skill_types.get(req_skill_type, []):
+                            valid_req = False
+                            break
                 
                 if not valid_req:
                     continue
                     
                 for stat in (attr.get('stats') or []):
                     val = float(stat.get('value', 0.0))
+                    # Tratamento seguro contra duplo-negativo da API
+                    if stat.get('isNegative') and val > 0:
+                        val = -val
                     
                     s_type = stat.get('type')
                     if s_type == 'workEfficiency':
@@ -254,6 +287,8 @@ class WalkscapeOptimizer:
                             extracted['xp_pct'] += val
                         else:
                             extracted['xp_flat'] += val
+                    elif s_type == 'fineMaterialFind':
+                        extracted['fmf'] += val
 
         # Analisa os atributos base e os de qualidade
         parse_attrs((item.get('itemAttrs') or []) + (item.get('itemQualityAttrs') or []))

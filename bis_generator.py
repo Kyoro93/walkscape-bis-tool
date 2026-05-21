@@ -1,47 +1,65 @@
 import json
 import time
+import multiprocessing
+import concurrent.futures
+import math
 from api_client import GameData
 from optimizer import WalkscapeOptimizer
 
-def get_relevant_items(original_items_map, activity, objective):
-    """Extrai os atributos e retorna apenas os Top itens estritamente focados no objetivo."""
-    def get_item_stats(item, act_skills):
-        stats = {'we': 0.0, 'da': 0.0, 'steps_flat': 0.0, 'steps_pct': 0.0, 'xp': 0.0, 'dr': 0.0, 'nmc': 0.0}
-        
-        def parse_attrs(attrs_list):
-            for attr in attrs_list:
-                reqs = attr.get('requirements') or []
-                valid = True
-                for req in reqs:
-                    if req.get('type') == 'mainSkill' and req['requirement'].get('skill') not in act_skills:
+def get_item_stats(item, act_skills):
+    stats = {'we': 0.0, 'da': 0.0, 'steps_flat': 0.0, 'steps_pct': 0.0, 'xp': 0.0, 'dr': 0.0, 'nmc': 0.0, 'fmf': 0.0}
+    
+    skill_types = {
+        'gathering': ['foraging', 'fishing', 'mining', 'woodcutting', 'hunting'],
+        'artisan': ['carpentry', 'cooking', 'crafting', 'smithing', 'tailoring', 'trinketry'],
+        'utility': ['agility', 'traveling']
+    }
+
+    def parse_attrs(attrs_list):
+        for attr in attrs_list:
+            reqs = attr.get('requirements') or []
+            valid = True
+            for req in reqs:
+                req_type = req.get('type')
+                if req_type == 'mainSkill' and req['requirement'].get('skill') not in act_skills:
+                    valid = False
+                    break
+                elif req_type == 'mainSkillType':
+                    req_skill_type = req['requirement'].get('type')
+                    if not any(skill in skill_types.get(req_skill_type, []) for skill in act_skills):
                         valid = False
                         break
-                if not valid: continue
+            if not valid: continue
+            
+            for s in (attr.get('stats') or []):
+                val = float(s.get('value', 0.0))
+                if s.get('isNegative') and val > 0:
+                    val = -val
                 
-                for s in (attr.get('stats') or []):
-                    val = s.get('value', 0)
-                    if s.get('isNegative'): val = -val
-                    
-                    t = s.get('type')
-                    if t == 'workEfficiency': stats['we'] += val
-                    elif t == 'doubleAction': stats['da'] += val
-                    elif t == 'doubleRewards': stats['dr'] += val
-                    elif t == 'noMaterialsConsumed': stats['nmc'] += val
-                    elif t == 'stepsRequired':
-                        if s.get('isPercent'): stats['steps_pct'] -= val
-                        else: stats['steps_flat'] -= val
-                    elif t == 'bonusExperience': stats['xp'] += val
+                t = s.get('type')
+                if t == 'workEfficiency': stats['we'] += val
+                elif t == 'doubleAction': stats['da'] += val
+                elif t == 'doubleRewards': stats['dr'] += val
+                elif t == 'noMaterialsConsumed': stats['nmc'] += val
+                elif t == 'fineMaterialFind': stats['fmf'] += val
+                elif t == 'stepsRequired':
+                    if s.get('isPercent'): stats['steps_pct'] += val
+                    else: stats['steps_flat'] += val
+                elif t == 'bonusExperience': stats['xp'] += val
 
-        parse_attrs((item.get('itemAttrs') or []) + (item.get('itemQualityAttrs') or []))
-        
-        for buff_tier in (item.get('buffs') or []):
-            for data in (buff_tier.get('data') or []):
-                for buff_obj in (data.get('buffs') or []):
-                    parse_attrs((buff_obj.get('attributes') or []) + (buff_obj.get('fineAttributes') or []))
-                    
-        return stats
+    parse_attrs((item.get('itemAttrs') or []) + (item.get('itemQualityAttrs') or []))
+    
+    for buff_tier in (item.get('buffs') or []):
+        for data in (buff_tier.get('data') or []):
+            for buff_obj in (data.get('buffs') or []):
+                parse_attrs((buff_obj.get('attributes') or []) + (buff_obj.get('fineAttributes') or []))
+                
+    return stats
 
-    act_skills = activity.get('relatedSkillsList') or activity.get('relatedSkills', [])
+def get_relevant_items(original_items_map, activity, objective):
+    """Extrai os atributos e retorna apenas os Top itens estritamente focados no objetivo."""
+    
+    act_skills = activity.get('relatedSkillsList') or activity.get('relatedSkills') or []
     act_keywords = set()
     # Coleta keywords que a atividade exige (ex: 'hunting_bow', 'fishing_net')
     for req in (activity.get('requirements') or []):
@@ -70,12 +88,14 @@ def get_relevant_items(original_items_map, activity, objective):
             has_req_kw = any(kw in item_kws for kw in act_keywords)
             
             score = 0
-            if objective == "xp_per_step":
-                score = stats['xp_pct']*1000 + stats['xp_flat']*100 + stats['da']*100 + (-stats['steps_flat'])*50 + (-stats['steps_pct'])*50 + stats['we']*10
-            elif objective == "yield_per_step":
-                score = stats['dr']*1000 + stats['nmc']*1000 + stats['da']*100 + (-stats['steps_flat'])*50 + (-stats['steps_pct'])*50 + stats['we']*10
-            elif objective == "average_steps_per_action":
-                score = stats['da']*100 + (-stats['steps_flat'])*50 + (-stats['steps_pct'])*50 + stats['we']*10
+            if objective in ["lowest_steps_per_action", "average_steps_per_action"]:
+                score = (-stats['steps_flat']) * 1000 + (-stats['steps_pct']) * 1000 + stats['we'] * 100 + stats['da'] * 50 + stats['dr'] * 10
+            elif objective in ["highest_loot_per_step", "yield_per_step"]:
+                score = stats['dr'] * 1000 + stats['nmc'] * 1000 + stats['da'] * 500 + (-stats['steps_flat']) * 500 + (-stats['steps_pct']) * 500 + stats['we'] * 50
+            elif objective == "highest_fine_items_per_step":
+                score = stats['fmf'] * 1000 + stats['da'] * 100 + (-stats['steps_flat']) * 500 + (-stats['steps_pct']) * 500 + stats['we'] * 50
+            else:
+                score = stats['xp'] * 1000 + stats['da'] * 100 + (-stats['steps_flat']) * 500 + (-stats['steps_pct']) * 500 + stats['we'] * 50
             
             if has_req_kw:
                 score += 1000000
@@ -98,37 +118,78 @@ def get_relevant_items(original_items_map, activity, objective):
                         
     return final_map
 
+def optimize_worker(task_payload):
+    signature, activity, objectives, original_items_map = task_payload
+    
+    # Instancia localmente para evitar concorrência e race conditions (já que alteramos items_map dinamicamente)
+    local_game_data = GameData()
+    local_optimizer = WalkscapeOptimizer(local_game_data, user_data=None)
+    act_skills = activity.get('relatedSkillsList') or activity.get('relatedSkills') or []
+    
+    result_objectives = {}
+    for obj in objectives:
+        try:
+            filtered_items = get_relevant_items(original_items_map, activity, obj)
+            local_game_data.items_map = filtered_items
+            
+            best_build = local_optimizer.optimize(activity['id'], obj, use_only_owned=False)
+            
+            if best_build:
+                gear_summary = []
+                total_steps_flat = 0.0
+                
+                for item in best_build['gear']:
+                    full_item = local_game_data.items_map.get(item['id'], {})
+                    item_stats = get_item_stats(full_item, act_skills)
+                    total_steps_flat += item_stats['steps_flat']
+                    
+                    slot = full_item.get('gearType')
+                    if not slot:
+                        slot = 'consumable' if full_item.get('buffs') or full_item.get('type') == 'consumable' else 'unknown'
+                    gear_summary.append({
+                        "slot": slot.capitalize(),
+                        "id": item['id'],
+                        "name": item['name']
+                    })
+                    
+                result_objectives[obj] = {
+                    "metrics": best_build['stats'],
+                    "equipment": gear_summary
+                }
+            else:
+                result_objectives[obj] = None
+        except Exception as e:
+            import traceback
+            print(f"Erro no cálculo de {activity.get('id')} ({obj}): {e}")
+            traceback.print_exc()
+            result_objectives[obj] = None
+            
+    return signature, result_objectives
+
 def generate_all_bis():
     print("Carregando Dados da API...")
     game_data = GameData()
-    
-    # Inicializamos o otimizador sem 'user_data' porque queremos os itens de todo o jogo
-    optimizer = WalkscapeOptimizer(game_data, user_data=None)
-    
-    # Fazemos um backup dos itens de todo o jogo na memória original
     original_items_map = game_data.items_map.copy()
 
     results = {}
-    objectives = ["xp_per_step", "average_steps_per_action", "yield_per_step"]
+    objectives = ["lowest_steps_per_action", "highest_loot_per_step", "highest_fine_items_per_step"]
     
-    # Filtrando as atividades reais do jogo (ignoramos ids inválidos/vazios)
     valid_activities = [act for act in game_data.activities if act['id'] != 'none']
     valid_recipes = [rec for rec in getattr(game_data, 'recipes', []) if rec['id'] != 'none']
     all_tasks = valid_activities + valid_recipes
     total = len(all_tasks)
     
-    bis_cache = {}
     global_start_time = time.time()
-    print(f"Iniciando cálculo intensivo para {total} tarefas (atividades + receitas)...")
+    
+    # Agrupamento inteligente por assinatura para poupar cálculo duplicado
+    unique_tasks = {}
+    task_mapping = {}
     
     for index, activity in enumerate(all_tasks, 1):
-        act_start_time = time.time()
         act_id = activity['id']
         act_name = activity.get('name', act_id)
-        print(f"[{index:03d}/{total}] Calculando BiS para: {act_name}")
 
-        # Cria uma Assinatura Única para a atividade
-        act_skills = tuple(sorted(activity.get('relatedSkillsList') or activity.get('relatedSkills', [])))
+        act_skills = tuple(sorted(activity.get('relatedSkillsList') or activity.get('relatedSkills') or []))
         act_kws = set()
         for req in (activity.get('requirements') or []):
             if req.get('type') == 'keywordEquipped':
@@ -140,64 +201,43 @@ def generate_all_bis():
         work_req = activity.get('workRequired', 10)
         
         signature = (act_skills, act_kws, work_req)
-
-        results[act_id] = {
+        task_mapping[act_id] = {
             "name": act_name,
-            "objectives": {}
+            "signature": signature
         }
         
-        for obj in objectives:
-            cache_key = (signature, obj)
-            print(f"  -> Otimizando para o objetivo: {obj}...")
-            
-            if cache_key in bis_cache:
-                print(f"     [Cache] Build recuperada! Mesmas restrições de uma atividade anterior.")
-                results[act_id]["objectives"][obj] = bis_cache[cache_key]
-                continue
-                
+        if signature not in unique_tasks:
+            unique_tasks[signature] = activity
+
+    print(f"De {total} atividades/receitas, foram extraídas {len(unique_tasks)} assinaturas únicas para cálculo.")
+    
+    payloads = [(sig, act, objectives, original_items_map) for sig, act in unique_tasks.items()]
+    bis_cache = {}
+    
+    workers = max(1, multiprocessing.cpu_count() - 1)
+    print(f"Iniciando cálculo em paralelo usando {workers} processos...\n")
+    
+    with concurrent.futures.ProcessPoolExecutor(max_workers=workers) as executor:
+        future_to_sig = {executor.submit(optimize_worker, p): p[0] for p in payloads}
+        
+        completed = 0
+        for future in concurrent.futures.as_completed(future_to_sig):
+            completed += 1
+            sig = future_to_sig[future]
             try:
-                # Filtra APENAS para este objetivo específico!
-                filtered_items = get_relevant_items(original_items_map, activity, obj)
-                game_data.items_map = filtered_items
-                print(f"     [Filtro] Itens reduzidos de {len(original_items_map)} para {len(filtered_items)} melhores peças.")
-                
-                # use_only_owned=False para garantir que ele teste TODOS os itens do jogo
-                best_build = optimizer.optimize(act_id, obj, use_only_owned=False)
-                
-                if best_build:
-                    # Mapeando os equipamentos de forma simplificada e legível para o JSON final
-                    gear_summary = []
-                    for item in best_build['gear']:
-                        slot = game_data.items_map[item['id']].get('gearType')
-                        if not slot:
-                            slot = 'consumable' if game_data.items_map[item['id']].get('buffs') or game_data.items_map[item['id']].get('type') == 'consumable' else 'unknown'
-                        gear_summary.append({
-                            "slot": slot.capitalize(),
-                            "id": item['id'],
-                            "name": item['name']
-                        })
-                        
-                    formatted_result = {
-                        "metrics": best_build['stats'],
-                        "equipment": gear_summary
-                    }
-                    results[act_id]["objectives"][obj] = formatted_result
-                    bis_cache[cache_key] = formatted_result
-                    
-                    metric_val = best_build['stats'].get(obj, 0)
-                    print(f"     [Sucesso] Build encontrada! {obj} = {metric_val:.4f}")
-                else:
-                    print(f"     [Aviso] Nenhuma build viável encontrada para este objetivo.")
-                    results[act_id]["objectives"][obj] = None
-            except Exception as e:
-                print(f"  [!] Erro na atividade {act_name} ({obj}): {e}")
-                results[act_id]["objectives"][obj] = None
-                
-        act_end_time = time.time()
-        print(f"  [Concluído] Atividade finalizada em {act_end_time - act_start_time:.2f} segundos.\n")
-                
-    # Restaura o banco de dados pro estado original ao fim do script por segurança
-    game_data.items_map = original_items_map
+                res_sig, res_objs = future.result()
+                bis_cache[res_sig] = res_objs
+                print(f"[{completed:03d}/{len(unique_tasks)}] Assinatura calculada com sucesso.")
+            except Exception as exc:
+                print(f"[{completed:03d}/{len(unique_tasks)}] Erro no cálculo: {exc}")
+                bis_cache[sig] = {obj: None for obj in objectives}
+
+    # Remontar o JSON com os resultados espelhados
+    for act_id, info in task_mapping.items():
+        results[act_id] = {
+            "name": info["name"],
+            "objectives": bis_cache.get(info["signature"], {obj: None for obj in objectives})
+        }
 
     output_file = "bis_export.json"
     with open(output_file, 'w', encoding='utf-8') as f:
